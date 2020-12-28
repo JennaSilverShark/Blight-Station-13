@@ -1,34 +1,32 @@
-# Aurorastation
+# Blight Station
 
 **[Website](https://aurorastation.org/)**
 
-**[Code](https://github.com/Aurorastation/Aurora.3)**
+**[Code](https://github.com/Blight-Station/Blight-Station-13)**
 
-[![Krihelimeter](http://www.krihelinator.xyz/badge/Aurorastation/Aurora.3)](http://www.krihelinator.xyz/repositories/Aurorastation/Aurora.3)
-
-[![Build Status](https://api.travis-ci.org/Aurorastation/Aurora.3.svg?branch=master)](https://travis-ci.org/Aurorastation/Aurora.3)
+[![Build Status](https://www.travis-ci.com/Blight-Station/Blight-Station-13.svg?branch=master)](https://www.travis-ci.com/github/Blight-Station/Blight-Station-13)
 
 ---
 
 ### LICENSE
-Aurorastation is licensed under the GNU Affero General Public License version 3, which can be found in full in LICENSE.
+BlightStation is licensed under the GNU Affero General Public License version 3, which can be found in full in LICENSE.
 
-Commits with a git authorship date prior to `1420675200 +0000` (2015/01/08 00:00) are licensed under the GNU General Public License version 3, which can be found in full in LICENSE-GPL3.txt.
+Commits with a git authorship date prior to `1609113600 +0000` (Monday, December 28, 2020 12:00:00 AM) are licensed under the GNU General Public License version 3, which can be found in full in LICENSE-GPL3.txt.
 
-All commits whose authorship dates are not prior to `1420675200 +0000` are assumed to be licensed under AGPL v3, if you wish to license under GPL v3 please make this clear in the commit message and any added files.
+All commits whose authorship dates are not prior to `1609113600 +0000` are assumed to be licensed under AGPL v3, if you wish to license under GPL v3 please make this clear in the commit message and any added files.
 
-If you wish to develop and host this codebase in a closed source manner you may use all commits prior to `1420675200 +0000`, which are licensed under GPL v3.  The major change here is that if you host a server using any code licensed under AGPLv3 you are required to provide full source code for your servers users as well including addons and modifications you have made.
+If you wish to develop and host this codebase in a closed source manner you may use all commits prior to `1609113600 +0000`, which are licensed under GPL v3.  The major change here is that if you host a server using any code licensed under AGPLv3 you are required to provide full source code for your servers users as well including addons and modifications you have made.
 
 See [here](https://www.gnu.org/licenses/why-affero-gpl.html) for more information.
 
 ### GETTING THE CODE
 The simplest way to obtain the code is using the github .zip feature.
 
-Click [here](https://github.com/Aurorastation/Aurora.3/archive/master.zip) to get the latest stable code as a .zip file, then unzip it to wherever you want.
+Click [here](https://github.com/Blight-Station/Blight-Station-13/archive/master.zip) to get the latest stable code as a .zip file, then unzip it to wherever you want.
 
 The more complicated and easier to update method is using git.  You'll need to download git or some client from [here](http://git-scm.com/).  When that's installed, right click in any folder and click on "Git Bash".  When that opens, type in:
 
-    git clone https://github.com/Aurorastation/Aurora.3.git
+    git clone https://github.com/Blight-Station/Blight-Station-13.git
 
 (hint: hold down ctrl and press insert to paste into git bash)
 
@@ -85,7 +83,7 @@ For more advanced setups, setting the server `tick_lag` in the config as well as
 
 ### SQL Setup
 
-The SQL backend for the library and stats tracking requires a MySQL server, as does the optional SQL saves system. Your server details go in config/dbconfig.txt, and initial database setup is done with [flyway](https://flywaydb.org/). Detailed instructions can be found [here](https://github.com/Aurorastation/Aurora.3/tree/master/SQL).
+The SQL backend for the library and stats tracking requires a MySQL server, as does the optional SQL saves system. Your server details go in config/dbconfig.txt, and initial database setup is done with [flyway](https://flywaydb.org/). Detailed instructions can be found [here](https://github.com/Blight-Station/Blight-Station-13/tree/master/SQL).
 
 ---
 
