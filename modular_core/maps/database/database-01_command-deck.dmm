@@ -1,0 +1,501 @@
+"aa" = (/turf/simulated/wall/shuttle/unique/transfer{desc = "A large, bloated shuttle designed for automated passenger transport."; icon_state = "1,16"; name = "transport shuttle"},/area/shuttle/arrival)
+"au" = (/obj/structure/window/shuttle/unique/merchant{icon_state = "20,7"; outside_window = 1},/turf/simulated/floor/reinforced{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; temperature = 270.50},/area/shuttle/arrival)
+"ax" = (/obj/machinery/atmospherics/unary/vent_scrubber/on,/turf/simulated/floor/tiled/dark,/area/space)
+"ay" = (/obj/structure/shuttle_part/merchant{icon_state = "22,7"},/turf/simulated/floor/reinforced{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; temperature = 270.50},/area/shuttle/arrival)
+"aB" = (/obj/structure/table/glass{name = "reinforced glass table"; table_reinf = "glass"},/turf/simulated/floor/tiled,/area/space)
+"aE" = (/obj/structure/shuttle_part/merchant{icon_state = "10,0"},/turf/simulated/floor/reinforced{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; temperature = 270.50},/area/shuttle/arrival)
+"aH" = (/turf/simulated/floor/snow,/area/space)
+"aI" = (/obj/structure/window/shuttle/unique/merchant{icon_state = "12,7"},/obj/structure/disposalpipe/segment,/turf/simulated/floor/plating,/area/shuttle/arrival)
+"aJ" = (/obj/structure/sink/kitchen{pixel_y = 28},/obj/structure/mirror{pixel_x = -28},/turf/space,/area/space)
+"aM" = (/obj/structure/shuttle_part/merchant{icon_state = "8,8"},/turf/simulated/floor/reinforced{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; temperature = 270.50},/area/shuttle/arrival)
+"aQ" = (/obj/structure/window/shuttle/unique/merchant{icon_state = "20,1"; outside_window = 1},/turf/simulated/floor/reinforced{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; temperature = 270.50},/area/shuttle/arrival)
+"aU" = (/obj/machinery/door/airlock/glass{name = "Garage Catwalk"},/turf/space,/area/space)
+"aZ" = (/turf/simulated/wall/shuttle/unique/merchant{icon_state = "10,1"},/area/shuttle/arrival)
+"bJ" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/structure/disposalpipe/segment{dir = 2; icon_state = "pipe-c"},/turf/simulated/floor/tiled,/area/space)
+"bU" = (/obj/machinery/atm{pixel_y = 29},/obj/effect/floor_decal/industrial/warning{dir = 1},/turf/simulated/floor/tiled,/area/shuttle/arrival)
+"bY" = (/obj/structure/railing/mapped{dir = 4},/turf/simulated/open{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; pressure_resistance = 95.25; temperature = 270.50},/area/space)
+"cf" = (/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 4},/turf/simulated/floor,/area/space)
+"co" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/wall,/area/space)
+"cp" = (/turf/simulated/floor/tiled/white,/area/space)
+"cu" = (/obj/machinery/light/small/readylight{icon_state = "bulb0"; light_power = 0},/turf/simulated/floor/reinforced{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; temperature = 270.50},/area/space)
+"cD" = (/obj/effect/floor_decal/industrial/warning{dir = 8},/obj/effect/floor_decal/industrial/warning{dir = 4},/obj/structure/lattice/catwalk/indoor/grate/light,/obj/machinery/door/airlock/external{frequency = 1380; icon_state = "door_locked"; id_tag = "escape_shuttle_hatch"; locked = 1; name = "Shuttle Hatch"; req_access = list(13)},/turf/simulated/floor/plating,/area/shuttle/arrival)
+"cG" = (/obj/structure/sign/double/barsign{icon_state = "Boot Knives"},/turf/simulated/wall/r_wall,/area/space)
+"cP" = (/turf/simulated/wall/shuttle/unique/merchant{icon_state = "2,3"},/area/shuttle/arrival)
+"cT" = (/obj/structure/window/shuttle/unique/merchant{icon_state = "13,7"},/turf/simulated/floor/plating,/area/shuttle/arrival)
+"cV" = (/obj/structure/window/shuttle/unique/merchant{icon_state = "13,1"},/turf/simulated/floor/plating,/area/shuttle/arrival)
+"cW" = (/obj/structure/bed/chair/office/dark{dir = 1},/turf/simulated/floor/tiled,/area/space)
+"db" = (/obj/structure/shuttle_part/merchant{density = 0; icon_state = "21,1"},/turf/simulated/floor/reinforced{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; temperature = 270.50},/area/shuttle/arrival)
+"dc" = (/obj/item/modular_computer/console/preset/security,/turf/simulated/floor/tiled/dark,/area/shuttle/arrival)
+"dg" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 9},/turf/simulated/floor/tiled,/area/space)
+"dk" = (/obj/structure/shuttle_part/merchant{icon_state = "0,8"},/turf/simulated/floor/reinforced{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; temperature = 270.50},/area/shuttle/arrival)
+"dn" = (/obj/structure/closet/medical_wall{desc = "It's wall-mounted storage unit for medical supplies. It has almost come off its mounts."; name = "Dilapitated medical closet"; pixel_y = -32},/turf/simulated/floor/tiled/dark,/area/shuttle/arrival)
+"do" = (/obj/structure/disposalpipe/down,/obj/machinery/atmospherics/pipe/zpipe/down/supply,/obj/machinery/atmospherics/pipe/zpipe/down,/obj/machinery/atmospherics/pipe/zpipe/down/scrubbers,/obj/structure/lattice{layer = 2},/turf/simulated/open,/area/space)
+"dN" = (/obj/machinery/light{dir = 8; icon_state = "floortube1"; layer = 3.1},/turf/space,/area/space)
+"em" = (/obj/machinery/atmospherics/pipe/simple/hidden/blue{dir = 5},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 6},/turf/space,/area/space)
+"eo" = (/obj/structure/shuttle_part/merchant{icon_state = "1,8"},/turf/simulated/floor/reinforced{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; temperature = 270.50},/area/shuttle/arrival)
+"ev" = (/obj/structure/sign/flag/nanotrasen/right{pixel_y = 30},/turf/simulated/floor/tiled/dark,/area/shuttle/arrival)
+"eY" = (/obj/structure/grille,/obj/structure/window/reinforced{dir = 1},/obj/structure/window/reinforced{dir = 8},/obj/structure/window/reinforced/full,/turf/simulated/floor,/area/space)
+"eZ" = (/obj/structure/grille,/obj/structure/window/reinforced/full,/obj/structure/window/reinforced,/turf/simulated/floor/plating,/area/space)
+"ff" = (/obj/structure/grille,/obj/structure/window/reinforced/full,/obj/machinery/door/firedoor,/obj/machinery/atmospherics/pipe/simple/hidden/blue{dir = 8},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/turf/simulated/floor,/area/space)
+"fj" = (/obj/machinery/telecomms/processor/preset_four,/turf/simulated/floor,/area/space)
+"fr" = (/obj/machinery/light{icon_state = "tube0"; light_power = 0},/turf/simulated/floor,/area/space)
+"fv" = (/obj/structure/shuttle_part/merchant{density = 0; icon_state = "0,2"},/turf/simulated/floor/reinforced{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; temperature = 270.50},/area/space)
+"fB" = (/obj/structure/bed/chair/office/dark{dir = 8},/turf/simulated/floor/tiled,/area/space)
+"fD" = (/turf/simulated/floor/tiled,/area/space)
+"fH" = (/obj/structure/shuttle_part/merchant{icon_state = "9,0"},/obj/structure/sign/flag/nanotrasen/right,/turf/simulated/floor/reinforced{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; temperature = 270.50},/area/shuttle/arrival)
+"fK" = (/obj/structure/window/shuttle/unique/merchant{icon_state = "20,6"},/turf/simulated/floor/tiled/dark,/area/shuttle/arrival)
+"fL" = (/turf/simulated/floor/plating,/area/space)
+"fN" = (/obj/structure/grille/diagonal{dir = 8},/obj/structure/window/shuttle/unique/merchant{icon_state = "20,2"},/turf/simulated/open,/area/space)
+"fO" = (/obj/structure/shuttle_part/merchant{icon_state = "2,6"},/turf/simulated/floor/reinforced{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; temperature = 270.50},/area/shuttle/arrival)
+"fY" = (/obj/machinery/vending/coffee{product_ads = "Have a drink!;Drink up!;It's good for you!;Would you like a hot joe?;I'd kill for some coffee!;The best beans in the galaxy.;Only the finest brew for you.;Mmmm. Nothing like a coffee.;I like coffee, don't you?;Coffee helps you work!;Try some tea.;We hope you like the best!;Try our new chocolate!;Admin conspiracies;Would you like some tea, Mrs. Nesbit?"; shut_up = 0},/turf/simulated/floor/wood,/area/space)
+"ga" = (/obj/machinery/door/airlock/research{name = "Pathfinder's Office"; req_access = list(44)},/turf/simulated/floor/tiled,/area/space)
+"gi" = (/obj/structure/grille,/obj/structure/window/reinforced/full,/obj/machinery/door/firedoor,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/blue{dir = 8},/turf/simulated/floor,/area/space)
+"gl" = (/obj/structure/toilet{pixel_y = 10},/turf/space,/area/space)
+"go" = (/obj/machinery/door/airlock/glass_research{name = "Exploration Prep"; req_one_access = list(19,43,67)},/turf/simulated/floor/tiled,/area/space)
+"gz" = (/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 1},/turf/simulated/floor/tiled/dark,/area/space)
+"gE" = (/obj/effect/floor_decal/industrial/warning/corner{dir = 4},/turf/space,/area/space)
+"gI" = (/obj/machinery/r_n_d/destructive_analyzer,/turf/space,/area/space)
+"gX" = (/obj/structure/table/reinforced,/obj/item/reagent_containers/spray/cleaner{desc = "Someone has crossed out the Space from Space Cleaner and written in Surgery. 'Do not remove under punishment of death!!!' is scrawled on the back."; name = "Surgery Cleaner"; pixel_x = 7; pixel_y = 15},/turf/space,/area/space)
+"gY" = (/obj/machinery/r_n_d/server{id_with_download_string = "1;3"; id_with_upload_string = "1;3"; name = "Mobile R&D Server"; req_access = list(43)},/turf/simulated/floor,/area/space)
+"ha" = (/obj/structure/grille,/obj/structure/window/reinforced{dir = 8},/obj/structure/window/reinforced/full,/turf/simulated/floor,/area/space)
+"he" = (/obj/structure/closet/walllocker/emerglocker/south,/obj/machinery/porta_turret/legion,/turf/simulated/floor/tiled/dark,/area/shuttle/arrival)
+"hy" = (/obj/structure/lattice,/obj/structure/lattice/catwalk/indoor/grate/damaged,/turf/simulated/open{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; pressure_resistance = 95.25; temperature = 270.50},/area/space)
+"hz" = (/obj/structure/grille,/obj/structure/window/reinforced{dir = 8},/obj/structure/window/reinforced,/obj/structure/window/reinforced/full,/turf/simulated/floor,/area/space)
+"hK" = (/obj/structure/sign/vacuum{pixel_y = 32},/obj/effect/floor_decal/industrial/warning{dir = 1},/obj/machinery/light{dir = 4; icon_state = "tube1"},/turf/simulated/floor/tiled,/area/shuttle/arrival)
+"hV" = (/obj/structure/closet/crate/trashcart{anchored = 1; pixel_y = 3},/turf/simulated/floor/tiled/dark,/area/shuttle/arrival)
+"ie" = (/obj/machinery/light{icon_state = "floortube1"; layer = 3.1},/turf/space,/area/space)
+"ih" = (/obj/machinery/vending/snack,/turf/simulated/floor/wood,/area/space)
+"ik" = (/obj/structure/grille,/turf/simulated/floor/plating,/area/space)
+"il" = (/obj/structure/lattice,/obj/structure/lattice/catwalk/indoor/grate,/turf/simulated/open{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; pressure_resistance = 95.25; temperature = 270.50},/area/space)
+"in" = (/obj/machinery/door/airlock/glass_centcom,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/blue,/turf/space,/area/space)
+"iF" = (/obj/structure/window/shuttle/unique/merchant{icon_state = "21,2"},/turf/simulated/floor/plating,/area/shuttle/arrival)
+"iM" = (/obj/structure/shuttle_part/merchant{icon_state = "1,0"},/turf/simulated/floor/reinforced{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; temperature = 270.50},/area/space)
+"iQ" = (/obj/machinery/door/airlock/research{name = "Exploration Showers"},/turf/simulated/floor/tiled,/area/space)
+"jB" = (/obj/structure/window/shuttle/unique/merchant{icon_state = "19,1"},/obj/machinery/door/blast/shutters/open{dir = 8; id = "merchant_bridge"; name = "privacy shutter"},/turf/simulated/floor/plating,/area/shuttle/arrival)
+"jC" = (/obj/machinery/power/apc{dir = 4; name = "east bump"; pixel_x = 24},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 10},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 10},/obj/structure/disposalpipe/segment{dir = 2; icon_state = "pipe-c"},/turf/simulated/floor/wood,/area/space)
+"jX" = (/turf/simulated/wall/shuttle/unique/transfer{desc = "A large, bloated shuttle designed for automated passenger transport."; icon_state = "11,3"; name = "transport shuttle"},/area/shuttle/arrival)
+"jY" = (/obj/machinery/atmospherics/pipe/simple/hidden/blue{dir = 8},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/light{dir = 4; icon_state = "floortube1"; layer = 3},/turf/space,/area/space)
+"kH" = (/obj/structure/grille/diagonal{dir = 8},/obj/structure/window/shuttle/unique/merchant{icon_state = "20,2"},/turf/simulated/floor/tiled,/area/space)
+"kM" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled,/area/space)
+"kU" = (/obj/machinery/light/spot,/turf/simulated/open,/area/space)
+"kW" = (/obj/machinery/door/airlock{name = "Toilet"},/turf/space,/area/space)
+"lc" = (/obj/machinery/light{dir = 8},/turf/simulated/open,/area/space)
+"lf" = (/obj/effect/floor_decal/industrial/warning{dir = 4},/obj/machinery/computer/ship/sensors{pixel_x = -5; pixel_y = 1},/turf/space,/area/space)
+"lk" = (/obj/structure/window/shuttle/unique/merchant{icon_state = "15,7"},/turf/simulated/floor/plating,/area/shuttle/arrival)
+"lo" = (/turf/simulated/open,/area/space)
+"lN" = (/obj/machinery/door/airlock/multi_tile/glass{dir = 2; name = "Exploration Briefing"; req_access = list(); req_one_access = list(19,43,67)},/turf/simulated/floor/tiled,/area/space)
+"mi" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 10},/turf/simulated/floor/tiled,/area/space)
+"mz" = (/obj/structure/shuttle_part/merchant{icon_state = "0,1"},/turf/simulated/floor/reinforced{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; temperature = 270.50},/area/space)
+"mF" = (/turf/simulated/wall/shuttle/unique/merchant{icon_state = "9,1"},/area/shuttle/arrival)
+"mL" = (/obj/structure/shuttle_part/merchant{icon_state = "22,5"},/turf/simulated/floor/reinforced{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; temperature = 270.50},/area/shuttle/arrival)
+"mR" = (/obj/structure/shuttle_part/merchant{icon_state = "7,0"},/turf/simulated/floor/reinforced{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; temperature = 270.50},/area/shuttle/arrival)
+"nc" = (/obj/machinery/atmospherics/unary/vent_scrubber/on,/turf/space,/area/space)
+"ne" = (/obj/machinery/light/spot{dir = 1},/turf/simulated/open,/area/space)
+"nl" = (/obj/item/modular_computer/console/preset/medical,/turf/simulated/floor/tiled/dark,/area/shuttle/arrival)
+"nm" = (/turf/simulated/wall/r_wall,/area/space)
+"ny" = (/obj/structure/grille,/obj/structure/window/reinforced/full,/turf/simulated/floor/plating,/area/space)
+"nF" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 8},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/turf/simulated/floor/tiled,/area/space)
+"nL" = (/obj/machinery/light/spot{dir = 4},/turf/unsimulated/floor/shuttle_ceiling,/area/space)
+"nR" = (/obj/machinery/power/apc/hyper{pixel_x = -28},/obj/machinery/light{dir = 8; icon_state = "tube0"; light_power = 0},/turf/space,/area/space)
+"nS" = (/obj/machinery/door/airlock/silver{hashatch = 0; name = "Bridge"; req_access = list(110)},/turf/simulated/floor/shuttle/dark_blue,/area/shuttle/arrival)
+"nV" = (/obj/structure/shuttle_part/merchant{icon_state = "4,7"},/turf/simulated/floor/reinforced{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; temperature = 270.50},/area/shuttle/arrival)
+"nW" = (/obj/structure/window/shuttle/unique/merchant{icon_state = "21,5"},/turf/simulated/floor/plating,/area/shuttle/arrival)
+"oD" = (/obj/structure/shuttle_part/merchant{icon_state = "4,8"},/turf/simulated/floor/reinforced{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; temperature = 270.50},/area/shuttle/arrival)
+"oM" = (/obj/structure/shuttle_part/merchant{icon_state = "2,8"},/turf/simulated/floor/reinforced{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; temperature = 270.50},/area/shuttle/arrival)
+"oU" = (/obj/structure/lattice/catwalk/indoor/grate,/turf/simulated/floor/plating,/area/shuttle/arrival)
+"oV" = (/obj/structure/grille,/obj/structure/window/reinforced{dir = 1},/obj/structure/window/reinforced/full,/turf/simulated/floor,/area/space)
+"oY" = (/obj/structure/closet/hydrant{pixel_x = -32},/obj/machinery/porta_turret/legion,/turf/simulated/floor/tiled/dark,/area/shuttle/arrival)
+"pi" = (/obj/structure/shuttle_part/merchant{icon_state = "5,8"},/turf/simulated/floor/reinforced{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; temperature = 270.50},/area/shuttle/arrival)
+"pz" = (/obj/structure/window/basic{dir = 1},/turf/simulated/open,/area/space)
+"pC" = (/obj/machinery/vending/cola,/turf/simulated/floor/wood,/area/space)
+"pH" = (/obj/structure/flora/ausbushes/lavendergrass,/obj/structure/railing/mapped,/turf/simulated/floor/snow,/area/space)
+"qb" = (/obj/machinery/atmospherics/pipe/simple/hidden/blue{dir = 8},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/space,/area/space)
+"ql" = (/obj/structure/shuttle_part/merchant{density = 0; icon_state = "12,0"},/turf/simulated/floor/reinforced{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; temperature = 270.50},/area/shuttle/arrival)
+"qp" = (/obj/structure/shuttle_part/merchant{icon_state = "6,8"},/turf/simulated/floor/reinforced{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; temperature = 270.50},/area/shuttle/arrival)
+"qs" = (/obj/machinery/atmospherics/pipe/simple/hidden/blue{dir = 8},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/light{dir = 8; icon_state = "floortube1"; layer = 3},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/space,/area/space)
+"qJ" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/turf/simulated/floor/tiled,/area/space)
+"qR" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 6},/turf/simulated/floor/tiled,/area/space)
+"qT" = (/obj/machinery/light{dir = 1},/turf/simulated/floor/tiled,/area/space)
+"rc" = (/obj/structure/window/shuttle/unique/merchant{icon_state = "21,3"},/turf/simulated/floor/plating,/area/shuttle/arrival)
+"ri" = (/obj/effect/floor_decal/corner/white{dir = 5},/turf/space,/area/space)
+"rl" = (/obj/structure/shuttle_part/merchant{icon_state = "7,8"},/turf/simulated/floor/reinforced{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; temperature = 270.50},/area/shuttle/arrival)
+"rn" = (/obj/machinery/r_n_d/protolathe,/turf/space,/area/space)
+"rq" = (/obj/structure/window/shuttle/unique/merchant{icon_state = "20,2"},/turf/simulated/floor/tiled/dark,/area/shuttle/arrival)
+"ry" = (/obj/machinery/light{dir = 1; icon_state = "tube0"; light_power = 0},/obj/machinery/telecomms/bus/preset_four,/turf/simulated/floor,/area/space)
+"rz" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 10},/turf/simulated/floor/tiled,/area/space)
+"rB" = (/turf/simulated/wall/shuttle/unique/merchant{icon_state = "9,7"},/area/shuttle/arrival)
+"rN" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 5},/turf/simulated/floor/tiled,/area/space)
+"rS" = (/obj/structure/window/shuttle/unique/merchant{icon_state = "1,3"},/turf/simulated/floor/plating,/area/shuttle/arrival)
+"rW" = (/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 4},/turf/space,/area/space)
+"sA" = (/obj/structure/shuttle_part/merchant{icon_state = "5,1"},/turf/simulated/floor/reinforced{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; temperature = 270.50},/area/space)
+"sO" = (/obj/structure/grille/diagonal,/obj/structure/window/shuttle/unique/tcfl{icon_state = "17,2"; outside_window = 1},/turf/simulated/floor/tiled,/area/space)
+"ti" = (/obj/structure/window/shuttle/unique/merchant{icon_state = "15,1"},/turf/simulated/floor/plating,/area/shuttle/arrival)
+"tp" = (/obj/machinery/atmospherics/unary/vent_pump/on{dir = 8},/turf/simulated/floor,/area/space)
+"tv" = (/obj/structure/shuttle_part/merchant{icon_state = "22,6"},/turf/simulated/floor/reinforced{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; temperature = 270.50},/area/shuttle/arrival)
+"tw" = (/obj/structure/shuttle_part/merchant{icon_state = "9,8"},/turf/simulated/floor/reinforced{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; temperature = 270.50},/area/shuttle/arrival)
+"tT" = (/obj/structure/closet/walllocker/emerglocker/north{pixel_y = 30},/obj/effect/floor_decal/industrial/warning{dir = 1},/turf/simulated/floor/tiled,/area/shuttle/arrival)
+"tV" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 10},/obj/machinery/atmospherics/pipe/simple/hidden/blue{dir = 6},/turf/space,/area/space)
+"tW" = (/obj/machinery/light{dir = 4; icon_state = "tube0"; light_power = 0},/obj/machinery/atmospherics/unary/vent_pump/on{dir = 8},/turf/space,/area/space)
+"ua" = (/obj/structure/window/basic,/turf/simulated/open,/area/space)
+"ue" = (/obj/machinery/light/small/readylight{icon_state = "bulb0"; light_power = 0},/obj/machinery/light_switch{pixel_y = -21},/turf/simulated/floor/reinforced{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; temperature = 270.50},/area/space)
+"ut" = (/obj/machinery/light/small/emergency{dir = 8},/obj/effect/floor_decal/sign/b,/turf/simulated/floor/reinforced{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; temperature = 270.50},/area/space)
+"ux" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 9},/turf/simulated/floor/tiled,/area/space)
+"uB" = (/obj/structure/shuttle_part/merchant{icon_state = "10,8"},/turf/simulated/floor/reinforced{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; temperature = 270.50},/area/shuttle/arrival)
+"uM" = (/obj/structure/shuttle_part/merchant{density = 0; icon_state = "11,8"},/turf/simulated/floor/reinforced{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; temperature = 270.50},/area/shuttle/arrival)
+"uV" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 8},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/structure/disposalpipe/segment{dir = 4},/turf/simulated/floor/tiled,/area/space)
+"uW" = (/obj/machinery/sleeper{dir = 1},/turf/space,/area/space)
+"ve" = (/obj/structure/grille,/obj/structure/window/reinforced/full,/obj/structure/window/reinforced{dir = 4},/turf/simulated/floor/plating,/area/space)
+"vr" = (/obj/structure/flora/bush,/obj/structure/railing/mapped,/turf/simulated/floor/snow,/area/space)
+"vy" = (/obj/structure/shuttle_part/merchant{density = 0; icon_state = "14,0"},/turf/simulated/floor/reinforced{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; temperature = 270.50},/area/shuttle/arrival)
+"wb" = (/obj/structure/shuttle_part/merchant{icon_state = "3,0"},/turf/simulated/floor/reinforced{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; temperature = 270.50},/area/space)
+"wB" = (/obj/structure/railing/mapped{dir = 1},/turf/simulated/open{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; pressure_resistance = 95.25; temperature = 270.50},/area/space)
+"wE" = (/obj/structure/bed/chair/shuttle{can_dismantle = 1; dir = 4; name = "worn chair"},/obj/structure/window/reinforced/crescent{dir = 8},/turf/simulated/floor/shuttle/dark_blue,/area/shuttle/arrival)
+"wN" = (/obj/machinery/atmospherics/pipe/manifold4w/hidden/blue,/obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,/turf/space,/area/space)
+"xp" = (/obj/structure/shuttle_part/merchant{icon_state = "4,0"},/turf/simulated/floor/reinforced{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; temperature = 270.50},/area/space)
+"xx" = (/turf/simulated/wall/shuttle/unique/merchant{icon_state = "6,7"},/area/shuttle/arrival)
+"xy" = (/turf/simulated/wall/shuttle/unique/merchant{icon_state = "11,7"},/area/shuttle/arrival)
+"yr" = (/obj/machinery/photocopier,/turf/simulated/floor/tiled,/area/space)
+"yt" = (/obj/machinery/light{dir = 4; icon_state = "tube0"; light_power = 0},/turf/space,/area/space)
+"yy" = (/obj/structure/grille,/obj/structure/window/reinforced/full,/obj/structure/window/reinforced{dir = 8},/turf/simulated/floor/plating,/area/space)
+"yz" = (/obj/structure/railing/mapped{dir = 1},/turf/simulated/floor/snow,/area/space)
+"yD" = (/obj/structure/disposalpipe/segment{dir = 4},/turf/simulated/floor/wood,/area/space)
+"yS" = (/obj/machinery/button/remote/blast_door{desc = "It controls the shuttle shutter."; dir = 1; id = "merchant_airlock"; layer = 3; name = "airlock shutter controller"; pixel_x = -3; pixel_y = -21; req_access = list(110)},/obj/machinery/door/blast/shutters/open{dir = 8; id = "merchant_airlock"; name = "airlock shutter"},/obj/effect/floor_decal/industrial/warning{dir = 8},/obj/effect/floor_decal/industrial/warning{dir = 4},/obj/structure/lattice/catwalk/indoor/grate/light,/obj/machinery/door/airlock/external{frequency = 1380; icon_state = "door_locked"; id_tag = "escape_shuttle_hatch"; locked = 1; name = "Shuttle Hatch"; req_access = list(13)},/turf/simulated/floor/plating,/area/shuttle/arrival)
+"zc" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 6},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 6},/obj/structure/disposalpipe/segment{dir = 4; icon_state = "pipe-c"},/turf/space,/area/space)
+"zq" = (/obj/structure/grille,/obj/structure/window/reinforced{dir = 4},/obj/structure/window/reinforced/full,/turf/simulated/floor,/area/space)
+"zt" = (/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 1},/turf/space,/area/space)
+"zx" = (/obj/structure/lattice,/obj/structure/lattice/catwalk/indoor/grate/old,/turf/simulated/open{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; pressure_resistance = 95.25; temperature = 270.50},/area/space)
+"zB" = (/obj/structure/flora/grass/brown,/turf/simulated/floor/snow,/area/space)
+"zM" = (/obj/structure/grille/diagonal{dir = 4},/obj/structure/window/shuttle/unique/merchant{icon_state = "20,6"},/turf/simulated/floor/tiled,/area/space)
+"zN" = (/obj/structure/sign/flag/nanotrasen/left{pixel_y = 30},/turf/simulated/floor/tiled/dark,/area/shuttle/arrival)
+"zP" = (/turf/simulated/wall/shuttle/unique/merchant{icon_state = "7,7"},/area/shuttle/arrival)
+"zR" = (/obj/machinery/vending/cola{desc = "A NanoTrasen branded vendor, featuring a few new items!"; icon = 'icons/obj/vending_vr.dmi'; name = "Thirst Reduction Center"},/turf/simulated/floor/wood,/area/space)
+"zT" = (/obj/structure/window/shuttle/unique/merchant{icon_state = "12,1"},/turf/simulated/floor/plating,/area/shuttle/arrival)
+"Ai" = (/obj/machinery/optable,/obj/effect/decal/cleanable/blood,/turf/space,/area/space)
+"Am" = (/obj/item/modular_computer/console/preset/research,/turf/simulated/floor/tiled/dark,/area/shuttle/arrival)
+"Ao" = (/obj/structure/closet/walllocker/emerglocker/north{pixel_y = 30},/obj/machinery/porta_turret/legion,/turf/simulated/floor/tiled/dark,/area/shuttle/arrival)
+"Ax" = (/obj/machinery/door/airlock{name = "Showers"},/turf/space,/area/space)
+"AD" = (/obj/structure/shuttle_part/merchant{density = 0; icon_state = "12,8"},/turf/simulated/floor/reinforced{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; temperature = 270.50},/area/shuttle/arrival)
+"AF" = (/obj/machinery/door/airlock/glass_centcom,/obj/machinery/atmospherics/pipe/simple/hidden/blue,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/turf/space,/area/space)
+"AG" = (/turf/simulated/wall/shuttle/unique/merchant{icon_state = "6,5"},/area/shuttle/arrival)
+"AH" = (/obj/structure/ladder,/turf/simulated/floor/plating,/area/space)
+"AI" = (/obj/structure/bed/chair/office/bridge/generic{dir = 4; name = "pilot seat"},/turf/simulated/floor/shuttle/dark_blue,/area/shuttle/arrival)
+"Bg" = (/obj/structure/grille,/obj/structure/window/reinforced,/obj/structure/window/reinforced/full,/turf/simulated/floor,/area/space)
+"Br" = (/obj/machinery/light{dir = 1},/turf/simulated/open,/area/space)
+"Bz" = (/obj/machinery/atmospherics/pipe/simple/hidden/blue,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/turf/simulated/floor,/area/space)
+"BG" = (/obj/structure/window/shuttle/unique/merchant{icon_state = "19,7"},/obj/machinery/door/blast/shutters/open{dir = 8; id = "merchant_bridge"; name = "privacy shutter"},/turf/simulated/floor/plating,/area/shuttle/arrival)
+"BI" = (/obj/structure/disposalpipe/segment{dir = 4},/turf/simulated/floor/tiled,/area/space)
+"Ce" = (/turf/simulated/wall/shuttle/unique/merchant{icon_state = "3,6"},/area/shuttle/arrival)
+"Ci" = (/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 4},/obj/item/circuitboard/autolathe,/obj/random/tech_supply,/obj/random/tech_supply,/obj/random/bomb_supply,/turf/space,/area/space)
+"Cm" = (/obj/structure/filingcabinet/filingcabinet,/turf/simulated/floor/tiled,/area/space)
+"CG" = (/obj/item/modular_computer/console/preset/engineering,/turf/simulated/floor/tiled/dark,/area/shuttle/arrival)
+"CL" = (/obj/structure/bed/chair/shuttle{can_dismantle = 1; dir = 8; name = "worn chair"},/obj/structure/window/reinforced/crescent{dir = 4},/turf/simulated/floor/shuttle/dark_blue,/area/shuttle/arrival)
+"CM" = (/obj/structure/flora/grass/both,/turf/simulated/floor/snow,/area/space)
+"CS" = (/obj/structure/shuttle_part/merchant{density = 0; icon_state = "13,8"},/turf/simulated/floor/reinforced{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; temperature = 270.50},/area/shuttle/arrival)
+"CW" = (/obj/machinery/light{dir = 8; icon_state = "tube1"},/turf/simulated/floor/tiled,/area/space)
+"Da" = (/obj/item/tank/oxygen,/obj/item/clothing/shoes/magboots,/turf/space,/area/space)
+"Dx" = (/obj/structure/grille/broken,/turf/simulated/floor/reinforced{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; temperature = 270.50},/area/space)
+"DE" = (/obj/structure/lattice,/obj/structure/lattice/catwalk/indoor/grate/old,/obj/structure/railing/mapped{dir = 4},/turf/simulated/open{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; pressure_resistance = 95.25; temperature = 270.50},/area/space)
+"DG" = (/obj/structure/shuttle_part/merchant{icon_state = "5,0"},/turf/simulated/floor/reinforced{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; temperature = 270.50},/area/space)
+"DH" = (/obj/machinery/light/small{dir = 8},/turf/simulated/floor,/area/space)
+"DM" = (/obj/structure/shuttle_part/merchant{icon_state = "2,0"},/turf/simulated/floor/reinforced{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; temperature = 270.50},/area/space)
+"Ec" = (/obj/structure/shuttle_part/merchant{icon_state = "5,7"},/turf/simulated/floor/reinforced{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; temperature = 270.50},/area/shuttle/arrival)
+"Eg" = (/obj/structure/railing/mapped,/turf/simulated/open{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; pressure_resistance = 95.25; temperature = 270.50},/area/space)
+"Ek" = (/turf/simulated/floor,/area/space)
+"Er" = (/turf/simulated/floor/wood,/area/space)
+"Ev" = (/obj/structure/shuttle_part/merchant{icon_state = "1,1"},/turf/simulated/floor/reinforced{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; temperature = 270.50},/area/space)
+"Ew" = (/obj/machinery/light_switch{dir = 8; pixel_x = 27; pixel_y = 7},/turf/simulated/floor/tiled,/area/space)
+"EC" = (/obj/structure/dispenser/oxygen,/turf/simulated/floor/tiled,/area/space)
+"ED" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/turf/space,/area/space)
+"EO" = (/turf/simulated/wall/shuttle/unique/merchant{icon_state = "6,6"},/area/shuttle/arrival)
+"EY" = (/obj/structure/shuttle_part/merchant{density = 0; icon_state = "1,6"},/turf/simulated/floor/reinforced{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; temperature = 270.50},/area/shuttle/arrival)
+"EZ" = (/turf/simulated/wall/shuttle/unique/merchant{icon_state = "5,6"},/area/shuttle/arrival)
+"Ff" = (/turf/simulated/floor/tiled/dark,/area/shuttle/arrival)
+"Fn" = (/obj/structure/shuttle_part/merchant{icon_state = "0,5"},/turf/simulated/floor/reinforced{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; temperature = 270.50},/area/shuttle/arrival)
+"Fu" = (/obj/structure/disposalpipe/broken{desc = "A ruined fuel pipe, it looks broken far beyond repair."; name = "fuel pipe"},/turf/simulated/floor/reinforced{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; temperature = 270.50},/area/space)
+"Fx" = (/obj/machinery/light{dir = 4},/turf/simulated/floor/tiled,/area/space)
+"Fz" = (/obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 8},/obj/structure/disposalpipe/segment{dir = 4},/turf/simulated/floor/tiled,/area/space)
+"FE" = (/obj/structure/railing/mapped,/turf/simulated/floor/snow,/area/space)
+"FG" = (/obj/structure/shuttle_part/merchant{density = 0; icon_state = "13,0"},/turf/simulated/floor/reinforced{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; temperature = 270.50},/area/shuttle/arrival)
+"FQ" = (/obj/machinery/shower{dir = 1},/obj/structure/curtain/open/shower,/obj/item/soap/nanotrasen,/turf/simulated/floor/tiled/white,/area/space)
+"FT" = (/obj/machinery/door/airlock/glass_centcom,/turf/space,/area/space)
+"FY" = (/obj/machinery/atmospherics/pipe/simple/hidden/blue{dir = 5},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 9},/turf/simulated/floor,/area/space)
+"Gb" = (/obj/structure/grille,/obj/structure/window/reinforced,/obj/structure/window/reinforced{dir = 8},/obj/structure/window/reinforced/full,/turf/simulated/floor,/area/space)
+"Gg" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 5},/turf/simulated/floor/tiled,/area/space)
+"Gl" = (/obj/structure/shuttle_part/merchant{density = 0; icon_state = "14,8"},/turf/simulated/floor/reinforced{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; temperature = 270.50},/area/shuttle/arrival{has_weird_power = 1; name = "Abandoned Arrival Shuttle"})
+"Gt" = (/turf/simulated/floor/tiled/dark,/area/space)
+"GQ" = (/obj/structure/shuttle_part/merchant{density = 0; icon_state = "11,0"},/turf/simulated/floor/reinforced{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; temperature = 270.50},/area/shuttle/arrival)
+"GS" = (/turf/simulated/floor/shuttle/dark_blue,/area/shuttle/arrival)
+"Hj" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 9},/obj/machinery/atmospherics/pipe/simple/hidden/blue{dir = 5},/turf/space,/area/space)
+"Hs" = (/turf/simulated/wall/shuttle/unique/arrivals{desc = "A state-of-the-art unmanned automatic crew transport shuttle."; icon_state = "3,0"; name = "autoshuttle"},/area/shuttle/arrival)
+"HF" = (/turf/simulated/wall/shuttle/unique/merchant{icon_state = "6,1"},/area/shuttle/arrival)
+"HM" = (/obj/structure/flora/ausbushes/lavendergrass,/turf/simulated/floor/snow,/area/space)
+"HO" = (/obj/structure/bed/chair/office/bridge/pilot{dir = 1},/turf/simulated/floor/shuttle/dark_blue,/area/shuttle/arrival)
+"HT" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 8},/obj/structure/disposalpipe/segment{dir = 4},/turf/space,/area/space)
+"Ic" = (/obj/machinery/photocopier/faxmachine{department = "Pathfinder's Office"},/turf/simulated/floor/tiled,/area/space)
+"Ii" = (/obj/machinery/status_display/arrivals_display,/turf/simulated/wall/shuttle/unique/merchant{icon_state = "8,1"},/area/shuttle/arrival)
+"Je" = (/obj/structure/shuttle_part/merchant{icon_state = "0,7"},/turf/simulated/floor/reinforced{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; temperature = 270.50},/area/shuttle/arrival)
+"Jf" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 9},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 9},/obj/structure/disposalpipe/segment{dir = 8; icon_state = "pipe-c"},/turf/space,/area/space)
+"Jg" = (/obj/machinery/light,/turf/simulated/open,/area/space)
+"Jm" = (/turf/simulated/wall/shuttle/unique/merchant{icon_state = "6,2"},/area/shuttle/arrival)
+"Js" = (/turf/simulated/wall/shuttle/unique/merchant{icon_state = "7,1"},/area/shuttle/arrival)
+"Jt" = (/obj/structure/shuttle_part/merchant{density = 0; icon_state = "21,7"},/turf/simulated/floor/reinforced{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; temperature = 270.50},/area/shuttle/arrival)
+"Jx" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/turf/simulated/floor/tiled,/area/space)
+"Jy" = (/obj/item/towel/random,/obj/item/towel/random,/turf/space,/area/space)
+"JK" = (/obj/structure/curtain/medical,/turf/space,/area/space)
+"JM" = (/obj/structure/toilet{pixel_y = 10},/obj/machinery/light/small{dir = 8},/turf/simulated/floor/tiled/white,/area/space)
+"JS" = (/obj/structure/shuttle_part/merchant{icon_state = "22,2"},/turf/simulated/floor/reinforced{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; temperature = 270.50},/area/shuttle/arrival)
+"JT" = (/obj/machinery/alarm{pixel_y = 22},/turf/simulated/open,/area/space)
+"JU" = (/obj/structure/grille/diagonal{dir = 4},/obj/structure/window/shuttle/unique/merchant{icon_state = "20,6"},/turf/simulated/open,/area/space)
+"JY" = (/obj/structure/grille,/obj/structure/window/reinforced/full,/turf/simulated/floor,/area/space)
+"Kd" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 8},/obj/structure/disposalpipe/segment{dir = 4},/turf/simulated/floor/wood,/area/space)
+"Kg" = (/obj/structure/grille/diagonal{dir = 1},/obj/structure/window/shuttle/unique/tcfl{icon_state = "17,4"; outside_window = 1},/turf/simulated/open,/area/space)
+"Kn" = (/obj/machinery/atmospherics/pipe/zpipe/up/scrubbers,/obj/machinery/atmospherics/pipe/zpipe/up,/obj/machinery/atmospherics/pipe/zpipe/up/supply,/obj/structure/disposalpipe/up,/obj/structure/lattice{layer = 2},/turf/simulated/open,/area/space)
+"Kq" = (/obj/machinery/computer/rdconsole{dir = 4; name = "Mobile R&D control console"; req_access = list(43)},/turf/space,/area/space)
+"Ks" = (/obj/machinery/atmospherics/pipe/manifold/hidden/supply,/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,/obj/structure/disposalpipe/junction{dir = 8},/turf/space,/area/space)
+"Kw" = (/obj/structure/shuttle_part/merchant{icon_state = "22,4"},/turf/simulated/floor/reinforced{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; temperature = 270.50},/area/shuttle/arrival)
+"KN" = (/obj/machinery/requests_console{department = "Arrival shuttle"; pixel_y = 31},/turf/simulated/floor/tiled/dark,/area/shuttle/arrival)
+"Lc" = (/obj/structure/shuttle_part/merchant,/turf/simulated/floor/reinforced{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; temperature = 270.50},/area/space)
+"Lf" = (/obj/structure/flora/grass/green,/turf/simulated/floor/snow,/area/space)
+"Lq" = (/obj/structure/bed/chair/office/dark{dir = 4},/obj/effect/landmark/start{name = "Pathfinder"},/turf/simulated/floor/tiled,/area/space)
+"Lv" = (/obj/machinery/light/small/readylight{dir = 1; icon_state = "bulb0"; light_power = 0},/turf/simulated/floor/reinforced{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; temperature = 270.50},/area/space)
+"Lx" = (/turf/simulated/wall/shuttle/unique/merchant{icon_state = "4,6"},/area/shuttle/arrival)
+"LN" = (/obj/machinery/atmospherics/pipe/simple/hidden/blue,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/turf/space,/area/space)
+"Mi" = (/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/tiled,/area/space)
+"Ms" = (/obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/structure/disposalpipe/junction{dir = 2; icon_state = "pipe-j2"},/turf/simulated/floor/tiled,/area/space)
+"Mt" = (/obj/machinery/vending/cigarette{name = "Cigarette machine"; prices = list(); products = list(/obj/item/storage/fancy/cigarettes = 10, /obj/item/storage/box/matches = 10, /obj/item/flame/lighter/zippo = 4, /obj/item/clothing/mask/smokable/cigarette/cigar/havana = 2)},/turf/simulated/floor/wood,/area/space)
+"Mx" = (/obj/structure/shuttle_part/merchant{icon_state = "0,0"},/turf/simulated/floor/reinforced{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; temperature = 270.50},/area/space)
+"ME" = (/obj/machinery/alarm{dir = 4; icon_state = "alarm0"; pixel_x = -22; pixel_y = 0},/obj/machinery/light{dir = 8; icon_state = "tube0"; light_power = 0},/turf/space,/area/space)
+"MG" = (/obj/structure/shuttle_part/merchant{icon_state = "2,2"},/turf/simulated/floor/reinforced{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; temperature = 270.50},/area/shuttle/arrival)
+"MO" = (/obj/structure/shuttle_part/merchant{icon_state = "8,0"},/obj/structure/sign/flag/nanotrasen/left,/turf/simulated/floor/reinforced{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; temperature = 270.50},/area/shuttle/arrival)
+"MS" = (/turf/simulated/floor/reinforced{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; temperature = 270.50},/area/space)
+"MX" = (/obj/structure/toilet{pixel_y = 10},/obj/machinery/light/small{dir = 4},/turf/simulated/floor/tiled/white,/area/space)
+"Na" = (/obj/machinery/atmospherics/pipe/simple/hidden/blue{dir = 6},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 10},/turf/simulated/floor,/area/space)
+"Nb" = (/obj/structure/grille,/obj/structure/window/reinforced/full,/obj/structure/window/reinforced{dir = 1},/turf/simulated/floor/plating,/area/space)
+"Oa" = (/obj/machinery/telecomms/broadcaster,/turf/simulated/floor,/area/space)
+"Oh" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/turf/simulated/floor/tiled,/area/space)
+"Ou" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/structure/disposalpipe/segment{dir = 8; icon_state = "pipe-c"},/turf/simulated/floor/tiled,/area/space)
+"Ox" = (/turf/simulated/open{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; pressure_resistance = 95.25; temperature = 270.50},/area/space)
+"OH" = (/turf/simulated/wall/shuttle/unique/merchant{icon_state = "6,3"},/area/shuttle/arrival)
+"OP" = (/obj/structure/shuttle_part/merchant{icon_state = "2,1"},/turf/simulated/floor/reinforced{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; temperature = 270.50},/area/space)
+"OQ" = (/obj/structure/shuttle_part/merchant{icon_state = "1,7"},/turf/simulated/floor/reinforced{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; temperature = 270.50},/area/shuttle/arrival)
+"OS" = (/obj/machinery/computer/rdservercontrol{dir = 8},/turf/simulated/floor,/area/space)
+"Po" = (/obj/structure/shuttle_part/merchant{icon_state = "0,3"},/turf/simulated/floor/reinforced{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; temperature = 270.50},/area/shuttle/arrival)
+"Qe" = (/obj/structure/closet/emcloset{anchored = 1; pixel_y = 2},/turf/simulated/floor/tiled/dark,/area/shuttle/arrival)
+"Qf" = (/turf/simulated/wall,/area/space)
+"Qh" = (/obj/structure/shuttle_part/merchant{icon_state = "2,7"},/turf/simulated/floor/reinforced{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; temperature = 270.50},/area/shuttle/arrival)
+"Qm" = (/obj/structure/shuttle_part/merchant{icon_state = "3,7"},/turf/simulated/floor/reinforced{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; temperature = 270.50},/area/shuttle/arrival)
+"QP" = (/obj/machinery/status_display/arrivals_display,/turf/simulated/wall/shuttle/unique/merchant{icon_state = "8,7"},/area/shuttle/arrival)
+"Rc" = (/obj/structure/grille/diagonal{dir = 1},/obj/structure/window/shuttle/unique/tcfl{icon_state = "17,4"; outside_window = 1},/turf/simulated/floor/tiled,/area/space)
+"Rl" = (/obj/machinery/telecomms/receiver,/turf/simulated/floor,/area/space)
+"RC" = (/obj/machinery/atmospherics/unary/vent_pump/on{dir = 1; layer = 3.2},/turf/simulated/floor/tiled/dark,/area/space)
+"RK" = (/obj/machinery/portable_atmospherics/canister/oxygen,/turf/simulated/floor/tiled,/area/space)
+"RM" = (/turf/simulated/wall/shuttle/unique/transfer{desc = "A large, bloated shuttle designed for automated passenger transport."; icon_state = "1,14"; name = "transport shuttle"},/area/shuttle/arrival)
+"RN" = (/obj/effect/floor_decal/industrial/hatch/yellow,/obj/machinery/shipsensors/weak,/turf/simulated/floor/reinforced/airless,/area/space)
+"RW" = (/obj/structure/window/shuttle/unique/merchant{icon_state = "21,4"},/turf/simulated/floor/plating,/area/shuttle/arrival)
+"Sd" = (/obj/structure/lattice/catwalk/indoor/grate/damaged,/turf/simulated/floor/plating,/area/shuttle/arrival)
+"Sk" = (/turf/unsimulated/mineral,/area/space)
+"Sm" = (/obj/effect/floor_decal/industrial/warning,/turf/simulated/floor/tiled,/area/shuttle/arrival)
+"Sr" = (/obj/structure/bed/chair/office/dark,/turf/simulated/floor/tiled,/area/space)
+"SD" = (/obj/machinery/door/airlock/glass_research{name = "Exploration Briefing"; req_one_access = list(19,43,67)},/turf/simulated/floor/tiled,/area/space)
+"SG" = (/turf/simulated/wall/shuttle/unique/merchant{icon_state = "2,5"},/area/shuttle/arrival)
+"SV" = (/obj/structure/window/shuttle/unique/merchant{icon_state = "19,7"},/turf/simulated/floor/reinforced{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; temperature = 270.50},/area/shuttle/arrival)
+"Ta" = (/obj/machinery/light{dir = 1; icon_state = "floortube1"; layer = 3.1},/turf/space,/area/space)
+"Tg" = (/turf/simulated/wall/shuttle/unique/transfer{desc = "A large, bloated shuttle designed for automated passenger transport."; icon_state = "1,18"; name = "transport shuttle"},/area/shuttle/arrival)
+"TE" = (/obj/structure/bed/chair/office/dark{dir = 4},/turf/simulated/floor/tiled,/area/space)
+"TL" = (/obj/effect/floor_decal/industrial/outline/yellow,/turf/space,/area/space)
+"TU" = (/obj/effect/floor_decal/industrial/warning{dir = 1},/turf/space,/area/space)
+"Ua" = (/obj/structure/bed/chair/office/bridge/pilot,/turf/simulated/floor/shuttle/dark_blue,/area/shuttle/arrival)
+"Um" = (/obj/structure/shuttle_part/merchant{density = 0; icon_state = "1,2"},/turf/simulated/floor/reinforced{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; temperature = 270.50},/area/shuttle/arrival)
+"UY" = (/obj/machinery/atmospherics/pipe/manifold/hidden/blue{dir = 1},/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 1},/turf/space,/area/space)
+"Vc" = (/turf/simulated/wall/shuttle/unique/merchant{icon_state = "3,2"},/area/shuttle/arrival)
+"Vf" = (/obj/structure/window/shuttle/unique/merchant{icon_state = "19,1"},/turf/simulated/floor/plating,/area/shuttle/arrival)
+"Vg" = (/obj/machinery/atmospherics/pipe/simple/hidden/blue{dir = 8},/turf/simulated/floor,/area/space)
+"Vk" = (/obj/machinery/atmospherics/pipe/simple/hidden/blue{dir = 8},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/turf/space,/area/space)
+"Vp" = (/obj/machinery/light/small/emergency{dir = 4},/obj/effect/floor_decal/sign/b,/turf/simulated/floor/reinforced{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; temperature = 270.50},/area/space)
+"Vv" = (/obj/structure/table/reinforced,/turf/simulated/floor/tiled,/area/space)
+"Vx" = (/obj/machinery/atmospherics/pipe/simple/hidden/blue,/turf/space,/area/space)
+"Vy" = (/obj/structure/lattice/catwalk/indoor/grate/old,/turf/simulated/floor/plating,/area/shuttle/arrival)
+"VE" = (/obj/machinery/atmospherics/pipe/manifold/hidden/blue,/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 1},/turf/space,/area/space)
+"VG" = (/turf/simulated/wall/shuttle/unique/merchant{icon_state = "11,1"},/area/shuttle/arrival)
+"VH" = (/obj/machinery/atmospherics/unary/vent_pump/on{layer = 3.2},/turf/simulated/floor/tiled/dark,/area/space)
+"VO" = (/turf/simulated/wall/shuttle/unique/merchant{icon_state = "10,7"},/area/shuttle/arrival)
+"VV" = (/obj/item/storage/firstaid{pixel_y = -3},/turf/space,/area/space)
+"VY" = (/turf/space,/area/space)
+"Wc" = (/obj/machinery/door/airlock/research{name = "Exploration Showers Toilet"},/turf/simulated/floor/tiled/white,/area/space)
+"Wg" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/structure/disposalpipe/segment,/turf/simulated/floor/tiled,/area/space)
+"Wh" = (/obj/structure/window/shuttle/unique/merchant{icon_state = "1,5"},/turf/simulated/floor/plating,/area/shuttle/arrival)
+"Wq" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor/tiled,/area/space)
+"Wr" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 10},/obj/machinery/atmospherics/pipe/simple/hidden/blue{dir = 9},/turf/space,/area/space)
+"Ww" = (/obj/structure/shuttle_part/merchant{density = 0; icon_state = "0,6"},/turf/simulated/floor/reinforced{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; temperature = 270.50},/area/space)
+"WA" = (/obj/structure/shuttle_part/merchant{icon_state = "3,1"},/turf/simulated/floor/reinforced{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; temperature = 270.50},/area/space)
+"WH" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/blue,/turf/space,/area/space)
+"WK" = (/turf/simulated/floor/foamedmetal,/area/shuttle/arrival)
+"WP" = (/obj/structure/window/shuttle/unique/merchant{icon_state = "21,6"},/turf/simulated/floor/plating,/area/shuttle/arrival)
+"WR" = (/obj/item/paper_bin{pixel_y = 9},/obj/item/pen,/turf/simulated/floor/tiled,/area/space)
+"WS" = (/obj/structure/grille/diagonal,/obj/structure/window/shuttle/unique/tcfl{icon_state = "17,2"; outside_window = 1},/turf/simulated/open,/area/space)
+"Xa" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 5},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 5},/obj/structure/disposalpipe/segment{dir = 1; icon_state = "pipe-c"},/turf/simulated/floor/wood,/area/space)
+"Xh" = (/obj/structure/closet/walllocker/emerglocker/north{pixel_x = -26; pixel_y = -3},/turf/simulated/floor/tiled/dark,/area/shuttle/arrival)
+"Xl" = (/obj/structure/flora/bush,/turf/simulated/floor/snow,/area/space)
+"Xs" = (/obj/structure/extinguisher_cabinet{dir = 1; pixel_y = -32},/obj/machinery/light,/turf/simulated/floor/tiled,/area/space)
+"Xx" = (/obj/machinery/door/airlock/multi_tile/glass{dir = 2},/turf/simulated/floor/tiled,/area/space)
+"XA" = (/obj/structure/shuttle_part/merchant{icon_state = "22,1"},/turf/simulated/floor/reinforced{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; temperature = 270.50},/area/shuttle/arrival)
+"XG" = (/obj/structure/curtain/open/shower,/obj/machinery/shower{dir = 1},/turf/space,/area/space)
+"XK" = (/obj/machinery/door/airlock/glass{name = "Garage Catwalk"},/turf/simulated/floor/tiled,/area/space)
+"XV" = (/obj/structure/shuttle_part/merchant{icon_state = "3,8"},/turf/simulated/floor/reinforced{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; temperature = 270.50},/area/shuttle/arrival)
+"XW" = (/obj/machinery/light{dir = 4},/turf/simulated/open,/area/space)
+"Ym" = (/obj/machinery/atmospherics/unary/vent_pump/on{dir = 1; layer = 3.2},/turf/space,/area/space)
+"Yr" = (/obj/machinery/door/airlock/external{frequency = 1380; icon_state = "door_locked"; id_tag = "escape_shuttle_hatch"; locked = 1; name = "Shuttle Hatch"; req_access = list(13)},/turf/simulated/floor/plating,/area/shuttle/arrival)
+"Yu" = (/obj/structure/shuttle_part/merchant{icon_state = "6,0"},/turf/simulated/floor/reinforced{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; temperature = 270.50},/area/shuttle/arrival)
+"YF" = (/obj/machinery/atmospherics/unary/vent_pump/on,/turf/space,/area/space)
+"YO" = (/obj/machinery/door/airlock/multi_tile/glass{dir = 2; name = "Exploration Lobby"; req_access = list(); req_one_access = list(19,43,67)},/turf/simulated/floor/tiled,/area/space)
+"Za" = (/obj/structure/ladder,/turf/simulated/open,/area/space)
+"Zj" = (/obj/structure/lattice,/obj/structure/lattice/catwalk/indoor/grate/damaged,/obj/structure/railing/mapped{dir = 8},/turf/simulated/open{initial_gas_mix = "o2=10;n2=92;co2=3;TEMP=270.50"; pressure_resistance = 95.25; temperature = 270.50},/area/space)
+"ZC" = (/obj/machinery/light/spot{dir = 4},/turf/simulated/open,/area/space)
+"ZF" = (/obj/structure/grille,/obj/structure/window/reinforced{dir = 8},/obj/structure/window/reinforced{dir = 1},/obj/structure/window/reinforced/full,/turf/simulated/floor,/area/space)
+"ZM" = (/obj/machinery/computer/shuttle_control/emergency,/turf/simulated/floor/tiled/dark,/area/shuttle/arrival)
+"ZV" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/blue{dir = 8},/turf/space,/area/space)
+"ZW" = (/turf/unsimulated/floor/shuttle_ceiling,/area/space)
+"ZX" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 6},/turf/simulated/floor/tiled,/area/space)
+
+(1,1,1) = {"
+OxOxOxOxOxOxOxOxOxOxOxOxVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxOxOxVYnmnmNbNbnmnmNbNbnmnmnmVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxOxOxVYnmfDfDfDfDfDfDfDfDfDfDVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxOxVYVYyyfDfDfDlolofDfDfDfDfDVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxOxVYVYyyfDfDfDlolofDfDfDfDfDVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxOxVYVYnmfDfDfDfDfDfDfDfDfDfDVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxVYVYVYnmfDfDfDfDfDfDfDfDfDfDVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxVYVYVYyyfDfDfDfDfDfDfDfDfDfDVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxVYVYVYyyfDfDfDfDfDfDfDfDfDfDVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxVYVYVYnmfDfDfDfDfDfDfDfDfDfDVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxnmnmnmnmnmnmnmnmnmnmnmnmnmeZeZnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxnmnmnmnmnmnmlolonmnmnmnmnmlolonmnmnmnmlolonmnmnmnmlolonmnmnmnmnmlolonmnmnmnmnmnmnmnmnmnmVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxnmnmlolololololoBrloZaloBrloloBrloloBrloloBrloloBrloloBrlololoBrlolololololololololonmnmVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxnmnmlolololololololololololololololololololololololololololololololololololololololonmnmVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxnmnmlclololololololololololololololololololololololololololololololololololololololonmnmVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxnmnmlololololololololololololololololololololololololololololololololololoXWnmlololonmnmVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxnmnmlolololololololololololololololololololololololololololololololololololololololonmnmnmnmnmnmnmnmnmVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxnmnmlolololololololololololololololololololoZCVYVYVYVYVYlokUloVYVYoVVYVYlolololololonmnmVYVYVYVYVYVYnmVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxnmnmlololololololonLVYoVoVVYVYoVoVoVVYoVoVoVVYVYRlryfjVYVYVYVYVYuWVYAiVYVYlololololonmnmVYlolololoVYnmVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxnmnmlolololololoZWVYVYVYlfRNVYVYVYVYVYVYVYVYVYVYDHEkEkOaVYaJglVYVYVYVYgXVYlolololoXWnmnmVYlolololoVYnmVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxnmnmlololoZWZWZWVYVYVYVYgETUVYVYVYVYVYVYrWtVtWVYcfNaVgtpVYVYVYVYVYVYVYVVzqlololololonmnmVYlolololoVYnmVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxnmnmloloZWeYoVoVVYVYVYVYytVYVYVYVYVYVYVYVYAFVYVYVYBzVYVYVYkWVYVYJKVYJKJKVYlololololonmnmVYlolololoVYnmVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxnmnmlcloZFJYVYTaYFVYYFVYVYVYMEVYVYVYVYVYVYLNytVYVYLNloJTVYVYVYVYYFVYYFVYVYlololololonmnmVYVYGtGtVYVYnmVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxnmnmlolohaVYVYVYVxVYVxVYVYFTVYVYncVYVYVYYFLNVYFTVYLNVYVYVYVYVYVYVxVYVxVYzqlololololonmVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxnmnmlolohadNVYVYemVkVEVkVkffZVjYUYVkVkVkVEqsqbgiZVwNZVZVVkZVZVZVVEVkWrVYzqlololololoaUVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxnmnmlolohaVYVYVYEDVYEDVYVYFTVYVYYmVYVYVYztLNVYFTVYLNVYVYVYVYVYVYEDVYEDVYzqlololololonmVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxnmnmlolohzJYVYieztVYztVYVYVYnRVYVYVYVYVYVYWHytVYVYLNloloVYVYVYVYztVYztVYVYlololololonmnmVYVYGtGtVYVYnmVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxnmnmloloZWGbBgBgVYVYVYVYytVYVYVYVYVYVYVYVYinVYVYVYBzVYVYVYAxVYVYVYVYVYVYVYlololololonmnmVYlolololoVYnmVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxnmnmlcloloZWZWZWVYVYVYVYVYVYVYKqVYVYVYVYCiHjtWVYcfFYVgtpVYVYJyVYVYVYVYVYzqlololololonmnmVYlolololoVYnmVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxnmnmlolololololoZWVYVYVYVYVYVYVYgIrnVYVYVYVYVYVYDHEkEkOSVYXGXGVYVYVYVYVYVYlolololoXWnmnmVYlolololoVYnmVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxnmnmlololololololonLVYBgBgVYVYBgBgBgVYBgBgBgVYVYgYfrEkVYVYVYVYVYVYVYVYVYVYlololololonmnmVYlolololoVYnmVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxnmnmlolololololololololololololololololololoZCVYVYVYVYVYloneloVYVYBgVYVYlolololololonmnmVYVYVYVYVYVYnmVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxnmnmlolololololololololololololololololololololololololololololololololololololololonmnmnmnmnmnmnmnmnmVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxnmnmlololololololololololololololololololololololololololololololololololoXWnmlololonmnmVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxnmnmlclololololololololololololololololololololololololololololololololololololololonmnmVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxnmnmlolololololololololololololololololololololololololololololololololololololololonmnmVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxnmnmlolololololoJgloZaloJgloloJgloloJgloloJgloloJgloloJglololoJglolololololololololonmnmVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxnmnmnmnmnmnmlolonmnmnmnmnmlolonmnmnmnmlolonmnmnmnmlolonmnmXKnmnmlolonmnmnmnmnmnmnmnmnmnmVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxnmnmnmnmnmnmnmnmnmnmnmnmnmNbNbnmVYDanmnmnmnmnmnmnmNbNbnmfDfDfDnmNbNbnmnmnmnmnmnmnmnmnmnmVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxaHXlaHzBnmfDfDfDfDqTfDfDTLnmfDfDfDfDfDfDfDnmnmgonmnmfDfDfDfDfDfDfDnmVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxaHaHCMaHyyfDfDfDfDfDfDfDfDnmfDfDfDfDfDfDfDfDfDfDfDnmfDfDfDfDfDfDfDnmVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxaHaHaHyyCmfDfDfDfDfDfDFxnmfDfDfDfDfDfDfDfDfDfDfDnmfDfDfDfDfDfDfDnmVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxOxHMaHnmfDfDSrfDfDfDfDfDnmfDfDfDfDfDfDfDfDfDfDfDfDfDfDlololofDfDnmVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxOxaHLfnmCWfDfDfDfDfDfDfDnmfDfDfDfDfDfDfDfDfDfDfDYOfDfDlololofDfDnmVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxOxOxaHyyfDLqEwfDfDfDfDfDgafDfDfDfDfDfDfDfDfDfDfDnmfDfDfDfDfDfDfDnmVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxOxOxaHyyfDfDfDfDfDfDfDfDnmfDfDfDfDfDfDfDfDfDfDfDnmfDfDfDfDfDfDfDnmVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxnmfDWRIcyrXsfDfDfDnmfDfDfDfDfDfDfDfDfDfDfDnmfDfDfDfDfDfDfDnmVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxnmnmeZeZnmnmnmnmnmnmfDfDfDfDfDnmnmNbNbNbnmnmnmnmSDnySDnmnmnmVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxaHXlaHaHCMnmMXnmJMnmfDfDfDfDfDnmfDfDfDfDfDfDfDfDfDfDfDfDfDnmVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxaHaHLfaHaHnmWcnmWcnmfDfDfDfDfDnmfDfDfDfDfDfDfDfDfDfDfDfDfDnmVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxaHaHHMzBnmcpcpcpiQfDfDfDfDfDnmfDfDfDSrSrSrSrSrSrSrfDfDfDnmVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxaHaHXlaHnmriririnmfDfDfDfDfDfDfDfDTEaBaBaBaBaBaBaBfBfDfDnmVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxaHaHLfnmFQFQFQnmfDfDfDfDfDlNfDfDTEaBaBaBaBaBaBaBfBfDfDnmVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxaHaHnmnmnmnmnmNbfDNbnmfDnmfDfDfDcWcWcWcWcWcWcWfDfDfDnmVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxaHaHHMaHzBaHnmfDfDRKnmfDnmfDfDfDfDfDfDfDfDfDfDfDfDfDnmVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxaHaHaHaHCMnmfDfDECnmfDnmfDfDfDfDfDfDfDfDfDfDfDfDfDnmVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxEgEgEgEgEgEgEgEgEgEgFEvrpHFEnmeZfDeZnmeZnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmVYfLVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxbYnmutMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSVpnmnmfLfLfLfLfLfLfLfLVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxbYLvMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSLvnmfLnmnmfLnmnmnmfLnmVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYfDfDfDfDfDQfQfQfQfQfQfQfQfQfQfQfQfQfQfQfQfQfQfQfSk
+OxOxOxOxOxOxbYMSMSdkeooMXVoDpiqprlaMtwuBuMADADCSGlMSMSMSMSMSMSMSMSMSMSnmfLnmfLfLfLnmfLfLnmVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYfDfDfDfDfDQffLfLfLfLfLfLfLfLfLfLfLfLfLfLfLVYVYVYSk
+OxOxOxOxOxOxbYMSMSJeOQQhQmnVEcxxzPQPrBVOxyaIcTcTlkYraaHsjXSVauJtayMSMSnmfLnmfLfLfLnmfLfLnmVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYfDfDfDfDfDQffLfLfLfLfLfLfLfLfLfLfLfLfLfLfLfLVYVYSk
+OxOxOxOxOxOxbYMSMSWwEYfOCeLxEZEOoYFfzNevKNFfFfFfFfFfRMQeAonlfKWPtvMSMSnmfLnmnmnmnmnmnmnmnmVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYfDfDfDfDfDVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYfDfDfDfDfDQffLfLfLfLfLfLfLfLfLfLfLfLfLfLfLfLfLVYSk
+OxOxOxOxOxOxbYMSMSFnWhSGtTbUhKAGXhCLwEFfCLwEFfCLwEFfBGFfGSHOdcnWmLMSMSnmfLnmVYVYVYVYVYVYnmVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYfDfDfDVYVYVYVYVYVYVYVYVYfDfDfDfDfDVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYfDfDfDfDfDQffLfLfLfLfLfLfLfLfLfLfLfLfLfLfLfLfLVYSk
+OxOxOxOxOxOxbYMSMSySVyoUVySdVycDFfCLwEFfCLwEFfCLwEFfnSFfGSAIZMRWKwMSMSfLfLnmVYlolololoVYnmVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYfDfDkHQfQfVYVYVYVYVYVYVYQfQfRcfDfDfDfDfDfDVYVYVYVYVYVYfDfDfDfDfDVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYfDfDfDfDfDQffLfLfLfLfLfLfLfLfLfLfLfLfLfLfLfLfLVYSk
+OxOxOxOxOxOxbYMSMSPorScPSmSmSmOHXhCLwEFfCLwEFfCLwEFfjBFfGSUaAmrcKwMSMSnmfLnmVYlolololoVYnmVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYfDfDkHWSlololololololololololoJURcfDfDfDfDfDVYVYVYVYVYVYfDfDfDfDfDVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYfDfDfDfDfDQffLfLfLfLfLfLfLfLfLfLfLfLfLfLfLfLfLVYSk
+OxOxOxOxOxOxbYMSMSfvUmMGVcWKWKJmoYFfFfFfdnFfFfFfFfFfRMhVheCGrqiFJSMSMSnmfLnmVYlolololoVYnmVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYfDfDkHWSlololololololololololololoJURcfDfDfDfDfDVYVYVYVYVYfDfDfDfDfDVYVYVYVYVYQfQfQfQfQfQfQfVYVYVYVYfDfDfDfDfDQffLfLfLfLfLfLfLfLfLfLfLfLfLfLfLfLVYVYSk
+OxOxOxOxOxOxbYMSMSMSMSDxMSFuDxHFJsIimFaZVGzTcVcVtiYrTgHsjXVfaQdbXAMSMSnmfLnmVYlolololoVYnmVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYfDfDfDkHWSlololololololololololololololoJURcfDfDfDfDVYVYVYVYVYfDfDfDfDfDVYVYVYVYQfQffDfDfDfDfDQfQfVYVYVYfDfDfDfDfDQffLfLfLfLfLfLfLfLfLfLfLfLfLfLfLfLVYVYSk
+OxOxOxOxOxOxbYMSMSmzEvOPWALcsAYumRMOfHaEGQqlqlFGvyMSMSMSMSMSMSMSMSMSMSnmfLnmVYVYGtGtVYVYnmVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYfDfDfDfDkHWSlololololololololololololololololoJURcfDfDfDVYVYVYVYVYfDfDfDfDfDQfVYVYQfQffDfDfDfDfDfDfDQfVYVYQffDfDfDfDfDQffLfLfLfLfLfLfLfLfLfLfLfLfLfLfLfLVYVYSk
+OxOxOxOxOxOxbYcuMSMxiMDMwbxpDGMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSuenmfLnmaxGtGtGtGtVHnmQfQfQfQfQfQfQfQfQfQfQfQfVYfDfDfDfDfDfDkHWSlololololololololololololololololololoJURcfDfDVYVYVYVYVYfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfLfLfLfLfLfLfLfLfLfLfLfLfLfLfLfLfLVYVYSk
+OxOxOxOxOxOxbYnmutMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSMSVpnmnmfLfLGgOhrzqRqJuxfDfDfDfDfDfDfDfDfDfDfDfDQfVYfDfDfDfDfDkHWSlololololololololololololololololololololoJURcVYVYVYVYVYVYfDfDfDfDfDfDfDfDfDfDfDfDlololofDfDfDfDfDfDfDfDfDfDfDfLfLfLfLfLfLfLfLfLfLfLfLfLfLfLfLfLfLVYSk
+OxOxOxOxOxOxbYzxhyhyzxilzxzxhyzxhyDEOxOxZjnmNbfDNbnmnmnmnmnmnmnmnmnmnmnmnmnmfDfDJxWqfDfDfDfDfDfDfDfDfDfDfDfDfDfDQfVYfDfDfDfDfDQflololololololololololololololololololololololoQfVYVYVYVYVYVYfDfDfDfDfDfDfDfDQffDfDfDlololofDfDQffDfDfDfDfDMikMkMcofLfLfLfLfLfLfLfLfLfLfLfLfLfLfLfLfLVYSk
+OxOxOxOxOxOxOxwBwBwBwBwBwBwBwBwBwBwBOxOxyznmfDfDfDvefDfDfDfDfDfDfDfDfDfDnmfDBIBIbJWqfDfDfDfDfDfDfDfDfDfDfDfDfDfDQfQfikfDfDikQfQfuauauauauauauauauauauauauauauauauauauauauauauaQfVYVYVYVYVYVYfDfDfDfDfDfDfDfDfDfDfDfDlololofDfDfDfDfDfDfDfDfDfDfDfLfLfLfLfLfLfLfLfLfLfLfLfLfLfLfLfLfLVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxaHnmfDfDfDvefDfDfDfDfDfDfDfDfDfDfDfDfDfDWgWqfDnmErErihpCErzRErErnmfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfLfLfLfLfLfLfLfLfLfLfLfLfLfLfLfLfLfLVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxaHaHnmfDfDfDvefDfDfDfDfDfDfDfDfDfDXxfDfDfDWgWqfDErErErVYVYVYVYErErErfDfDfDfDfDfDfDfDfDfDXxfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDXxfDfDfDfDfDfDfDfDfDfDfDQfVYVYQfQffDfDfDfDfDfDfDQfVYVYQffDfDfDfDfDQffLfLfLfLfLfLfLfLfLfLfLfLfLfLfLfLfLVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxaHaHaHnmeZfDeZnmfDfDfDfDfDfDfDfDfDfDnmfDnFnFMsFzuVKdKdjCVYKndozcyDErErfDfDfDfDfDfDfDfDfDfDikfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDikfDfDfDfDfDfDfDfDfDfDfDVYVYVYVYQfQffDfDfDfDfDQfQfVYVYVYfDfDfDfDfDQffLfLfLfLfLfLfLfLfLfLfLfLfLfLfLfLfLVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxaHaHaHaHnmfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDWgWqfDErErXaHTKsKsJfErErErfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDVYVYVYVYVYQfQfQfQfQfQfQfVYVYVYVYfDfDfDfDfDQffLfLfLfLfLfLfLfLfLfLfLfLfLfLfLfLfLVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxaHaHaHaHnmfDfDfDfDfDfDfDfDfDfDfDfDfDfDXxfDfDfDWgWqfDnmErErErfYErMtErErnmfDfDfDfDfDfDfDfDfDfDXxfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDfDXxfDfDfDfDfDfDfDfDfDfDfDVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYfDfDfDfDfDQffLfLfLfLfLfLfLfLfLfLfLfLfLfLfLfLfLVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxaHaHaHaHnmfDfDfDfDfDfDfDfDfDfDfDfDfDfDnmfDBIBIOuWqfDfDfDfDfDfDfDfDfDfDfDfDfDfDQfQfikfDfDikQfQfpzpzpzpzpzpzpzpzpzpzpzpzpzpzpzpzpzpzpzpzpzpzpzQfVYVYVYVYVYVYfDfDfDfDfDVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYfDfDfDfDfDQffLfLfLfLfLfLfLfLfLfLfLfLfLfLfLfLfLVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxaHnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmfDfDJxWqfDfDfDfDfDfDfDfDfDfDfDfDfDfDQffDfDfDfDfDfDQflololololololololololololololololololololololoQfVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYfDfDfDfDfDQffLfLfLfLfLfLfLfLfLfLfLfLfLfLfLfLVYVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxnmnmfDfDfDfDfDfDfDnmfDfDfDfDfDfDfDfDfDnmZXOhdgrNqJmifDfDfDfDfDfDfDfDfDfDfDfDQffDfDfDfDfDfDzMKglololololololololololololololololololololofNsOVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYfDfDfDfDfDQffLfLfLfLfLfLfLfLfLfLfLfLfLfLfLfLVYVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxyyfDfDfDfDfDfDfDfDnmfDfDfDfDfDfDfDfDfDnmgzGtGtGtGtRCnmnmfLnmnmQfQfQfnmnmQfQfQffDfDfDfDfDfDfDzMKglololololololololololololololololololofNsOfDVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYfDfDfDfDfDQffLfLfLfLfLfLfLfLfLfLfLfLfLfLfLVYVYVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxyyfDfDfDfDfDfDfDfDVvfDfDfDfDfDfDfDfDfDnmVYVYGtGtVYVYnmfLfLnmVYVYVYVYVYnmfDfDQffDfDfDfDfDfDfDfDzMKglololololololololololololololololofNsOfDfDVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYfDfDfDfDfDQffLfLfLfLfLfLfLfLfLfLfLfLfLVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxyyfDfDfDfDfDfDfDfDVvfDfDfDfDfDfDfDfDfDnmVYlolololoVYnmfLfLnmVYVYVYVYVYnmfDfDQffDfDfDfDfDfDfDfDfDzMKglololololololololololololololofNsOfDfDfDVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYfDfDfDfDfDQfQfQfQfQfQfQfQfQfQfQfQfQfQfQfQfQfQfQfSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxyyfDfDfDfDfDfDfDfDVvfDfDfDfDfDfDfDfDfDnmVYlolololoVYnmfLfLnmVYVYVYVYVYnmfDfDQffDfDfDfDfDfDfDfDfDfDzMKglololololololololololololofNsOfDfDfDfDVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYQflolololololololololoQfVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxyyfDfDfDfDfDfDfDfDVvfDfDfDfDfDfDfDfDfDnmVYlolololoVYnmfLfLnmVYVYVYVYVYnmfDfDQffDfDfDfDfDfDfDfDfDfDfDzMKglololololololololololofNsOfDfDfDfDfDVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYQflolololololololololoQfVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxyyfDfDfDfDfDfDfDfDnmfDfDfDfDfDfDfDfDfDnmVYlolololoVYnmfLfLnmVYVYVYVYVYnmfDfDQffDfDfDfDfDfDfDfDfDfDfDfDzMQfQfVYVYVYVYVYVYVYQfQfsOfDfDfDfDfDfDVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYQflolololololololololoQfVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxnmnmfDfDfDfDfDfDfDnmfDfDfDfDfDfDfDfDfDnmVYVYVYVYVYVYnmfLfLnmVYVYVYVYVYnmVYVYQfVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYQflolololololololololoQfVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxfLnmnmnmnmfLnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmcGnmnmfLfLnmVYVYVYVYVYnmVYVYQfVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYQflolololololololololoQfVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxfLfLVYVYnmfLfLfLfLfLfLfLfLfLfLnmfLfLfLnmfLfLfLfLfLfLfLfLfLnmVYVYVYVYVYnmVYVYQfVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYQflolololololololololoQfVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxfLVYVYnmfLfLfLOxOxfLfLfLfLfLfLfLfLfLfLfLfLfLfLfLfLfLfLfLfLnmVYVYVYVYVYnmVYVYQfVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYQflolololololololololoQfVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxfLVYnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmVYVYVYVYVYnmVYVYQfVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYQfQfQfQfQfQfQflolololololololololoQfVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxfLVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYnmVYVYVYVYVYVYVYVYVYVYVYVYVYnmVYVYQfVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxfLVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYnmVYVYQfVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxfLVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYnmVYVYQfVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxfLVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYnmVYVYQfVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxfLVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYnmVYVYVYVYVYVYVYVYVYVYVYVYVYnmVYVYQfVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmVYVYQfVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYnmfLfLfLVYVYVYVYVYVYVYVYVYVYVYVYVYQfVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYnmfLAHfLVYVYVYVYVYVYVYVYVYVYVYVYVYQfVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYnmfLfLfLVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYnmVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYnmVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYnmVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYnmVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYnmVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYnmVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYnmVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYnmVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYQfVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+OxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxOxVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYVYSk
+"}
