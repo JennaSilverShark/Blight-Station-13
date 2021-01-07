@@ -72,7 +72,7 @@
 "ci" = (/obj/machinery/disposal/deliveryChute{dir = 4; pixel_x = -9},/obj/effect/floor_decal/industrial/warning{dir = 1},/obj/effect/floor_decal/industrial/warning,/turf/simulated/floor/reinforced,/area/rnd/xenobiology)
 "cj" = (/obj/effect/floor_decal/industrial/hatch/yellow,/turf/simulated/floor/tiled/dark,/area/ai_monitored/storage/secure)
 "cm" = (/obj/structure/dispenser/oxygen,/obj/machinery/camera/network/research{dir = 4; network = list("Xenobiology")},/turf/simulated/floor/tiled/steel,/area/rnd/xenoarch_storage)
-"cq" = (/obj/structure/table/glass,/obj/item/storage/box/gloves{pixel_x = 4; pixel_y = 4},/obj/item/storage/box/beakers{pixel_x = 2; pixel_y = 2},/obj/item/storage/box/syringes,/turf/space,/area/space)
+"cq" = (/obj/structure/table/glass,/obj/item/storage/box/gloves{pixel_x = 4; pixel_y = 4},/obj/item/storage/box/beakers{pixel_x = 2; pixel_y = 2},/obj/item/storage/box/syringes,/turf/simulated/floor/tiled/steel,/area/space)
 "cr" = (/obj/machinery/door/airlock/highsecurity{req_one_access = list(1,53)},/turf/space,/area/rnd/xenobiology)
 "cs" = (/obj/structure/toilet{dir = 4},/turf/simulated/floor/tiled/steel,/area/space)
 "cv" = (/obj/machinery/light/small{dir = 4},/turf/simulated/floor/tiled/steel,/area/space)
@@ -95,7 +95,7 @@
 "cU" = (/obj/machinery/button/remote/blast_door{pixel_y = 23},/turf/space,/area/space)
 "cX" = (/turf/simulated/floor/tiled,/area/ai_monitored/storage/secure)
 "cY" = (/turf/simulated/wall/r_wall,/area/space)
-"cZ" = (/obj/random/medical,/turf/space,/area/space)
+"cZ" = (/obj/random/medical,/obj/structure/table/rack,/turf/simulated/floor/tiled/old_white,/area/space)
 "db" = (/turf/simulated/floor/tiled/old_dark,/area/security/checkpoint)
 "dc" = (/turf/simulated/wall/shuttle/unique/research{desc = "The largest commercially available sublight engine, with a shuttle built around it and painted in NanoTrasen research division colors. Looks sleek, and fast."; icon_state = "0,7"; name = "survey shuttle"},/area/space)
 "dd" = (/obj/machinery/door/airlock/freezer,/turf/simulated/floor/tiled/white,/area/space)
@@ -109,7 +109,7 @@
 "dr" = (/turf/simulated/wall/shuttle/unique/research{desc = "The largest commercially available sublight engine, with a shuttle built around it and painted in NanoTrasen research division colors. Looks sleek, and fast."; icon_state = "8,13"; name = "survey shuttle"},/area/space)
 "ds" = (/turf/simulated/floor/gold,/area/rnd/misc_lab)
 "dt" = (/obj/structure/mirror{pixel_x = 30},/obj/structure/sink{dir = 4; pixel_x = 14},/turf/simulated/floor/tiled/steel,/area/space)
-"du" = (/obj/structure/table/glass,/obj/item/gun/energy/mousegun/xenofauna,/turf/space,/area/space)
+"du" = (/obj/structure/table/glass,/obj/item/gun/energy/mousegun/xenofauna,/turf/simulated/floor/tiled/steel,/area/space)
 "dv" = (/obj/structure/window/reinforced/full,/obj/structure/grille,/turf/simulated/floor,/area/maintenance/substation/engineering{name = "Deck Four Substation"})
 "dw" = (/obj/machinery/vending/wallmed1{name = "Emergency NanoMed"; pixel_y = 32},/turf/simulated/floor/tiled/steel,/area/space)
 "dx" = (/obj/machinery/recharge_station,/turf/simulated/floor/tiled/steel,/area/space)
@@ -180,7 +180,7 @@
 "fG" = (/obj/effect/floor_decal/industrial/outline/blue,/obj/structure/target_stake,/obj/item/target/syndicate{desc = "A shooting target that looks like a hostile agent. It has a big number 1 on it."; name = "target one"},/turf/simulated/floor/tiled,/area/space)
 "fH" = (/obj/item/reagent_containers/food/snacks/tastybread,/obj/item/reagent_containers/food/snacks/tastybread,/obj/item/reagent_containers/food/snacks/tastybread,/obj/item/reagent_containers/food/snacks/tastybread,/obj/item/reagent_containers/food/snacks/tastybread,/obj/random/junk,/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/structure/table/rack,/turf/simulated/floor/tiled/steel,/area/space)
 "fI" = (/obj/structure/closet/l3closet/scientist,/turf/space,/area/space)
-"fJ" = (/obj/machinery/chem_master/condimaster,/turf/space,/area/space)
+"fJ" = (/obj/machinery/chem_master/condimaster,/turf/simulated/floor/tiled/steel,/area/space)
 "fL" = (/obj/effect/decal/cleanable/dirt{icon = 'modular_core\icons\turf\decals.dmi'; icon_state = "rust"; name = "rust"},/obj/machinery/status_display{pixel_y = 30},/turf/simulated/floor/tiled/steel,/area/rnd/xenoarch_storage)
 "fM" = (/obj/machinery/door/blast/shutters,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor/tiled/dark,/area/ai_monitored/storage/secure)
 "fN" = (/obj/item/clothing/head/helmet/space/syndicate/blue{name = "prototype blue-space helmet"},/turf/simulated/floor/tiled,/area/ai_monitored/storage/secure)
@@ -225,7 +225,6 @@
 "gX" = (/obj/item/cell/device,/obj/effect/floor_decal/corner/green{dir = 5},/obj/structure/table/rack{color = "#666666"; name = "steel rack"},/turf/simulated/floor/tiled/dark,/area/space)
 "gZ" = (/obj/machinery/telecomms/bus/preset_four,/turf/simulated/floor/bluegrid{initial_gas_mix = "n2=100;TEMP=80"; name = "Mainframe Base"},/area/tcommsat/chamber)
 "ha" = (/obj/structure/bed/chair/shuttle{dir = 4},/obj/effect/floor_decal/corner/purple/diagonal{dir = 4},/obj/effect/floor_decal/corner/purple{dir = 9},/turf/simulated/floor/tiled/dark,/area/space)
-"hc" = (/obj/machinery/telecomms/relay{name = "Research Database Relay"},/turf/space,/area/server{name = "\improper Database Mainframe"})
 "he" = (/obj/structure/closet{icon_closed = "mixed"; icon_state = "mixed"; name = "vox wardrobe"},/turf/space,/area/space)
 "hg" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/structure/window/reinforced{dir = 1},/obj/structure/window/reinforced,/turf/simulated/floor/bluegrid,/area/ai_monitored/storage/secure)
 "hi" = (/obj/machinery/telecomms/processor/preset_four,/turf/simulated/floor/bluegrid{initial_gas_mix = "n2=100;TEMP=80"; name = "Mainframe Base"},/area/tcommsat/chamber)
@@ -234,7 +233,7 @@
 "hr" = (/obj/structure/window/reinforced{dir = 1},/obj/structure/window/reinforced,/obj/structure/grille,/obj/machinery/door/blast/regular{density = 0; dir = 4; icon_state = "pdoor0"; id = "xenobio"; name = "Containment Blast Doors"; opacity = 0},/obj/structure/window/reinforced{dir = 4},/obj/structure/window/reinforced{dir = 8; health = 1e+006},/obj/structure/window/reinforced,/obj/structure/cable/green{d2 = 2; icon_state = "0-2"},/turf/simulated/floor/reinforced,/area/rnd/xenobiology)
 "ht" = (/obj/structure/bed/roller,/obj/structure/closet/secure_closet/medical_wall{name = "blood closet"; pixel_x = 30; pixel_y = -30; req_access = null},/obj/item/reagent_containers/blood/OMinus,/obj/effect/floor_decal/industrial/outline/red,/turf/simulated/floor/tiled/dark,/area/space)
 "hu" = (/obj/structure/flora/pottedplant/random,/turf/simulated/floor/tiled/dark,/area/security/checkpoint)
-"hv" = (/obj/machinery/camera/network/medbay{dir = 1},/turf/space,/area/space)
+"hv" = (/obj/machinery/camera/network/medbay{dir = 1},/turf/simulated/floor/carpet/rubber,/area/space)
 "hw" = (/obj/machinery/atmospherics/pipe/simple/visible/universal,/turf/simulated/floor,/area/space)
 "hx" = (/obj/machinery/atmospherics/pipe/tank/air{dir = 8; layer = 3.5},/obj/effect/floor_decal/industrial/hatch/yellow,/turf/simulated/floor/tiled/dark,/area/space)
 "hA" = (/obj/structure/shuttle_part/research{desc = "The largest commercially available sublight engine, with a shuttle built around it and painted in NanoTrasen research division colors. Looks sleek, and fast."; icon_state = "6,1"; name = "survey shuttle"},/turf/unsimulated/floor/asteroid/ash,/area/space)
@@ -273,7 +272,7 @@
 "iz" = (/turf/simulated/wall/shuttle/dark,/area/ai_monitored/storage/secure)
 "iE" = (/obj/structure/grille,/obj/structure/window/reinforced/full,/obj/structure/window/reinforced{dir = 1},/turf/simulated/floor/plating{initial_gas_mix = "o2=22;n2=82;TEMP=285.15"},/area/server{name = "\improper Database Mainframe"})
 "iG" = (/turf/simulated/wall/r_wall,/area/engineering/break_room)
-"iH" = (/obj/structure/bed/chair/office/light{dir = 8},/turf/space,/area/rnd/xenobiology)
+"iH" = (/obj/structure/bed/chair/office/light{dir = 8},/turf/simulated/floor/tiled/steel,/area/rnd/xenobiology)
 "iJ" = (/obj/structure/window/reinforced/polarized{dir = 4},/obj/machinery/shower,/turf/space,/area/space)
 "iL" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 8},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden{dir = 4},/turf/space,/area/ai_monitored/storage/eva{name = "Database Prep Room"})
 "iM" = (/obj/machinery/door/window/brigdoor/westright{name = "Containment Pen"; req_access = list(55)},/obj/machinery/door/blast/regular{density = 0; dir = 4; icon_state = "pdoor0"; id = "xenobio"; name = "Containment Blast Doors"; opacity = 0},/turf/simulated/floor/reinforced,/area/rnd/xenobiology)
@@ -281,7 +280,7 @@
 "iP" = (/obj/structure/disposalpipe/trunk{dir = 1},/obj/machinery/disposal,/obj/structure/window/reinforced{dir = 8},/obj/structure/cable/green{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/tiled/steel,/area/rnd/xenobiology)
 "iQ" = (/obj/machinery/recharger,/turf/simulated/floor/reinforced{initial_gas_mix = "n2=100;TEMP=80"},/area/engineering/drone_fabrication)
 "iW" = (/obj/effect/gibspawner/generic,/turf/simulated/floor/reinforced,/area/rnd/misc_lab)
-"iX" = (/obj/structure/closet/wardrobe/xenos,/turf/space,/area/rnd/xenobiology)
+"iX" = (/obj/machinery/atmospherics/pipe/manifold/visible{dir = 8},/turf/space,/area/rnd/xenobiology)
 "iY" = (/obj/effect/floor_decal/corner/green{dir = 9},/turf/simulated/floor/tiled/dark,/area/space)
 "ja" = (/obj/item/stack/material/glass{amount = 50},/obj/item/stack/material/glass{amount = 50},/obj/structure/table/rack,/turf/simulated/floor/tiled/old_dark,/area/space)
 "jb" = (/obj/machinery/atmospherics/binary/pump{dir = 1},/turf/simulated/floor{base_name = "cold plating"; name = "cold plating"; nitrogen = 100; oxygen = 0; temperature = 80},/area/space)
@@ -302,7 +301,7 @@
 "jy" = (/turf/simulated/floor/tiled/steel,/area/rnd/xenoarch_storage)
 "jz" = (/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 8},/obj/machinery/atmospherics/pipe/manifold/hidden/supply{dir = 8},/obj/structure/cable{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"; pixel_y = 0},/turf/simulated/floor/tiled/old_dark,/area/space)
 "jA" = (/turf/simulated/floor/grass/alt,/area/space)
-"jB" = (/obj/item/pipe{dir = 5},/turf/space,/area/rnd/xenobiology)
+"jB" = (/obj/machinery/atmospherics/unary/heater{dir = 8},/turf/space,/area/rnd/xenobiology)
 "jC" = (/obj/effect/floor_decal/industrial/loading{dir = 8; pixel_x = 9},/obj/effect/floor_decal/industrial/hatch/yellow,/obj/effect/hoist_hook,/turf/simulated/floor/tiled/dark,/area/ai_monitored/storage/secure)
 "jD" = (/obj/machinery/disposal/deliveryChute{dir = 4; pixel_x = -9},/obj/effect/floor_decal/industrial/warning/cee{dir = 4},/obj/structure/disposalpipe/trunk{dir = 8},/obj/effect/floor_decal/industrial/loading{dir = 8; pixel_x = 9},/turf/simulated/floor{base_name = "cold plating"; name = "cold plating"; nitrogen = 100; oxygen = 0; temperature = 80},/area/space)
 "jE" = (/obj/machinery/door/blast/regular{density = 0; dir = 4; icon_state = "pdoor0"; id = "xenobio"; name = "Containment Blast Doors"; opacity = 0},/obj/machinery/door/window/brigdoor/eastleft{name = "Containment Pen"; req_access = list(55)},/turf/simulated/floor/reinforced,/area/rnd/xenobiology)
@@ -327,12 +326,12 @@
 "kg" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/tiled/steel,/area/space)
 "kh" = (/obj/machinery/telecomms/server{name = "Research Database Server"},/obj/structure/window/reinforced{dir = 1},/obj/structure/window/reinforced{dir = 4},/turf/simulated/floor/greengrid/nitrogen{initial_gas_mix = "n2=100;TEMP=80"; temperature = 80},/area/server{name = "\improper Database Mainframe"})
 "km" = (/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable/green{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/space,/area/space)
-"kn" = (/obj/machinery/chem_master,/turf/space,/area/rnd/xenobiology)
+"kn" = (/obj/machinery/chem_master,/turf/simulated/floor/tiled/steel,/area/rnd/xenobiology)
 "ko" = (/obj/machinery/light_switch{pixel_x = -25; pixel_y = 25},/obj/machinery/alarm{pixel_y = 22},/obj/machinery/power/apc{dir = 4; name = "east bump"; pixel_x = 24; pixel_y = 7},/obj/machinery/button/remote/airlock{id = "dorm4"; name = "Room 4 Lock"; pixel_x = 26; pixel_y = -4; specialfunctions = 4},/obj/random/plushie,/obj/structure/cable{icon_state = "0-2"},/turf/simulated/floor/wood,/area/space)
 "kp" = (/obj/structure/closet/crate/internals{name = "emergency equipment"},/obj/item/roller{pixel_y = 8},/obj/item/roller{pixel_y = 8},/obj/item/airbubble,/obj/item/airbubble,/obj/item/storage/briefcase/inflatable,/obj/effect/floor_decal/industrial/outline/yellow,/obj/item/device/flashlight/flare,/obj/item/device/flashlight/flare,/obj/item/device/flashlight/flare,/obj/item/device/flashlight/flare,/obj/item/tank/oxygen,/obj/item/tank/oxygen,/obj/item/tank/oxygen,/obj/item/tank/oxygen,/obj/item/clothing/suit/space,/obj/item/clothing/mask/gas/alt,/obj/item/clothing/head/helmet/space,/turf/simulated/floor/tiled/dark,/area/space)
 "kq" = (/obj/structure/cable/green{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/steel,/area/rnd/xenobiology)
 "ks" = (/obj/machinery/telecomms/processor/preset_two,/turf/simulated/floor/bluegrid{initial_gas_mix = "n2=100;TEMP=80"; name = "Mainframe Base"},/area/tcommsat/chamber)
-"ku" = (/obj/item/reagent_containers/food/drinks/cans/dr_gibb{pixel_x = 7},/turf/space,/area/rnd/xenobiology)
+"ku" = (/obj/item/reagent_containers/food/drinks/cans/dr_gibb{pixel_x = 7},/obj/structure/table/steel,/turf/simulated/floor/tiled/steel,/area/rnd/xenobiology)
 "kw" = (/obj/machinery/door/airlock/hatch{name = "Zaddat Habitation"},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/disposalpipe/segment{dir = 4},/turf/simulated/floor/tiled/dark,/area/space)
 "kx" = (/obj/structure/sign/directions/medical{dir = 4},/obj/structure/sign/directions/evac{dir = 4; pixel_y = 7},/obj/structure/sign/directions/security{dir = 1; pixel_y = -7},/turf/simulated/wall/r_wall,/area/rnd/xenobiology)
 "ky" = (/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/door/blast/regular{density = 0; dir = 2; icon_state = "pdoor0"; id = "xenobio"; name = "Containment Blast Doors"; opacity = 0},/turf/simulated/floor/tiled/steel,/area/rnd/xenobiology)
@@ -359,8 +358,8 @@
 "lj" = (/obj/structure/lattice/catwalk/indoor/grate/light/damaged,/turf/simulated/floor{base_name = "cold plating"; name = "cold plating"; nitrogen = 100; oxygen = 0; temperature = 80},/area/server)
 "ll" = (/obj/item/storage/box/samplebags,/obj/structure/table/steel,/turf/simulated/floor/carpet/rubber,/area/rnd/xenobiology)
 "lm" = (/obj/machinery/telecomms/server{name = "Research Database Server"},/obj/machinery/camera/network/telecom,/turf/simulated/floor/bluegrid{initial_gas_mix = "n2=100;TEMP=80"; name = "Mainframe Base"},/area/tcommsat/chamber)
-"ln" = (/obj/item/pipe{dir = 6},/turf/simulated/floor{base_name = "cold plating"; name = "cold plating"; nitrogen = 100; oxygen = 0; temperature = 80},/area/space)
-"lp" = (/obj/item/pipe{dir = 10},/turf/simulated/floor{base_name = "cold plating"; name = "cold plating"; nitrogen = 100; oxygen = 0; temperature = 80},/area/space)
+"ln" = (/turf/simulated/floor{base_name = "cold plating"; name = "cold plating"; nitrogen = 100; oxygen = 0; temperature = 80},/area/ai_monitored/storage/secure)
+"lp" = (/obj/structure/diona/vines,/mob/living/carbon/alien/diona/flowery,/turf/simulated/floor/diona,/area/space)
 "lt" = (/obj/machinery/floodlight,/turf/space,/area/rnd/xenoarch_storage)
 "lu" = (/obj/structure/disposalpipe/segment,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/tiled/steel,/area/space)
 "lv" = (/obj/structure/grille,/obj/structure/window/reinforced/full,/obj/structure/window/reinforced{dir = 4},/turf/simulated/floor{base_name = "cold plating"; name = "cold plating"; nitrogen = 100; oxygen = 0; temperature = 80},/area/rnd/hallway)
@@ -369,6 +368,7 @@
 "lA" = (/obj/structure/window/reinforced/full,/obj/structure/grille,/obj/structure/window/reinforced{dir = 8},/obj/structure/window/reinforced{dir = 4},/obj/structure/window/reinforced{dir = 1},/obj/structure/window/reinforced,/turf/simulated/floor,/area/security/checkpoint)
 "lC" = (/turf/simulated/mineral,/area/space)
 "lE" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 8},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/hologram/holopad,/obj/machinery/atmospherics/pipe/simple/hidden{dir = 5},/turf/space,/area/ai_monitored/storage/eva{name = "Database Prep Room"})
+"lG" = (/turf/simulated/floor/carpet/rubber,/area/space)
 "lH" = (/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor{base_name = "cold plating"; name = "cold plating"; nitrogen = 100; oxygen = 0; temperature = 80},/area/space)
 "lI" = (/obj/machinery/atmospherics/pipe/simple/hidden,/obj/machinery/requests_console{announcementConsole = 1; department = "Expeditionary Preparation Dock"; departmentType = 5; name = "Expedition Dock RC"; pixel_x = 32},/turf/simulated/floor/tiled/old_dark,/area/space)
 "lJ" = (/obj/machinery/telecomms/processor/preset_one,/turf/simulated/floor/bluegrid{initial_gas_mix = "n2=100;TEMP=80"; name = "Mainframe Base"},/area/tcommsat/chamber)
@@ -409,7 +409,7 @@
 "mL" = (/obj/machinery/hologram/holopad,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 9},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 10},/turf/simulated/floor/bluegrid,/area/ai_monitored/storage/secure)
 "mM" = (/obj/machinery/door/firedoor,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/tiled/steel,/area/space)
 "mO" = (/obj/machinery/light_switch{pixel_x = -25; pixel_y = 25},/obj/machinery/alarm{pixel_y = 22},/obj/machinery/power/apc{dir = 4; name = "east bump"; pixel_x = 24; pixel_y = 7},/obj/structure/cable{icon_state = "0-2"},/obj/effect/decal/cleanable/cobweb{icon_state = "cobweb2"},/obj/machinery/button/remote/airlock{id = "dorm2"; name = "Room 2 Lock"; pixel_x = 26; pixel_y = -4; specialfunctions = 4},/turf/simulated/floor/wood,/area/space)
-"mP" = (/obj/machinery/door/airlock/glass_research{name = "Xenoflora Research"; req_access = list(55)},/turf/space,/area/space)
+"mP" = (/obj/machinery/door/airlock/glass_research{name = "Xenoflora Research"; req_access = list(55)},/turf/simulated/floor/tiled/steel,/area/space)
 "mQ" = (/obj/machinery/atmospherics/unary/vent_pump/high_volume{dir = 8; fluorescent = null; frequency = 1380; id_tag = "science_bridge_pump"},/obj/effect/floor_decal/industrial/warning{dir = 6},/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/plating,/area/space)
 "mR" = (/obj/structure/sink/kitchen{pixel_y = 28},/obj/effect/decal/cleanable/dirt{icon = 'modular_core\icons\turf\decals.dmi'; icon_state = "rust"; name = "rust"},/turf/simulated/floor/tiled/steel,/area/space)
 "mS" = (/obj/machinery/light_switch{dir = 4; icon_state = "light0"; on = 0; pixel_x = 22; pixel_y = -4},/turf/space,/area/janitor{name = "\improper Research Custodial Closet"})
@@ -466,20 +466,21 @@
 "ou" = (/obj/effect/floor_decal/corner/green/full{dir = 1},/obj/structure/table/reinforced/steel,/turf/simulated/floor/tiled/dark,/area/space)
 "ov" = (/obj/machinery/atmospherics/unary/vent_scrubber/on,/obj/structure/window/reinforced{dir = 8},/obj/structure/window/reinforced{dir = 4},/turf/simulated/floor/bluegrid,/area/ai_monitored/storage/secure)
 "ow" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_x = 0},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 8},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/structure/lattice,/turf/simulated/floor{base_name = "cold plating"; name = "cold plating"; nitrogen = 100; oxygen = 0; temperature = 80},/area/server{name = "\improper Database Mainframe"})
-"oy" = (/obj/item/pipe,/turf/simulated/floor{base_name = "cold plating"; name = "cold plating"; nitrogen = 100; oxygen = 0; temperature = 80},/area/space)
+"oy" = (/obj/structure/diona/vines,/turf/simulated/floor/diona,/area/space)
 "oA" = (/obj/machinery/floodlight,/obj/effect/decal/cleanable/dirt,/obj/machinery/atmospherics/pipe/simple/hidden/cyan{dir = 10},/turf/simulated/floor,/area/space)
 "oC" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor/tiled/old_white,/area/space)
-"oE" = (/obj/structure/closet/l3closet/virology,/obj/item/clothing/under/rank/virologist,/obj/item/storage/backpack/virology,/turf/space,/area/rnd/xenobiology)
+"oE" = (/obj/structure/closet/l3closet/virology,/obj/item/clothing/under/rank/virologist,/obj/item/storage/backpack/virology,/turf/simulated/floor/tiled/steel,/area/rnd/xenobiology)
 "oF" = (/obj/effect/floor_decal/corner/green/full{dir = 4},/obj/structure/table/reinforced/steel,/turf/simulated/floor/tiled/dark,/area/space)
+"oG" = (/obj/machinery/light/small{dir = 8},/turf/simulated/floor/tiled/old_white,/area/space)
 "oH" = (/obj/machinery/telecomms/bus/preset_two,/turf/simulated/floor/bluegrid{initial_gas_mix = "n2=100;TEMP=80"; name = "Mainframe Base"},/area/tcommsat/chamber)
 "oI" = (/obj/structure/lattice,/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/lattice/catwalk/indoor/grate/damaged,/turf/simulated/floor/plating{initial_gas_mix = "o2=22;n2=82;TEMP=285.15"},/area/server{name = "\improper Database Mainframe"})
 "oJ" = (/obj/machinery/telecomms/server/presets/security,/turf/simulated/floor/bluegrid{initial_gas_mix = "n2=100;TEMP=80"; name = "Mainframe Base"},/area/tcommsat/chamber)
 "oK" = (/obj/structure/table/standard,/obj/item/storage/box/syringes{pixel_y = 6},/obj/item/reagent_containers/glass/beaker{pixel_y = 16},/turf/simulated/floor/tiled/old_white,/area/medical/exam_room{name = "\improper Xenobio Exam Room"})
-"oL" = (/obj/item/pipe,/turf/simulated/floor/reinforced/phoron,/area/ai_monitored/storage/secure)
+"oL" = (/turf/simulated/floor/diona,/area/space)
 "oN" = (/obj/structure/disposalpipe/junction{dir = 1},/turf/simulated/floor/tiled/old,/area/rnd/hallway)
 "oO" = (/obj/machinery/field_generator,/turf/simulated/floor,/area/ai_monitored/storage/secure)
 "oQ" = (/turf/simulated/wall/shuttle/unique/research{desc = "The largest commercially available sublight engine, with a shuttle built around it and painted in NanoTrasen research division colors. Looks sleek, and fast."; icon_state = "11,5"; name = "survey shuttle"},/area/space)
-"oR" = (/obj/machinery/chemical_dispenser/full,/turf/space,/area/rnd/xenobiology)
+"oR" = (/obj/machinery/chemical_dispenser/full,/turf/simulated/floor/tiled/steel,/area/rnd/xenobiology)
 "oS" = (/obj/machinery/door/blast/regular{density = 0; dir = 2; icon_state = "pdoor0"; id = "xenobio"; name = "Containment Blast Doors"; opacity = 0},/obj/structure/window/reinforced{dir = 4},/obj/structure/cable/green{d2 = 8; icon_state = "0-8"},/obj/structure/grille,/obj/structure/window/reinforced,/obj/structure/window/reinforced{dir = 1},/obj/structure/window/reinforced{dir = 8},/obj/structure/window/reinforced{dir = 8},/turf/simulated/floor/reinforced,/area/rnd/xenobiology)
 "oT" = (/obj/machinery/containment_field{dir = 4},/turf/simulated/floor,/area/ai_monitored/storage/secure)
 "oW" = (/obj/structure/noticeboard{pixel_y = -26},/turf/simulated/floor/tiled/old_white,/area/medical/exam_room{name = "\improper Xenobio Exam Room"})
@@ -499,11 +500,11 @@
 "pt" = (/obj/item/clothing/suit/space,/obj/item/clothing/suit/space,/obj/item/clothing/mask/gas,/obj/item/clothing/mask/gas,/obj/item/clothing/head/helmet/space,/obj/item/clothing/head/helmet/space,/obj/machinery/atmospherics/pipe/manifold/hidden/supply{dir = 4},/turf/simulated/floor,/area/space)
 "pv" = (/turf/simulated/wall/shuttle/unique/research{desc = "The largest commercially available sublight engine, with a shuttle built around it and painted in NanoTrasen research division colors. Looks sleek, and fast."; icon_state = "4,2"; name = "survey shuttle"},/area/space)
 "pw" = (/obj/machinery/floodlight,/obj/effect/decal/cleanable/dirt,/turf/space,/area/rnd/xenoarch_storage)
-"py" = (/obj/machinery/power/port_gen/pacman,/turf/space,/area/rnd/xenobiology)
+"py" = (/obj/machinery/power/port_gen/pacman,/turf/simulated/floor/tiled/steel,/area/rnd/xenobiology)
 "pA" = (/obj/structure/lattice,/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/lattice/catwalk/indoor/grate/old,/turf/simulated/floor/plating{initial_gas_mix = "o2=22;n2=82;TEMP=285.15"},/area/server{name = "\improper Database Mainframe"})
 "pC" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 5},/turf/simulated/floor,/area/space)
 "pF" = (/obj/machinery/atmospherics/pipe/simple/hidden/universal{layer = 1.8},/obj/structure/disposalpipe/segment,/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/black,/turf/space,/area/space)
-"pG" = (/obj/structure/closet/secure_closet/medical3,/turf/space,/area/space)
+"pG" = (/mob/living/carbon/alien/diona,/turf/simulated/floor/diona,/area/space)
 "pJ" = (/obj/structure/sign/securearea{desc = "A warning sign which reads 'HIGH VOLTAGE'"; icon_state = "shock"; name = "HIGH VOLTAGE"},/turf/simulated/wall/r_wall,/area/maintenance/substation/engineering{name = "Deck Four Substation"})
 "pK" = (/obj/machinery/floodlight,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt{icon = 'modular_core\icons\turf\decals.dmi'; icon_state = "rust"; name = "rust"},/turf/simulated/floor,/area/space)
 "pL" = (/obj/structure/cryofeed,/turf/simulated/floor/tiled{nitrogen = 100; oxygen = 0; temperature = 80},/area/server{name = "\improper Database Mainframe"})
@@ -529,19 +530,19 @@
 "qs" = (/obj/machinery/chemical_dispenser/bar_soft/full,/turf/space,/area/space)
 "qt" = (/obj/structure/closet/secure_closet/engineering_electrical,/obj/machinery/camera/network/research,/obj/machinery/atmospherics/unary/vent_pump/on,/turf/simulated/floor,/area/space)
 "qu" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/disposalpipe/segment{dir = 4},/turf/simulated/floor/tiled/steel,/area/space)
-"qv" = (/obj/effect/decal/cleanable/dirt{icon = 'modular_core\icons\turf\decals.dmi'; icon_state = "rust"; name = "rust"},/turf/space,/area/rnd/xenobiology)
-"qw" = (/obj/machinery/vending/wallmed1{layer = 3.3; name = "Emergency NanoMed"; pixel_x = 28},/turf/space,/area/space)
+"qv" = (/obj/structure/diona/bulb,/turf/simulated/floor/diona,/area/space)
+"qw" = (/obj/machinery/vending/wallmed1{layer = 3.3; name = "Emergency NanoMed"; pixel_x = 28},/turf/simulated/floor/carpet/rubber,/area/space)
 "qx" = (/obj/machinery/hologram/holopad,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 9},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 10},/mob/living/silicon/ai,/turf/simulated/floor/bluegrid,/area/space)
 "qy" = (/turf/simulated/floor/tiled/old_dark,/area/space)
 "qA" = (/obj/random/junk,/turf/simulated/floor,/area/space)
 "qD" = (/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/steel,/area/rnd/xenobiology)
-"qF" = (/obj/machinery/button/remote/blast_door{dir = 8; id = "xenobio"; name = "xenobiology lockdown blast door-control"; pixel_x = 32; pixel_y = 1},/turf/space,/area/rnd/xenobiology)
+"qF" = (/obj/machinery/button/remote/blast_door{dir = 8; id = "xenobio"; name = "xenobiology lockdown blast door-control"; pixel_x = 32; pixel_y = 1},/turf/simulated/floor/tiled/steel,/area/rnd/xenobiology)
 "qG" = (/obj/structure/safe/floor,/turf/simulated/floor/tiled/dark,/area/ai_monitored/storage/secure)
 "qH" = (/turf/simulated/wall/shuttle/unique/research{desc = "The largest commercially available sublight engine, with a shuttle built around it and painted in NanoTrasen research division colors. Looks sleek, and fast."; icon_state = "0,6"; name = "survey shuttle"},/area/space)
 "qI" = (/obj/machinery/telecomms/server{name = "Research Database Server"},/obj/structure/window/reinforced,/obj/structure/window/reinforced{dir = 4},/turf/simulated/floor/greengrid/nitrogen{initial_gas_mix = "n2=100;TEMP=80"; temperature = 80},/area/server{name = "\improper Database Mainframe"})
 "qJ" = (/obj/machinery/atmospherics/unary/vent_pump/on{dir = 1},/turf/space,/area/ai_monitored/storage/secure)
 "qM" = (/obj/machinery/light/small{dir = 1},/obj/structure/disposalpipe/trunk,/obj/machinery/disposal,/turf/simulated/floor/tiled/steel,/area/rnd/xenoarch_storage)
-"qO" = (/obj/item/radio{anchored = 1; canhear_range = 7; frequency = 1487; icon = 'icons/obj/items.dmi'; icon_state = "red_phone"; name = "Virology Emergency Phone"; pixel_x = -6; pixel_y = 8},/turf/space,/area/space)
+"qO" = (/obj/item/device/radio/phone/medbay{pixel_x = -8; pixel_y = 8},/obj/structure/table/steel,/turf/simulated/floor/carpet/rubber,/area/space)
 "qP" = (/obj/structure/closet/malf/suits,/obj/item/clothing/mask/ai,/turf/simulated/floor/bluegrid,/area/space)
 "qR" = (/turf/simulated/wall/shuttle/unique/research{desc = "The largest commercially available sublight engine, with a shuttle built around it and painted in NanoTrasen research division colors. Looks sleek, and fast."; icon_state = "9,5"; name = "survey shuttle"},/area/space)
 "qS" = (/obj/structure/table/steel,/turf/simulated/floor/carpet/rubber,/area/rnd/xenobiology)
@@ -551,7 +552,7 @@
 "qZ" = (/obj/random/junk,/obj/machinery/atmospherics/unary/vent_scrubber/on{id_tag = "database_hard_scrubber"},/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/tiled/steel,/area/space)
 "rc" = (/obj/structure/extinguisher_cabinet{dir = 8; pixel_x = 30},/obj/machinery/light/small{dir = 4; pixel_y = 0},/obj/structure/dispenser/phoron,/turf/space,/area/space)
 "rd" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 10},/turf/simulated/floor,/area/space)
-"rf" = (/obj/structure/closet/secure_closet/hydroponics{req_access = list(47)},/turf/space,/area/space)
+"rf" = (/obj/structure/closet/secure_closet/hydroponics{req_access = list(47)},/turf/simulated/floor/tiled/steel,/area/space)
 "rg" = (/obj/random/firstaid,/obj/machinery/light/small/emergency{dir = 8; icon_state = "bulb0"; light_power = 0},/obj/machinery/firealarm{dir = 1; pixel_y = -24},/turf/simulated/floor/tiled/steel,/area/rnd/xenobiology)
 "rh" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 8},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/disposalpipe/segment{dir = 4},/turf/simulated/floor/tiled/old_dark,/area/security/checkpoint)
 "rj" = (/obj/machinery/atmospherics/pipe/simple/hidden,/obj/structure/filingcabinet/chestdrawer{pixel_x = 8},/obj/machinery/requests_console{announcementConsole = 1; department = "Expeditionary Preparation Dock"; departmentType = 5; name = "Expedition Dock RC"; pixel_x = 32},/turf/simulated/floor/tiled/dark,/area/space)
@@ -588,7 +589,7 @@
 "sg" = (/turf/simulated/wall/shuttle/unique/research{desc = "The largest commercially available sublight engine, with a shuttle built around it and painted in NanoTrasen research division colors. Looks sleek, and fast."; icon_state = "6,4"; name = "survey shuttle"},/area/space)
 "sh" = (/obj/machinery/telecomms/server/presets/medical,/turf/simulated/floor/bluegrid{initial_gas_mix = "n2=100;TEMP=80"; name = "Mainframe Base"},/area/tcommsat/chamber)
 "sj" = (/obj/machinery/button/remote/blast_door{dir = 4; pixel_x = -22},/turf/space,/area/ai_monitored/storage/secure)
-"sk" = (/obj/item/pipe{dir = 5},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 8},/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/turf/simulated/floor,/area/ai_monitored/storage/secure)
+"sk" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 8},/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/turf/simulated/floor,/area/ai_monitored/storage/secure)
 "sl" = (/obj/machinery/telecomms/server/presets/engineering,/turf/simulated/floor/bluegrid{initial_gas_mix = "n2=100;TEMP=80"; name = "Mainframe Base"},/area/tcommsat/chamber)
 "sm" = (/obj/structure/sign/examroom,/turf/simulated/wall/r_wall,/area/medical/exam_room{name = "\improper Xenobio Exam Room"})
 "sn" = (/obj/machinery/suspension_gen{dir = 8; icon_state = "suspension3"; pixel_x = -11},/turf/simulated/wall/shuttle/dark,/area/ai_monitored/storage/secure)
@@ -596,7 +597,7 @@
 "sp" = (/obj/effect/floor_decal/industrial/hatch/yellow,/obj/machinery/door/airlock/medical{name = "Infirmary"},/turf/simulated/floor/tiled/dark,/area/space)
 "sr" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"; pixel_y = 0},/turf/simulated/floor/tiled/steel,/area/space)
 "ss" = (/obj/structure/table/reinforced,/obj/item/storage/box/gloves{pixel_x = -7; pixel_y = 12},/obj/item/storage/box/masks{pixel_x = -7; pixel_y = -3},/obj/item/storage/firstaid/surgery{pixel_x = 1; pixel_y = 16},/turf/simulated/floor/tiled/dark{initial_gas_mix = null; name = "zaddat floor"; nitrogen = null; oxygen = 450; pressure_resistance = 450},/area/space)
-"su" = (/obj/machinery/body_scanconsole,/obj/machinery/light/small{dir = 1},/turf/space,/area/space)
+"su" = (/obj/machinery/body_scanconsole{dir = 8},/obj/machinery/light/small{dir = 1},/turf/simulated/floor/tiled/white,/area/space)
 "sw" = (/obj/effect/floor_decal/corner/lime{dir = 9},/obj/structure/closet/walllocker/emerglocker/west{pixel_x = -29},/turf/simulated/floor/tiled/dark,/area/space)
 "sx" = (/obj/machinery/containment_field,/turf/simulated/floor,/area/ai_monitored/storage/secure)
 "sy" = (/obj/structure/grille,/obj/structure/window/reinforced/polarized{dir = 4},/obj/structure/curtain/black,/turf/simulated/floor/tiled/dark{initial_gas_mix = null; name = "zaddat floor"; nitrogen = null; oxygen = 450; pressure_resistance = 450},/area/space)
@@ -604,7 +605,7 @@
 "sC" = (/obj/item/storage/box/monkeycubes,/obj/item/storage/box/monkeycubes,/obj/item/storage/box/monkeycubes,/obj/item/storage/box/monkeycubes,/obj/structure/window/reinforced,/turf/simulated/floor/tiled/steel,/area/rnd/xenobiology)
 "sD" = (/obj/machinery/light_switch{icon_state = "light0"; name = "emergency lighting switch"},/turf/simulated/floor/tiled/steel,/area/space)
 "sE" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"; pixel_y = 0},/obj/machinery/door/airlock/freezer_maint{name = "Cold Maintenance Access"; req_one_access = list(12,47)},/turf/simulated/floor{base_name = "cold plating"; name = "cold plating"; nitrogen = 100; oxygen = 0; temperature = 80},/area/space)
-"sG" = (/obj/random/firstaid,/obj/random/medical,/obj/item/storage/belt/medical,/turf/space,/area/space)
+"sG" = (/obj/random/firstaid,/obj/random/medical,/obj/item/storage/belt/medical,/obj/structure/table/rack,/turf/simulated/floor/tiled/old_white,/area/space)
 "sH" = (/obj/machinery/door/blast/regular{density = 0; dir = 2; icon_state = "pdoor0"; id = "xenobio"; name = "Containment Blast Doors"; opacity = 0},/turf/simulated/floor/tiled/steel,/area/rnd/xenobiology)
 "sK" = (/obj/item/SWF_uplink,/obj/item/stack/telecrystal{amount = 27},/obj/item/storage/box/syndie_kit/ewar_voice,/obj/machinery/atmospherics/unary/vent_scrubber/on,/obj/item/plastique,/turf/space,/area/ai_monitored/storage/secure)
 "sP" = (/turf/simulated/wall/shuttle/unique/research{desc = "The largest commercially available sublight engine, with a shuttle built around it and painted in NanoTrasen research division colors. Looks sleek, and fast."; icon_state = "8,2"; name = "survey shuttle"},/area/space)
@@ -613,6 +614,7 @@
 "sS" = (/turf/simulated/wall/shuttle/unique/research{desc = "The largest commercially available sublight engine, with a shuttle built around it and painted in NanoTrasen research division colors. Looks sleek, and fast."; icon_state = "9,7"; name = "survey shuttle"},/area/space)
 "sT" = (/turf/simulated/floor/tiled,/area/space)
 "sV" = (/obj/structure/window/phoronreinforced{dir = 1},/obj/structure/grille,/obj/machinery/door/blast/shutters{layer = 3.3},/turf/space,/area/ai_monitored/storage/secure)
+"sX" = (/mob/living/simple_animal/hostile/morph,/turf/simulated/floor/tiled,/area/rnd/misc_lab)
 "sY" = (/mob/living/bot/medbot{desc = "A little medical robot labeled as an 'Emergency Treatment Assistant'. He looks somewhat underwhelmed."; name = "E.T.A"},/turf/simulated/floor/tiled/old_white,/area/space)
 "sZ" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"; pixel_y = 0},/obj/structure/lattice/catwalk/indoor/grate/light/old,/turf/simulated/floor{base_name = "cold plating"; name = "cold plating"; nitrogen = 100; oxygen = 0; temperature = 80},/area/server)
 "ta" = (/obj/item/stack/material/xenochitin,/obj/item/stack/material/xenochitin,/obj/item/stack/material/xenochitin,/obj/structure/table/skrell,/turf/simulated/floor/phoron,/area/rnd/misc_lab)
@@ -627,7 +629,7 @@
 "tp" = (/obj/machinery/atmospherics/pipe/simple/hidden/black{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/turf/space,/area/space)
 "ts" = (/obj/structure/cable,/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"; pixel_y = 0},/turf/simulated/floor{base_name = "cold plating"; name = "cold plating"; nitrogen = 100; oxygen = 0; temperature = 80},/area/server{name = "\improper Database Mainframe"})
 "tt" = (/obj/machinery/bodyscanner{dir = 8},/obj/machinery/light/small,/turf/space,/area/space)
-"tw" = (/obj/machinery/camera/network/medbay,/turf/space,/area/space)
+"tw" = (/obj/machinery/camera/network/medbay,/turf/simulated/floor/tiled/old_white,/area/space)
 "tz" = (/obj/machinery/r_n_d/server/centcom,/obj/item/material/shard,/turf/simulated/floor/bluegrid{initial_gas_mix = "n2=100;TEMP=80"; name = "Mainframe Base"},/area/server{name = "\improper Database Mainframe"})
 "tB" = (/obj/structure/table/standard,/obj/effect/floor_decal/corner/black/diagonal,/obj/effect/decal/cleanable/dirt{icon = 'modular_core\icons\turf\decals.dmi'; icon_state = "rust"; name = "rust"},/turf/simulated/floor/tiled/white,/area/space)
 "tC" = (/obj/machinery/body_scanconsole,/turf/space,/area/space)
@@ -638,7 +640,7 @@
 "tJ" = (/obj/machinery/light/small{dir = 8},/turf/simulated/floor,/area/ai_monitored/storage/secure)
 "tK" = (/obj/item/stool/padded,/turf/space,/area/space)
 "tM" = (/obj/turbolift_map_holder,/turf/simulated/floor/tiled/dark,/area/security/checkpoint)
-"tN" = (/obj/item/storage/box/syringes{pixel_x = 4; pixel_y = 4},/obj/item/storage/box/beakers,/obj/item/reagent_containers/dropper,/turf/space,/area/rnd/xenobiology)
+"tN" = (/obj/item/storage/box/syringes{pixel_x = 4; pixel_y = 4},/obj/item/storage/box/beakers,/obj/item/reagent_containers/dropper,/turf/simulated/floor/tiled/steel,/area/rnd/xenobiology)
 "tP" = (/obj/machinery/giga_drill,/obj/effect/decal/cleanable/dirt,/turf/space,/area/rnd/xenoarch_storage)
 "tR" = (/obj/structure/sign/directions/medical{dir = 4},/obj/structure/sign/directions/evac{dir = 1; pixel_y = 7},/obj/structure/sign/directions/security{dir = 8; pixel_y = -7},/turf/simulated/wall/r_wall,/area/rnd/xenobiology)
 "tS" = (/obj/effect/floor_decal/corner/purple{dir = 5},/obj/effect/floor_decal/industrial/warning{dir = 1},/turf/simulated/floor/tiled/dark,/area/space)
@@ -750,7 +752,7 @@
 "xg" = (/obj/machinery/disposal,/turf/space,/area/engineering/break_room)
 "xi" = (/obj/machinery/door/blast/regular{density = 0; dir = 2; icon_state = "pdoor0"; id = "xenobio"; name = "Containment Blast Doors"; opacity = 0},/obj/structure/sign/biohazard,/turf/simulated/wall/r_wall,/area/storage/secure)
 "xk" = (/obj/machinery/door/airlock/highsecurity{name = "Artificial Inteligence Wing"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/space,/area/space)
-"xl" = (/obj/item/storage/box/masks,/turf/space,/area/space)
+"xl" = (/obj/item/storage/box/masks,/obj/structure/table/standard,/turf/simulated/floor/carpet/rubber,/area/space)
 "xn" = (/obj/random/tool,/turf/simulated/floor,/area/space)
 "xp" = (/obj/machinery/atmospherics/pipe/simple/hidden,/turf/space,/area/space)
 "xq" = (/obj/structure/cable,/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"; pixel_y = 0},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/turf/simulated/floor{base_name = "cold plating"; name = "cold plating"; nitrogen = 100; oxygen = 0; temperature = 80},/area/server{name = "\improper Database Mainframe"})
@@ -763,7 +765,7 @@
 "xA" = (/obj/effect/gibspawner/robot,/turf/simulated/floor/tiled/dark,/area/storage/secure)
 "xB" = (/obj/structure/table/standard,/turf/simulated/floor/tiled/old_white,/area/medical/exam_room{name = "\improper Xenobio Exam Room"})
 "xE" = (/obj/machinery/recharge_station,/obj/effect/floor_decal/corner/purple/diagonal{dir = 4},/obj/machinery/light{dir = 8; icon_state = "tube1"},/obj/effect/floor_decal/corner/purple{dir = 9},/turf/simulated/floor/tiled/dark,/area/space)
-"xF" = (/obj/machinery/light_switch{pixel_x = 8; pixel_y = -25},/turf/simulated/floor/tiled/steel,/area/rnd/xenoarch_storage)
+"xF" = (/obj/machinery/light_switch{dir = 1; pixel_x = 4; pixel_y = -24},/turf/simulated/floor/tiled/steel,/area/rnd/xenoarch_storage)
 "xG" = (/obj/machinery/camera/network/research,/turf/space,/area/rnd/xenoarch_storage)
 "xH" = (/obj/item/stack/material/steel{amount = 50},/obj/item/stack/material/steel{amount = 50},/obj/structure/table/rack,/turf/simulated/floor/tiled/old_dark,/area/space)
 "xJ" = (/obj/effect/floor_decal/corner/white/diagonal,/obj/structure/bookcase/manuals/engineering,/obj/item/book/manual/atmospipes,/obj/item/book/manual/evaguide,/turf/simulated/floor/tiled,/area/engineering/break_room)
@@ -779,10 +781,10 @@
 "xX" = (/obj/structure/sign/poster,/turf/simulated/wall/r_wall,/area/rnd/xenoarch_storage)
 "xY" = (/turf/simulated/wall/shuttle/unique/research{desc = "The largest commercially available sublight engine, with a shuttle built around it and painted in NanoTrasen research division colors. Looks sleek, and fast."; icon_state = "9,10"; name = "survey shuttle"},/area/space)
 "ya" = (/obj/structure/closet/radiation,/obj/item/clothing/glasses/meson,/obj/item/clothing/glasses/meson,/turf/space,/area/ai_monitored/storage/secure)
-"yg" = (/obj/machinery/status_display{pixel_y = 30},/turf/space,/area/ai_monitored/storage/secure)
+"yg" = (/obj/machinery/status_display{pixel_y = 30},/turf/simulated/floor/tiled/dark,/area/ai_monitored/storage/secure)
 "yi" = (/obj/machinery/light/small/readylight{dir = 8},/turf/simulated/floor/tiled/steel,/area/rnd/xenobiology)
 "yl" = (/obj/machinery/disposal,/obj/structure/disposalpipe/trunk{dir = 1},/turf/space,/area/space)
-"ym" = (/obj/machinery/door/airlock/glass_medical{name = "Scan Room"; req_one_access = newlist()},/turf/space,/area/space)
+"ym" = (/obj/machinery/door/airlock/glass_medical{name = "Scan Room"; req_one_access = newlist()},/turf/simulated/floor/tiled/white,/area/space)
 "yo" = (/obj/machinery/shower{pixel_y = 10},/obj/effect/decal/cleanable/dirt{icon = 'modular_core\icons\turf\decals.dmi'; icon_state = "rust"; name = "rust"},/turf/simulated/floor/tiled/steel,/area/space)
 "yp" = (/obj/structure/window/phoronreinforced,/obj/structure/grille,/turf/simulated/floor,/area/ai_monitored/storage/secure)
 "yq" = (/obj/structure/window/reinforced{dir = 4},/obj/structure/cable/green{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/structure/reagent_dispensers/watertank,/turf/simulated/floor/tiled/steel,/area/rnd/xenobiology)
@@ -818,10 +820,10 @@
 "zg" = (/obj/effect/decal/cleanable/dirt{icon = 'modular_core\icons\turf\decals.dmi'; icon_state = "rust"; name = "rust"},/turf/simulated/floor/plating,/area/space)
 "zh" = (/obj/structure/table/reinforced,/obj/item/clipboard,/obj/item/pen,/turf/simulated/floor/tiled/dark,/area/space)
 "zi" = (/obj/structure/bookcase/manuals/research_and_development,/turf/space,/area/space)
-"zk" = (/obj/item/pipe{dir = 4},/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/turf/simulated/floor,/area/ai_monitored/storage/secure)
+"zk" = (/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/turf/simulated/floor,/area/ai_monitored/storage/secure)
 "zm" = (/obj/machinery/atmospherics/unary/freezer{dir = 8},/turf/simulated/floor/tiled/white,/area/space)
 "zp" = (/obj/structure/bed/chair/shuttle{dir = 4},/obj/effect/floor_decal/corner/purple/diagonal{dir = 4},/obj/machinery/light{dir = 8; icon_state = "tube1"},/obj/effect/floor_decal/corner/purple{dir = 9},/turf/simulated/floor/tiled/dark,/area/space)
-"zq" = (/obj/machinery/atmospherics/pipe/tank/air{dir = 8},/turf/space,/area/rnd/xenobiology)
+"zq" = (/obj/machinery/light/spot{dir = 4},/turf/simulated/floor/diona,/area/space)
 "zr" = (/obj/machinery/camera/network/engineering{dir = 1},/obj/structure/bookcase/manuals/engineering,/obj/item/book/manual/supermatter_engine{pixel_x = -3},/obj/item/book/manual/engineering_singularity_safety,/obj/item/book/manual/engineering_particle_accelerator,/turf/space,/area/engineering/break_room)
 "zs" = (/obj/machinery/washing_machine,/obj/machinery/atmospherics/pipe/manifold/hidden/supply{dir = 4},/turf/simulated/floor,/area/space)
 "zt" = (/obj/machinery/media/jukebox,/turf/space,/area/engineering/break_room)
@@ -838,7 +840,7 @@
 "zI" = (/obj/machinery/power/apc{dir = 4; name = "east bump"; pixel_x = 24},/obj/structure/cable/green{d2 = 8; icon_state = "0-8"},/obj/machinery/atmospherics/pipe/simple/hidden,/turf/simulated/floor/tiled/dark,/area/space)
 "zJ" = (/obj/machinery/door/airlock/glass_research{name = "EVA Preparation"; req_access = list(7)},/turf/simulated/floor/tiled/old,/area/rnd/xenoarch_storage)
 "zK" = (/obj/machinery/atmospherics/pipe/manifold/hidden{dir = 8},/obj/structure/lattice/catwalk/indoor/grate,/turf/simulated/floor/plating,/area/space)
-"zM" = (/obj/item/stack/cable_coil,/obj/item/stack/material/phoron{amount = 2},/turf/space,/area/rnd/xenobiology)
+"zM" = (/obj/item/stack/cable_coil,/obj/item/stack/material/phoron{amount = 2},/turf/simulated/floor/tiled/steel,/area/rnd/xenobiology)
 "zN" = (/obj/item/laser_components/capacitor/bluespace,/turf/simulated/floor/tiled,/area/ai_monitored/storage/secure)
 "zP" = (/obj/item/reagent_containers/syringe,/obj/item/reagent_containers/glass/beaker/vial/random,/obj/item/reagent_containers/glass/beaker/vial/random/toxin{pixel_x = -8; pixel_y = 4; random_reagent_list = list(list("mindbreaker" = 10, "space_drugs" = 20) = 3, list("carpotoxin" = 15) = 2, list("impedrezene" = 15) = 2, list("phoron" = 50) = 1)},/obj/item/reagent_containers/glass/beaker/vial/random/toxin{pixel_x = -5; pixel_y = 1; random_reagent_list = list(list("mindbreaker" = 10, "space_drugs" = 20) = 3, list("carpotoxin" = 15) = 2, list("impedrezene" = 15) = 2, list("phoron" = 50) = 1)},/obj/item/book/manual/materials_chemistry_analysis,/obj/item/reagent_containers/food/drinks/flask/shiny,/turf/space,/area/space)
 "zT" = (/obj/structure/janitorialcart,/obj/item/mop,/obj/item/reagent_containers/glass/bucket,/turf/space,/area/janitor{name = "\improper Research Custodial Closet"})
@@ -863,7 +865,7 @@
 "AE" = (/obj/machinery/vending/hydronutrients,/obj/effect/floor_decal/corner/black/diagonal,/turf/simulated/floor/tiled/white,/area/space)
 "AH" = (/obj/machinery/status_display,/turf/simulated/wall/r_wall,/area/server{name = "\improper Database Mainframe"})
 "AI" = (/obj/machinery/alarm{pixel_y = 22},/obj/machinery/power/apc{dir = 4; name = "east bump"; pixel_x = 24; pixel_y = 7},/obj/structure/cable{icon_state = "0-2"},/obj/machinery/button/remote/airlock{id = "dorm5"; name = "Room 5 Lock"; pixel_x = 26; pixel_y = -4; specialfunctions = 4},/turf/simulated/floor/wood,/area/space)
-"AK" = (/obj/structure/sink{dir = 4; pixel_x = 11},/turf/space,/area/space)
+"AK" = (/obj/structure/sink{dir = 4; pixel_x = 11},/turf/simulated/floor/carpet/rubber,/area/space)
 "AM" = (/obj/effect/decal/cleanable/blood/drip{pixel_x = 9; pixel_y = -5},/mob/living/simple_animal/hostile/mimic/crate,/turf/simulated/floor/tiled,/area/rnd/misc_lab)
 "AN" = (/obj/structure/sink/kitchen{name = "sink"; pixel_y = 32},/turf/simulated/floor/tiled/freezer,/area/space)
 "AO" = (/obj/machinery/atmospherics/pipe/simple/hidden{dir = 6},/obj/effect/floor_decal/industrial/warning{dir = 4},/turf/simulated/floor/tiled/freezer,/area/space)
@@ -890,13 +892,13 @@
 "Bt" = (/obj/structure/bed/chair/office/dark,/obj/effect/landmark/start{name = "Security Officer"},/obj/structure/disposalpipe/segment{dir = 8; icon_state = "pipe-c"},/turf/simulated/floor/tiled/dark,/area/security/checkpoint)
 "Bu" = (/obj/machinery/door/blast/regular{density = 0; dir = 4; icon_state = "pdoor0"; id = "xenobio"; name = "Containment Blast Doors"; opacity = 0},/obj/structure/grille,/obj/structure/window/reinforced/full,/turf/space,/area/storage/secure)
 "Bv" = (/obj/machinery/light/small,/turf/simulated/floor/tiled,/area/rnd/xenobiology)
-"Bw" = (/obj/random/firstaid,/obj/random/medical,/turf/space,/area/space)
-"By" = (/obj/effect/decal/cleanable/dirt,/turf/space,/area/rnd/xenobiology)
-"BA" = (/obj/machinery/status_display{pixel_y = -30},/turf/space,/area/ai_monitored/storage/secure)
+"Bw" = (/obj/random/firstaid,/obj/random/medical,/obj/structure/table/rack,/turf/simulated/floor/tiled/old_white,/area/space)
+"By" = (/obj/structure/diona/vines,/mob/living/carbon/alien/diona,/turf/simulated/floor/diona,/area/space)
+"BA" = (/obj/machinery/status_display{pixel_y = -30},/turf/simulated/floor/tiled/dark,/area/ai_monitored/storage/secure)
 "BC" = (/obj/structure/shuttle_part/research{desc = "The largest commercially available sublight engine, with a shuttle built around it and painted in NanoTrasen research division colors. Looks sleek, and fast."; icon_state = "6,0"; name = "survey shuttle"},/turf/unsimulated/floor/asteroid/ash,/area/space)
 "BD" = (/obj/structure/window/shuttle/unique/research{icon_state = "7,14"},/turf/simulated/floor/plating,/area/space)
 "BG" = (/obj/machinery/door/airlock/multi_tile/glass{name = "Engineering Department Break Room"; req_one_access = list(10)},/turf/space,/area/engineering/break_room)
-"BH" = (/obj/structure/bed/chair/office/light{dir = 8},/turf/space,/area/space)
+"BH" = (/obj/structure/bed/chair/office/light{dir = 8},/turf/simulated/floor/tiled/steel,/area/space)
 "BI" = (/obj/machinery/light_switch{pixel_x = -25; pixel_y = 25},/obj/machinery/alarm{pixel_y = 22},/obj/machinery/power/apc{dir = 4; name = "east bump"; pixel_x = 24; pixel_y = 7},/obj/machinery/button/remote/airlock{id = "dorm3"; name = "Room 3 Lock"; pixel_x = 26; pixel_y = -4; specialfunctions = 4},/obj/structure/cable{icon_state = "0-2"},/turf/simulated/floor/wood,/area/space)
 "BJ" = (/obj/machinery/auto_cloner{desc = "An old model cyborg rests within."; icon = 'icons/obj/xenoarchaeology.dmi'; icon_state = "borgcharger1(old)"; name = "relic cyborg pod"},/turf/simulated/floor/tiled/dark,/area/space)
 "BK" = (/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 8},/turf/space,/area/space)
@@ -906,12 +908,12 @@
 "BR" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/turf/simulated/floor/tiled/steel,/area/space)
 "BS" = (/obj/machinery/camera/motion,/obj/item/rig/hazard/equipped,/turf/simulated/floor/tiled/dark,/area/storage/secure)
 "BV" = (/obj/machinery/door/airlock/research{name = "Storage 2"},/obj/effect/floor_decal/industrial/hatch/yellow,/turf/simulated/floor/tiled/dark,/area/space)
-"BX" = (/obj/item/storage/toolbox/electrical,/obj/item/stack/cable_coil,/turf/space,/area/rnd/xenobiology)
+"BX" = (/obj/item/storage/toolbox/electrical,/obj/item/stack/cable_coil,/turf/simulated/floor/tiled/steel,/area/rnd/xenobiology)
 "BY" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/steel,/area/space)
 "Cb" = (/obj/structure/cryofeed{dir = 4},/turf/simulated/floor/tiled{nitrogen = 100; oxygen = 0; temperature = 80},/area/server{name = "\improper Database Mainframe"})
 "Cc" = (/obj/structure/grille,/turf/simulated/floor/plating/snow,/area/server{name = "\improper Database Mainframe"})
 "Cd" = (/obj/random/plushie,/turf/simulated/floor/silver,/area/rnd/misc_lab)
-"Cf" = (/obj/structure/closet/crate/secure/phoron,/turf/space,/area/rnd/xenobiology)
+"Cf" = (/obj/structure/closet/crate/secure/phoron,/turf/simulated/floor/tiled/steel,/area/rnd/xenobiology)
 "Cg" = (/obj/machinery/atmospherics/unary/vent_pump/on,/turf/simulated/floor/tiled/dark,/area/ai_monitored/storage/secure)
 "Ch" = (/turf/simulated/floor/bluegrid{initial_gas_mix = "n2=100;TEMP=80"; name = "Mainframe Base"},/area/tcommsat/chamber)
 "Ck" = (/obj/item/ore/phoron,/turf/simulated/floor/tiled,/area/ai_monitored/storage/secure)
@@ -947,7 +949,7 @@
 "CZ" = (/obj/structure/grille,/obj/structure/window/reinforced/full,/obj/structure/window/reinforced{dir = 1},/turf/space,/area/server{name = "\improper Database Mainframe"})
 "Db" = (/obj/effect/floor_decal/industrial/warning/dust,/obj/effect/decal/cleanable/dirt{icon = 'modular_core\icons\turf\decals.dmi'; icon_state = "rust"; name = "rust"},/turf/simulated/floor/tiled/steel,/area/space)
 "Dc" = (/obj/effect/floor_decal/industrial/warning/dust,/turf/simulated/floor/tiled/steel,/area/space)
-"De" = (/obj/item/storage/firstaid/surgery,/obj/item/reagent_containers/spray/cleaner{desc = "Someone has crossed out the Space from Space Cleaner and written in Surgery. 'Do not remove under punishment of death!!!' is scrawled on the back."; name = "Surgery Cleaner"; pixel_x = 7; pixel_y = 6},/turf/space,/area/space)
+"De" = (/obj/item/storage/firstaid/surgery,/obj/item/reagent_containers/spray/cleaner{desc = "Someone has crossed out the Space from Space Cleaner and written in Surgery. 'Do not remove under punishment of death!!!' is scrawled on the back."; name = "Surgery Cleaner"; pixel_x = 7; pixel_y = 6},/obj/structure/table/standard,/turf/simulated/floor/carpet/rubber,/area/space)
 "Dj" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor,/area/space)
 "Dk" = (/obj/structure/cable{d2 = 4; icon_state = "0-4"},/obj/machinery/power/terminal{dir = 1},/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor,/area/space)
 "Dl" = (/obj/structure/table/rack,/turf/simulated/floor/tiled/steel,/area/space)
@@ -997,14 +999,14 @@
 "Ev" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 9},/turf/simulated/floor/tiled/old_dark,/area/security/checkpoint)
 "Ex" = (/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 1},/obj/machinery/ai_status_display{pixel_y = -32},/turf/space,/area/ai_monitored/storage/secure)
 "Ey" = (/obj/machinery/light/small/readylight,/turf/simulated/floor/tiled/steel,/area/rnd/xenobiology)
-"EA" = (/obj/structure/cable{d2 = 2; icon_state = "0-2"},/turf/space,/area/server{name = "\improper Database Mainframe"})
+"EA" = (/obj/structure/cable{d2 = 2; icon_state = "0-2"},/turf/simulated/floor/tiled/airless,/area/server{name = "\improper Database Mainframe"})
 "EB" = (/obj/machinery/access_button/airlock_interior{master_tag = "mining_airlock"; pixel_x = 7; pixel_y = 22},/turf/simulated/floor/tiled/steel,/area/space)
 "ED" = (/obj/machinery/door/blast/regular/open{dir = 4; id = "bunker_blast"; name = "Bunker Blast Doors"},/turf/simulated/floor/plating,/area/space)
 "EE" = (/obj/machinery/door/firedoor,/obj/machinery/atmospherics/pipe/simple/hidden,/obj/machinery/door/airlock/external{frequency = 1380; icon_state = "door_locked"; id_tag = "science_bridge_in"; name = "Shuttle Docking Port"},/obj/effect/decal/cleanable/dirt,/obj/effect/floor_decal/industrial/hatch/yellow,/turf/simulated/floor/plating,/area/space)
 "EF" = (/obj/machinery/vending/sovietsoda{desc = "An old sweet water vending machine, colder than ice. How did this end up here?"},/turf/simulated/floor{base_name = "cold plating"; name = "cold plating"; nitrogen = 100; oxygen = 0; temperature = 80},/area/space)
 "EG" = (/obj/random/toolbox,/turf/simulated/floor/tiled/dark,/area/ai_monitored/storage/secure)
 "EH" = (/obj/machinery/portable_atmospherics/canister/oxygen,/turf/simulated/floor/tiled/dark,/area/space)
-"EI" = (/obj/structure/cryofeed{dir = 4},/turf/space,/area/server{name = "\improper Database Mainframe"})
+"EI" = (/obj/structure/cryofeed{dir = 4},/turf/simulated/floor/tiled/airless,/area/server{name = "\improper Database Mainframe"})
 "EK" = (/obj/machinery/telecomms/receiver,/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/structure/cable{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/greengrid/nitrogen{initial_gas_mix = "n2=100;TEMP=80"; temperature = 80},/area/server{name = "\improper Database Mainframe"})
 "EL" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor/tiled/dark,/area/ai_monitored/storage/secure)
 "EM" = (/obj/structure/grille,/obj/structure/window/reinforced/full,/obj/structure/window/reinforced{dir = 8},/turf/simulated/floor/plating,/area/space)
@@ -1021,7 +1023,7 @@
 "Fa" = (/obj/machinery/door/window/brigdoor{dir = 2},/obj/item/material/ashtray/plastic,/obj/structure/table/reinforced/steel,/turf/simulated/floor/tiled/dark,/area/security/checkpoint)
 "Fb" = (/obj/machinery/power/apc{dir = 1; name = "north bump"; pixel_y = 28},/obj/structure/cable{d2 = 2; icon_state = "0-2"},/turf/space,/area/space)
 "Fd" = (/obj/machinery/status_display,/turf/simulated/wall/r_wall,/area/rnd/hallway)
-"Fe" = (/obj/item/pipe{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 8},/obj/machinery/meter{frequency = 1443; id = "scrub_main_meter"; name = "Scrubbers Loop"},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/turf/simulated/floor,/area/ai_monitored/storage/secure)
+"Fe" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 8},/obj/machinery/meter{frequency = 1443; id = "scrub_main_meter"; name = "Scrubbers Loop"},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/turf/simulated/floor,/area/ai_monitored/storage/secure)
 "Ff" = (/obj/machinery/door/airlock/glass_centcom{name = "Database Access"},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 8},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/space,/area/ai_monitored/storage/eva{name = "Database Prep Room"})
 "Fg" = (/obj/machinery/suit_storage_unit/standard_unit{HELMET_TYPE = /obj/item/clothing/head/helmet/space/void/exploration/alt; MASK_TYPE = /obj/item/clothing/mask/gas; SUIT_TYPE = /obj/item/clothing/suit/space/void/exploration/alt},/turf/space,/area/space)
 "Fh" = (/obj/structure/shuttle_part/research{desc = "The largest commercially available sublight engine, with a shuttle built around it and painted in NanoTrasen research division colors. Looks sleek, and fast."; icon_state = "1,8"; name = "survey shuttle"},/turf/unsimulated/floor/asteroid/ash,/area/space)
@@ -1030,7 +1032,7 @@
 "Fm" = (/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 8},/turf/simulated/floor,/area/space)
 "Fo" = (/obj/machinery/door/airlock/maintenance_hatch,/turf/simulated/floor{base_name = "cold plating"; name = "cold plating"; nitrogen = 100; oxygen = 0; temperature = 80},/area/space)
 "Fp" = (/obj/structure/mirror{pixel_x = 30},/obj/structure/sink{dir = 4; pixel_x = 14},/obj/effect/decal/cleanable/dirt{icon = 'modular_core\icons\turf\decals.dmi'; icon_state = "rust"; name = "rust"},/turf/simulated/floor/tiled/steel,/area/space)
-"Fq" = (/obj/structure/cryofeed,/turf/space,/area/server{name = "\improper Database Mainframe"})
+"Fq" = (/obj/structure/cryofeed,/turf/simulated/floor/tiled/airless,/area/server{name = "\improper Database Mainframe"})
 "Fr" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor/tiled/old_dark,/area/security/checkpoint)
 "Fu" = (/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 8},/turf/simulated/floor/tiled/old_dark,/area/security/checkpoint)
 "Fv" = (/turf/simulated/floor,/area/ai_monitored/storage/secure)
@@ -1074,6 +1076,7 @@
 "GB" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_x = 0},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,/obj/structure/lattice/catwalk/indoor/grate/light/old,/turf/simulated/floor{base_name = "cold plating"; name = "cold plating"; nitrogen = 100; oxygen = 0; temperature = 80},/area/server{name = "\improper Database Mainframe"})
 "GC" = (/obj/structure/closet/wardrobe/science_white,/turf/simulated/floor/tiled/old_white,/area/rnd/xenobiology)
 "GD" = (/obj/structure/table/rack,/obj/item/soap/nanotrasen,/obj/item/towel/random,/turf/simulated/floor/tiled/old_white,/area/rnd/xenobiology)
+"GE" = (/obj/structure/table/steel,/turf/simulated/floor/carpet/rubber,/area/space)
 "GF" = (/obj/machinery/washing_machine,/turf/space,/area/rnd/xenoarch_storage)
 "GG" = (/obj/machinery/shower{dir = 4},/turf/simulated/floor/tiled/white,/area/rnd/xenobiology)
 "GH" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 8},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor,/area/space)
@@ -1093,7 +1096,7 @@
 "Ha" = (/obj/machinery/smartfridge/secure/extract,/turf/simulated/wall/r_wall,/area/rnd/xenobiology)
 "Hc" = (/obj/structure/closet/firecloset/full,/turf/simulated/floor/tiled/steel,/area/rnd/xenobiology)
 "He" = (/obj/machinery/atmospherics/pipe/manifold/visible/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/visible/scrubbers{dir = 10},/turf/simulated/floor,/area/space)
-"Hf" = (/obj/item/pipe,/turf/space,/area/space)
+"Hf" = (/obj/machinery/door/airlock/glass{icon_state = "door_locked"; locked = 1},/turf/simulated/floor/tiled/steel,/area/space)
 "Hg" = (/obj/machinery/camera/network/engineering{dir = 1},/turf/simulated/floor/reinforced{initial_gas_mix = "n2=100;TEMP=80"},/area/space)
 "Hh" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/turf/simulated/floor{base_name = "cold plating"; name = "cold plating"; nitrogen = 100; oxygen = 0; temperature = 80},/area/server{name = "\improper Database Mainframe"})
 "Hj" = (/obj/machinery/crystal{desc = "A shiny looking crystal formation. It's completely inert."; icon = 'icons/obj/xenoarchaeology.dmi'; icon_state = "ano80"},/turf/space,/area/space)
@@ -1144,10 +1147,10 @@
 "IA" = (/obj/structure/window/reinforced/full,/obj/structure/grille,/obj/machinery/door/blast/regular{density = 0; dir = 4; icon_state = "pdoor0"; id = "xenobio"; name = "Containment Blast Doors"; opacity = 0},/obj/structure/window/reinforced/polarized,/turf/simulated/floor/plating,/area/rnd/xenobiology)
 "IB" = (/turf/space,/area/rnd/xenoarch_storage)
 "IC" = (/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable/green{d1 = 2; d2 = 8; icon_state = "2-8"},/turf/simulated/floor/tiled/steel,/area/rnd/xenobiology)
-"ID" = (/obj/machinery/power/smes/buildable{RCon_tag = "Substation - Xenobiology"},/obj/machinery/light/small/emergency{dir = 4},/turf/space,/area/rnd/xenobiology)
+"ID" = (/obj/machinery/power/smes/buildable{RCon_tag = "Substation - Xenobiology"},/obj/machinery/light/small/emergency{dir = 4},/turf/simulated/floor/tiled/steel,/area/rnd/xenobiology)
 "IF" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/tiled/steel,/area/rnd/xenoarch_storage)
 "IG" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 6},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/turf/space,/area/ai_monitored/storage/secure)
-"IH" = (/obj/structure/closet/wardrobe/virology_white,/turf/space,/area/rnd/xenobiology)
+"IH" = (/obj/structure/closet/wardrobe/virology_white,/turf/simulated/floor/tiled/steel,/area/rnd/xenobiology)
 "II" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor{base_name = "cold plating"; name = "cold plating"; nitrogen = 100; oxygen = 0; temperature = 80},/area/space)
 "IJ" = (/obj/structure/window/reinforced/full,/obj/structure/grille,/turf/simulated/floor/plating,/area/medical/exam_room{name = "\improper Xenobio Exam Room"})
 "IK" = (/obj/structure/stairs/north,/turf/simulated/floor/plating{can_dirty = 0; can_start_dirty = 0},/area/space)
@@ -1184,7 +1187,7 @@
 "Jv" = (/obj/structure/cable{icon_state = "1-2"},/turf/simulated/floor/tiled/steel,/area/space)
 "Jw" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/item/gun/energy/gun/nuclear,/turf/simulated/floor/tiled,/area/ai_monitored/storage/secure)
 "Jx" = (/turf/simulated/wall/r_wall,/area/storage/secure)
-"JA" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_x = 0},/turf/space,/area/server{name = "\improper Database Mainframe"})
+"JA" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_x = 0},/turf/simulated/floor/tiled/airless,/area/server{name = "\improper Database Mainframe"})
 "JB" = (/obj/structure/window/shuttle/unique/research{icon_state = "7,13"},/turf/simulated/floor/plating,/area/space)
 "JC" = (/obj/structure/cable/green{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/space,/area/space)
 "JE" = (/obj/effect/floor_decal/industrial/outline/blue,/turf/simulated/floor/tiled,/area/space)
@@ -1216,7 +1219,7 @@
 "Ki" = (/obj/structure/bed/roller,/obj/effect/floor_decal/industrial/outline/red,/turf/simulated/floor/tiled/dark,/area/space)
 "Kj" = (/obj/random/junk,/turf/simulated/floor/tiled/steel,/area/space)
 "Kk" = (/turf/simulated/floor/reinforced{initial_gas_mix = "n2=100;TEMP=80"},/area/engineering/drone_fabrication)
-"Kl" = (/obj/structure/closet/secure_closet/scientist,/turf/space,/area/rnd/xenobiology)
+"Kl" = (/obj/structure/diona/vines,/turf/simulated/floor/grass/alt,/area/space)
 "Km" = (/obj/effect/floor_decal/industrial/warning/dust{dir = 1},/obj/machinery/light/small/emergency{dir = 4},/obj/effect/decal/cleanable/dirt{icon = 'modular_core\icons\turf\decals.dmi'; icon_state = "rust"; name = "rust"},/turf/simulated/floor/tiled/steel,/area/space)
 "Kn" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 9},/turf/simulated/floor/tiled/old_dark,/area/security/checkpoint)
 "Ko" = (/obj/machinery/icecream_vat,/turf/simulated/floor/tiled/white,/area/space)
@@ -1244,7 +1247,7 @@
 "KZ" = (/obj/structure/shuttle_part/research{desc = "The largest commercially available sublight engine, with a shuttle built around it and painted in NanoTrasen research division colors. Looks sleek, and fast."; icon_state = "8,1"; name = "survey shuttle"},/turf/unsimulated/floor/asteroid/ash,/area/space)
 "La" = (/obj/structure/disposalpipe/segment,/obj/effect/decal/cleanable/dirt,/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/steel,/area/space)
 "Ld" = (/obj/random/junk,/obj/machinery/light/small{dir = 4},/turf/simulated/floor,/area/space)
-"Le" = (/obj/item/storage/box/gloves,/turf/space,/area/space)
+"Le" = (/obj/item/storage/box/gloves,/obj/structure/table/standard,/turf/simulated/floor/carpet/rubber,/area/space)
 "Lf" = (/obj/machinery/light/small{dir = 1},/turf/simulated/floor/tiled/steel,/area/rnd/xenobiology)
 "Lg" = (/obj/machinery/telecomms/server{name = "Research Database Server"},/turf/simulated/floor/bluegrid{initial_gas_mix = "n2=100;TEMP=80"; name = "Mainframe Base"},/area/tcommsat/chamber)
 "Li" = (/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 8},/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor/tiled/old_dark,/area/security/checkpoint)
@@ -1264,7 +1267,7 @@
 "Ly" = (/obj/structure/grille,/obj/structure/window/reinforced/full,/obj/structure/window/reinforced{dir = 8},/turf/space,/area/server{name = "\improper Database Mainframe"})
 "LA" = (/obj/effect/floor_decal/industrial/warning/dust/corner{dir = 8},/turf/simulated/floor/tiled/old_dark,/area/space)
 "LB" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/space,/area/ai_monitored/storage/eva{name = "Database Prep Room"})
-"LC" = (/obj/machinery/door/airlock/glass_research,/turf/space,/area/space)
+"LC" = (/obj/machinery/door/airlock/glass_research,/turf/simulated/floor/tiled/steel,/area/space)
 "LD" = (/obj/structure/closet/secure_closet/freezer/meat,/turf/simulated/floor/tiled/white,/area/space)
 "LE" = (/obj/machinery/door/blast/regular/open{dir = 4; id = "bunker_blast"; name = "Bunker Blast Doors"},/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/turf/simulated/floor,/area/space)
 "LF" = (/obj/machinery/atmospherics/unary/vent_pump/on{dir = 1},/obj/structure/window/reinforced{dir = 8},/obj/structure/window/reinforced{dir = 4},/turf/simulated/floor/bluegrid,/area/ai_monitored/storage/secure)
@@ -1277,7 +1280,7 @@
 "LQ" = (/obj/effect/decal/cleanable/dirt,/obj/machinery/door/airlock/glass_mining{name = "Xenoarcheology Digsite"; req_access = list(65); req_one_access = list(47)},/turf/space,/area/rnd/xenoarch_storage)
 "LR" = (/obj/machinery/door/airlock/glass_medical{name = "Exam Room"; req_one_access = newlist()},/turf/simulated/floor/tiled/steel,/area/medical/exam_room{name = "\improper Xenobio Exam Room"})
 "LT" = (/obj/structure/table/reinforced/steel,/turf/simulated/floor/tiled/dark,/area/security/checkpoint/science{name = "Security Post - Xenobio"})
-"LU" = (/obj/structure/cable,/turf/space,/area/server{name = "\improper Database Mainframe"})
+"LU" = (/obj/structure/cable,/turf/simulated/floor/tiled/airless,/area/server{name = "\improper Database Mainframe"})
 "LV" = (/obj/machinery/telecomms/hub{name = "Research Database Hub"},/obj/structure/window/reinforced{dir = 1},/turf/simulated/floor/greengrid/nitrogen{initial_gas_mix = "n2=100;TEMP=80"; temperature = 80},/area/server{name = "\improper Database Mainframe"})
 "LX" = (/obj/machinery/door/airlock/glass_research{name = "Weapons Testing Range Storage"; req_access = list(47)},/turf/space,/area/space)
 "Ma" = (/obj/effect/floor_decal/industrial/warning{dir = 8},/turf/simulated/floor,/area/maintenance/substation/engineering{name = "Deck Four Substation"})
@@ -1298,7 +1301,7 @@
 "Mx" = (/obj/effect/decal/cleanable/blood,/turf/simulated/floor/reinforced,/area/rnd/misc_lab)
 "My" = (/turf/simulated/floor/reinforced,/area/space)
 "Mz" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 8},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/hologram/holopad,/obj/structure/cable{d1 = 2; d2 = 8; icon_state = "2-8"},/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/obj/structure/cable{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/effect/landmark{name = "lightsout"},/obj/structure/lattice/catwalk/indoor/grate/light/old,/turf/simulated/floor{base_name = "cold plating"; name = "cold plating"; nitrogen = 100; oxygen = 0; temperature = 80},/area/server)
-"MA" = (/obj/structure/bed/chair{dir = 4},/obj/structure/closet/hydrant{pixel_x = -32},/turf/space,/area/rnd/xenobiology)
+"MA" = (/obj/structure/bed/chair{dir = 4},/obj/structure/closet/hydrant{pixel_x = -32},/turf/simulated/floor/tiled/steel,/area/rnd/xenobiology)
 "MB" = (/obj/structure/window/reinforced{dir = 1},/obj/structure/window/reinforced,/obj/structure/grille,/obj/machinery/door/blast/regular{density = 0; dir = 4; icon_state = "pdoor0"; id = "xenobio"; name = "Containment Blast Doors"; opacity = 0},/obj/structure/disposalpipe/segment,/obj/structure/window/reinforced{dir = 8; health = 1e+006},/obj/structure/window/reinforced{dir = 4},/obj/structure/window/reinforced,/obj/structure/cable/green{d2 = 2; icon_state = "0-2"},/turf/simulated/floor/reinforced,/area/rnd/xenobiology)
 "MC" = (/obj/effect/floor_decal/industrial/warning/corner{dir = 1},/turf/simulated/floor,/area/maintenance/substation/engineering{name = "Deck Four Substation"})
 "ME" = (/turf/simulated/wall/shuttle/unique/research{desc = "The largest commercially available sublight engine, with a shuttle built around it and painted in NanoTrasen research division colors. Looks sleek, and fast."; icon_state = "4,13"; name = "survey shuttle"},/area/space)
@@ -1307,14 +1310,14 @@
 "MJ" = (/obj/structure/table/standard,/obj/effect/floor_decal/corner/lime{dir = 9},/obj/item/storage/firstaid/regular{layer = 3.01; pixel_x = 6; pixel_y = 3},/obj/item/storage/firstaid/toxin{pixel_x = -4; pixel_y = 3},/obj/item/storage/firstaid/fire{layer = 3.01},/turf/simulated/floor/tiled/dark,/area/space)
 "ML" = (/obj/machinery/atmospherics/pipe/manifold4w/hidden,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/plating,/area/space)
 "MM" = (/obj/machinery/atmospherics/pipe/manifold/hidden/supply{dir = 8},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/turf/simulated/floor/tiled/old_dark,/area/security/checkpoint)
-"MN" = (/obj/item/pipe{dir = 5},/turf/simulated/floor{base_name = "cold plating"; name = "cold plating"; nitrogen = 100; oxygen = 0; temperature = 80},/area/space)
+"MN" = (/obj/machinery/portable_atmospherics/hydroponics,/turf/simulated/floor/grass/alt,/area/space)
 "MO" = (/obj/item/deck/cards,/obj/item/flame/lighter/random{pixel_x = 10; pixel_y = 12},/turf/space,/area/space)
 "MP" = (/obj/structure/table/reinforced/steel,/obj/item/reagent_containers/food/drinks/flask/shiny,/turf/simulated/floor/tiled/dark,/area/security/checkpoint/science{name = "Security Post - Xenobio"})
 "MS" = (/turf/simulated/wall/shuttle/unique/research{desc = "The largest commercially available sublight engine, with a shuttle built around it and painted in NanoTrasen research division colors. Looks sleek, and fast."; icon_state = "6,5"; name = "survey shuttle"},/area/space)
 "MU" = (/obj/machinery/atmospherics/pipe/simple/hidden{dir = 5},/obj/structure/lattice/catwalk/indoor/grate,/obj/machinery/light/spot/weak{dir = 8},/obj/machinery/airlock_sensor{frequency = 1380; id_tag = "science_shuttle_sensor"; pixel_y = -23},/turf/simulated/floor/plating,/area/space)
 "MV" = (/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 8},/obj/machinery/atmospherics/pipe/manifold/hidden/supply{dir = 8},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"; pixel_y = 0},/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/tiled/old_dark,/area/space)
 "MW" = (/obj/machinery/atmospherics/unary/vent_pump/high_volume{dir = 8; frequency = 1379; id_tag = "database_xeno_pump"},/turf/space,/area/space)
-"MX" = (/obj/machinery/computer/drone_control{dir = 4},/obj/effect/decal/cleanable/dirt,/turf/space,/area/rnd/xenobiology)
+"MX" = (/obj/machinery/computer/drone_control{dir = 4},/obj/effect/decal/cleanable/dirt,/turf/space,/area/rnd/xenoarch_storage)
 "MZ" = (/obj/machinery/alarm{pixel_y = 22},/obj/machinery/meter,/obj/effect/floor_decal/industrial/warning{dir = 8},/obj/machinery/atmospherics/pipe/manifold/hidden/cyan{dir = 1},/obj/effect/decal/cleanable/dirt,/turf/simulated/floor,/area/space)
 "Na" = (/obj/random/tech_supply,/turf/simulated/floor,/area/space)
 "Nb" = (/obj/machinery/optable,/obj/structure/closet/body_bag,/mob/living/carbon/human/homunculus,/turf/simulated/floor/tiled/old_dark,/area/rnd/xenobiology)
@@ -1325,7 +1328,7 @@
 "Nm" = (/obj/machinery/shower{dir = 8},/turf/simulated/floor/tiled/dark,/area/storage/secure)
 "Nn" = (/obj/structure/disposalpipe/trunk{dir = 8},/obj/structure/disposaloutlet{dir = 1; pixel_x = 4},/turf/simulated/floor/reinforced,/area/rnd/misc_lab)
 "No" = (/obj/structure/window/phoronreinforced{dir = 8},/obj/structure/grille,/turf/space,/area/ai_monitored/storage/secure)
-"Np" = (/obj/machinery/cryopod,/turf/space,/area/rnd/xenobiology)
+"Np" = (/obj/machinery/cryopod,/turf/simulated/floor/tiled/steel,/area/rnd/xenobiology)
 "Nq" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/turf/simulated/floor/tiled,/area/ai_monitored/storage/secure)
 "Ns" = (/obj/structure/closet/wardrobe/xenos,/turf/simulated/floor/tiled/steel,/area/rnd/xenobiology)
 "Nt" = (/obj/machinery/media/jukebox,/turf/space,/area/space)
@@ -1335,7 +1338,7 @@
 "Nx" = (/obj/machinery/light/small/emergency{dir = 1; icon_state = "bulb0"; light_power = 0},/obj/structure/extinguisher_cabinet{dir = 4; pixel_x = -30},/turf/simulated/floor/tiled/steel,/area/rnd/xenobiology)
 "Ny" = (/obj/machinery/portable_atmospherics/canister/oxygen,/obj/machinery/atmospherics/pipe/manifold/hidden/supply{dir = 4},/turf/simulated/floor,/area/space)
 "Nz" = (/obj/machinery/light/small{dir = 4},/turf/simulated/floor/tiled/dark,/area/storage/secure)
-"NB" = (/obj/machinery/atmospherics/pipe/manifold/visible{dir = 8},/turf/space,/area/rnd/xenobiology)
+"NB" = (/obj/structure/chemkit,/turf/simulated/floor/tiled/steel,/area/rnd/xenobiology)
 "NC" = (/turf/simulated/wall/shuttle/unique/research{desc = "The largest commercially available sublight engine, with a shuttle built around it and painted in NanoTrasen research division colors. Looks sleek, and fast."; icon_state = "10,7"; name = "survey shuttle"},/area/space)
 "ND" = (/obj/structure/table/steel,/obj/effect/decal/cleanable/cobweb,/turf/simulated/floor/wood,/area/space)
 "NF" = (/obj/machinery/light/small/emergency{dir = 8; icon_state = "bulb0"; light_power = 0},/turf/simulated/floor/tiled/steel,/area/rnd/xenobiology)
@@ -1373,7 +1376,7 @@
 "OL" = (/obj/machinery/door/airlock/maintenance_hatch,/turf/simulated/floor{base_name = "cold plating"; name = "cold plating"; nitrogen = 100; oxygen = 0; temperature = 80},/area/tcommsat/chamber)
 "OM" = (/obj/structure/window/reinforced,/obj/item/paper_bin{pixel_y = 4},/obj/item/pen,/obj/structure/table/reinforced/steel,/turf/simulated/floor/tiled/dark,/area/security/checkpoint)
 "ON" = (/obj/structure/grille,/obj/structure/window/reinforced/full,/turf/simulated/floor{base_name = "cold plating"; name = "cold plating"; nitrogen = 100; oxygen = 0; temperature = 80},/area/server{name = "\improper Database Mainframe"})
-"OO" = (/obj/machinery/atmospherics/unary/heater{dir = 8},/turf/space,/area/rnd/xenobiology)
+"OO" = (/obj/machinery/atmospherics/pipe/tank/air{dir = 8},/turf/space,/area/rnd/xenobiology)
 "OP" = (/turf/simulated/floor/tiled/steel,/area/rnd/misc_lab)
 "OQ" = (/obj/structure/disposalpipe/segment,/turf/simulated/floor/tiled/steel,/area/rnd/xenoarch_storage)
 "OS" = (/obj/structure/shuttle_part/research{desc = "The largest commercially available sublight engine, with a shuttle built around it and painted in NanoTrasen research division colors. Looks sleek, and fast."; icon_state = "1,9"; name = "survey shuttle"},/turf/unsimulated/floor/asteroid/ash/rocky,/area/space)
@@ -1422,20 +1425,20 @@
 "Qf" = (/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/manifold/hidden/supply{dir = 4},/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"; pixel_y = 0},/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/tiled/old_dark,/area/space)
 "Qg" = (/obj/structure/bed/chair/office/dark{dir = 8},/obj/effect/landmark/start{name = "Security Officer"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 8},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/turf/simulated/floor/tiled/dark,/area/security/checkpoint)
 "Qi" = (/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 8},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"; pixel_y = 0},/obj/structure/cable{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,/turf/simulated/floor/tiled/steel,/area/space)
-"Qj" = (/obj/random/medical,/obj/item/stack/medical/splint,/turf/space,/area/space)
+"Qj" = (/obj/random/medical,/obj/item/stack/medical/splint,/obj/structure/table/rack,/turf/simulated/floor/tiled/old_white,/area/space)
 "Qk" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/cobweb2{icon_state = "spiderling"; name = "dead spider"},/turf/simulated/floor/tiled/steel,/area/space)
 "Ql" = (/turf/simulated/wall/shuttle/unique/research{desc = "The largest commercially available sublight engine, with a shuttle built around it and painted in NanoTrasen research division colors. Looks sleek, and fast."; icon_state = "0,2"; name = "survey shuttle"},/area/space)
 "Qm" = (/obj/machinery/light{icon_state = "tube1"; name = "adjusted light fixture"; pixel_x = 16},/obj/effect/floor_decal/industrial/outline/yellow,/obj/machinery/portable_atmospherics/canister/oxygen,/turf/simulated/floor/tiled/dark,/area/space)
 "Qn" = (/obj/structure/cable/green{d1 = 2; d2 = 8; icon_state = "2-8"},/turf/simulated/floor/tiled/steel,/area/rnd/xenobiology)
-"Qp" = (/obj/structure/bed/chair{dir = 4},/turf/space,/area/rnd/xenobiology)
-"Qq" = (/obj/structure/closet/secure_closet/medical1,/turf/space,/area/space)
+"Qp" = (/obj/structure/bed/chair{dir = 4},/turf/simulated/floor/tiled/steel,/area/rnd/xenobiology)
+"Qq" = (/obj/structure/closet/secure_closet/medical1,/turf/simulated/floor/tiled/old_white,/area/space)
 "Qr" = (/obj/machinery/shower{pixel_y = 10},/turf/simulated/floor/tiled/steel,/area/space)
 "Qs" = (/obj/machinery/power/apc{cell_type = /obj/item/cell/super; dir = 8; name = "database mainframe apc"; pixel_x = -30},/obj/structure/lattice/catwalk/indoor/grate/light/old,/turf/simulated/floor{base_name = "cold plating"; name = "cold plating"; nitrogen = 100; oxygen = 0; temperature = 80},/area/server{name = "\improper Database Mainframe"})
 "QA" = (/obj/effect/floor_decal/industrial/warning{dir = 1},/turf/space,/area/space)
 "QB" = (/obj/structure/window/reinforced{dir = 1},/turf/simulated/floor/bluegrid,/area/ai_monitored/storage/secure)
 "QC" = (/turf/simulated/wall/r_wall,/area/rnd/xenoarch_storage)
 "QE" = (/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/tiled/steel,/area/space)
-"QG" = (/obj/machinery/door/blast/regular{density = 0; dir = 2; icon_state = "pdoor0"; id = "xenobio"; name = "Containment Blast Doors"; opacity = 0},/obj/machinery/door/airlock/glass_research{name = "Xenoflora Research"; req_access = list(55)},/turf/space,/area/space)
+"QG" = (/obj/machinery/door/blast/regular{density = 0; dir = 2; icon_state = "pdoor0"; id = "xenobio"; name = "Containment Blast Doors"; opacity = 0},/obj/machinery/door/airlock/glass_research{name = "Xenoflora Research"; req_access = list(55)},/turf/simulated/floor/tiled/steel,/area/space)
 "QH" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 5},/obj/effect/decal/cleanable/dirt,/obj/machinery/atmospherics/pipe/simple/hidden/black{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/turf/simulated/floor,/area/space)
 "QI" = (/obj/effect/floor_decal/industrial/warning{dir = 8},/obj/machinery/atmospherics/pipe/manifold/hidden/cyan{dir = 4},/turf/simulated/floor,/area/space)
 "QJ" = (/turf/simulated/floor/tiled,/area/rnd/xenobiology)
@@ -1459,7 +1462,7 @@
 "Ro" = (/obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,/obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,/turf/simulated/floor/tiled/dark,/area/ai_monitored/storage/secure)
 "Rq" = (/obj/random/coin,/obj/structure/table/steel,/turf/simulated/floor/tiled/steel,/area/space)
 "Rr" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 8},/obj/machinery/door/airlock/vault/bolted,/turf/space,/area/ai_monitored/storage/secure)
-"Rt" = (/obj/machinery/atmospherics/pipe/manifold/hidden/supply{dir = 1},/obj/item/pipe{dir = 9},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 8},/obj/machinery/hologram/holopad,/turf/space,/area/ai_monitored/storage/secure)
+"Rt" = (/obj/machinery/atmospherics/pipe/manifold/hidden/supply{dir = 1},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 8},/obj/machinery/hologram/holopad,/turf/space,/area/ai_monitored/storage/secure)
 "Rv" = (/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 4},/obj/machinery/light/small{dir = 8},/turf/simulated/floor/tiled/steel,/area/space)
 "Rw" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt{icon = 'modular_core\icons\turf\decals.dmi'; icon_state = "rust"; name = "rust"},/turf/space,/area/rnd/xenoarch_storage)
 "Ry" = (/obj/effect/blob,/turf/simulated/floor/reinforced,/area/storage/secure)
@@ -1468,13 +1471,13 @@
 "RC" = (/obj/effect/gateway/active/rift,/obj/effect/forcefield{desc = "Can you lick it?"; name = "rift suspension field"},/mob/living/simple_animal/shade/bluespace,/turf/space,/area/ai_monitored/storage/secure)
 "RD" = (/obj/machinery/mass_driver{dir = 8},/obj/effect/floor_decal/industrial/warning/cee{dir = 4},/turf/simulated/floor/reinforced,/area/rnd/xenobiology)
 "RE" = (/turf/simulated/wall/shuttle/unique/research{desc = "The largest commercially available sublight engine, with a shuttle built around it and painted in NanoTrasen research division colors. Looks sleek, and fast."; icon_state = "4,11"; name = "survey shuttle"},/area/space)
-"RF" = (/obj/structure/bed/chair/office/light,/turf/space,/area/space)
+"RF" = (/obj/structure/bed/chair/office/light,/turf/simulated/floor/carpet/rubber,/area/space)
 "RG" = (/obj/effect/floor_decal/industrial/warning{dir = 1},/turf/simulated/floor/tiled/steel,/area/space)
 "RH" = (/obj/machinery/light_switch{pixel_x = -25; pixel_y = 25},/obj/machinery/alarm{pixel_y = 22},/obj/machinery/power/apc{dir = 4; name = "east bump"; pixel_x = 24; pixel_y = 7},/obj/machinery/button/remote/airlock{id = "dorm1"; name = "Room 1 Lock"; pixel_x = 26; pixel_y = -4; specialfunctions = 4},/obj/structure/cable{icon_state = "0-2"},/turf/simulated/floor/wood,/area/space)
 "RI" = (/obj/machinery/door/airlock{desc = "The number has been scratched off by what appears to be knife marks."; description_antag = "Written in an encrypted signal pinging from the door, you know this room to be a safehouse of sorts, and it makes note of a stash under the bed, as well as maintenance access."; icon_state = "door_locked"; locked = 1; name = "Panic Room ///"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/door/firedoor,/turf/simulated/floor/tiled/old_dark,/area/space)
 "RJ" = (/obj/structure/window/reinforced/full,/obj/structure/grille,/obj/structure/window/reinforced{dir = 8},/turf/simulated/floor,/area/ai_monitored/storage/eva{name = "Database Prep Room"})
 "RN" = (/obj/machinery/biogenerator,/obj/effect/floor_decal/corner/black/diagonal,/turf/simulated/floor/tiled/white,/area/space)
-"RO" = (/obj/item/pipe{dir = 9},/turf/simulated/floor{base_name = "cold plating"; name = "cold plating"; nitrogen = 100; oxygen = 0; temperature = 80},/area/space)
+"RO" = (/obj/item/reagent_containers/spray/chemsprayer,/turf/simulated/floor/grass/alt,/area/space)
 "RP" = (/obj/effect/decal/cleanable/cobweb,/turf/space,/area/space)
 "RT" = (/turf/space,/area/ai_monitored/storage/eva{name = "Database Prep Room"})
 "RU" = (/obj/structure/disposalpipe/segment,/turf/space,/area/space)
@@ -1501,7 +1504,7 @@
 "Sw" = (/obj/structure/grille,/obj/machinery/door/firedoor,/obj/structure/disposalpipe/segment{dir = 4},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/hidden/black{dir = 4},/obj/structure/window/shuttle/skrell,/turf/simulated/floor,/area/space)
 "Sx" = (/obj/machinery/door/airlock/hatch{name = "Panic Bunker"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 8},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/door/blast/regular/open{id = "bunker_blast"; name = "Bunker Blast Doors"},/obj/structure/disposalpipe/segment{dir = 4},/turf/simulated/floor/tiled,/area/space)
 "Sz" = (/obj/structure/window/reinforced,/turf/simulated/floor/bluegrid,/area/ai_monitored/storage/secure)
-"SD" = (/obj/machinery/camera/network/research{dir = 1},/turf/space,/area/rnd/xenobiology)
+"SD" = (/obj/machinery/camera/network/research{dir = 1},/turf/simulated/floor/tiled/steel,/area/rnd/xenobiology)
 "SI" = (/obj/item/circuitboard/mechfab,/turf/simulated/floor/plating,/area/space)
 "SJ" = (/obj/machinery/atmospherics/pipe/simple/hidden{dir = 9},/obj/structure/closet/emcloset,/obj/machinery/light{dir = 4; icon_state = "tube1"},/turf/simulated/floor/tiled/dark,/area/space)
 "SK" = (/obj/effect/floor_decal/industrial/warning/corner{dir = 1; icon_state = "warningcorner"},/obj/effect/decal/cleanable/dirt,/obj/machinery/atmospherics/pipe/simple/hidden{dir = 5},/turf/simulated/floor,/area/space)
@@ -1520,7 +1523,7 @@
 "Tj" = (/obj/machinery/light/small/emergency{icon_state = "bulb0"; light_power = 0},/obj/structure/extinguisher_cabinet{dir = 4; pixel_x = -30},/turf/simulated/floor/tiled/steel,/area/rnd/xenobiology)
 "Tk" = (/obj/machinery/light/small,/turf/simulated/floor/tiled/steel,/area/space)
 "Tl" = (/obj/machinery/atmospherics/unary/vent_scrubber/on,/turf/simulated/floor,/area/space)
-"Tm" = (/obj/machinery/optable,/turf/space,/area/space)
+"Tm" = (/obj/machinery/optable,/turf/simulated/floor/carpet/rubber,/area/space)
 "Tn" = (/obj/structure/sign/nosmoking_2{pixel_x = -32},/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 8},/turf/simulated/floor,/area/space)
 "To" = (/obj/machinery/light/small/emergency{icon_state = "bulb0"; light_power = 0},/turf/simulated/floor/tiled/steel,/area/rnd/xenobiology)
 "Tp" = (/obj/machinery/meter{frequency = 1443; id = "scrub_main_meter"; name = "Scrubbers Loop"},/obj/machinery/atmospherics/pipe/simple/visible/scrubbers{dir = 8},/turf/simulated/floor,/area/space)
@@ -1588,7 +1591,7 @@
 "US" = (/turf/simulated/floor/tiled/old_dark,/area/rnd/xenobiology)
 "UW" = (/obj/structure/bed/chair/shuttle,/obj/effect/floor_decal/corner/purple/diagonal{dir = 4},/turf/simulated/floor/tiled/dark,/area/space)
 "UZ" = (/turf/simulated/wall/shuttle/unique/research{desc = "The largest commercially available sublight engine, with a shuttle built around it and painted in NanoTrasen research division colors. Looks sleek, and fast."; icon_state = "9,3"; name = "survey shuttle"},/area/space)
-"Va" = (/obj/machinery/microscope,/turf/space,/area/rnd/xenobiology)
+"Va" = (/obj/machinery/microscope,/obj/structure/table/steel,/turf/simulated/floor/tiled/steel,/area/rnd/xenobiology)
 "Vb" = (/obj/machinery/telecomms/broadcaster,/turf/simulated/floor/greengrid/nitrogen{initial_gas_mix = "n2=100;TEMP=80"; temperature = 80},/area/server{name = "\improper Database Mainframe"})
 "Vd" = (/obj/machinery/door/blast/shutters{dir = 2},/turf/simulated/floor/tiled/dark,/area/ai_monitored/storage/secure)
 "Vg" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/effect/decal/cleanable/dirt,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/turf/simulated/floor/tiled/old_dark,/area/space)
@@ -1602,9 +1605,9 @@
 "Vr" = (/turf/simulated/floor/bluegrid,/area/ai_monitored/storage/secure)
 "Vs" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 8},/obj/effect/floor_decal/industrial/hatch/yellow,/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden{dir = 4},/turf/simulated/floor,/area/space)
 "Vt" = (/obj/machinery/disposal,/obj/structure/disposalpipe/trunk,/turf/space,/area/space)
-"Vv" = (/turf/space,/area/server{name = "\improper Database Mainframe"})
+"Vv" = (/turf/simulated/floor/tiled/airless,/area/server{name = "\improper Database Mainframe"})
 "Vw" = (/turf/simulated/wall/r_wall,/area/ai_monitored/storage/eva{name = "Database Prep Room"})
-"Vx" = (/obj/structure/table/glass,/obj/machinery/reagentgrinder,/turf/space,/area/space)
+"Vx" = (/obj/structure/table/glass,/obj/machinery/reagentgrinder,/turf/simulated/floor/tiled/steel,/area/space)
 "Vy" = (/obj/machinery/light/small/emergency,/turf/simulated/floor/reinforced,/area/storage/secure)
 "Vz" = (/obj/effect/decal/cleanable/dirt{icon = 'modular_core\icons\turf\decals.dmi'; icon_state = "rust"; name = "rust"},/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor,/area/space)
 "VB" = (/obj/machinery/door/blast/regular{density = 0; dir = 4; icon_state = "pdoor0"; id = "xenobio"; name = "Containment Blast Doors"; opacity = 0},/turf/simulated/wall/r_wall,/area/storage/secure)
@@ -1613,7 +1616,7 @@
 "VE" = (/obj/machinery/hologram/holopad,/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 5},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 9},/turf/simulated/floor/tiled/steel,/area/space)
 "VF" = (/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 4},/obj/machinery/light_switch{dir = 4; pixel_x = -23},/obj/machinery/power/apc{dir = 8; name = "database prep room APC"; pixel_x = -28},/obj/structure/cable{dir = 1},/turf/space,/area/ai_monitored/storage/eva{name = "Database Prep Room"})
 "VG" = (/obj/machinery/door/airlock{name = "Panic Room 1"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/door/firedoor,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/tiled/old_dark,/area/space)
-"VH" = (/obj/machinery/doppler_array,/turf/space,/area/server{name = "\improper Database Mainframe"})
+"VH" = (/obj/machinery/telecomms/relay{name = "Research Database Relay"},/turf/simulated/floor/tiled/airless,/area/server{name = "\improper Database Mainframe"})
 "VI" = (/obj/structure/disposalpipe/segment,/turf/simulated/wall/r_wall,/area/rnd/xenoarch_storage)
 "VJ" = (/obj/structure/window/reinforced/full,/obj/structure/grille,/obj/structure/window/reinforced{dir = 8},/turf/simulated/floor/plating,/area/space)
 "VK" = (/obj/machinery/light/small{dir = 4},/turf/simulated/floor/tiled/steel,/area/rnd/xenobiology)
@@ -1642,7 +1645,7 @@
 "Wo" = (/obj/structure/urinal{pixel_y = 30},/obj/effect/decal/cleanable/dirt{icon = 'modular_core\icons\turf\decals.dmi'; icon_state = "rust"; name = "rust"},/turf/simulated/floor/tiled/steel,/area/space)
 "Wp" = (/obj/machinery/atmospherics/unary/vent_scrubber/on,/obj/structure/lattice/catwalk/indoor/grate/light/old,/turf/simulated/floor{base_name = "cold plating"; name = "cold plating"; nitrogen = 100; oxygen = 0; temperature = 80},/area/server{name = "\improper Database Mainframe"})
 "Wq" = (/obj/structure/disposaloutlet{dir = 8},/obj/structure/disposalpipe/trunk,/turf/simulated/floor/reinforced,/area/rnd/misc_lab)
-"Ws" = (/obj/machinery/vending/cola{desc = "A NanoTrasen branded vendor, featuring a few new items!"; icon = 'icons/obj/vending_vr.dmi'; name = "Thirst Reduction Center"},/turf/space,/area/rnd/xenobiology)
+"Ws" = (/obj/machinery/vending/cola{desc = "A NanoTrasen branded vendor, featuring a few new items!"; icon = 'icons/obj/vending_vr.dmi'; name = "Thirst Reduction Center"},/turf/simulated/floor/tiled/steel,/area/rnd/xenobiology)
 "Wt" = (/turf/simulated/wall/r_wall,/area/tcommsat/chamber)
 "Wu" = (/obj/machinery/light_switch{name = "cell lighting control switch "; pixel_y = 11},/turf/simulated/wall/r_wall,/area/rnd/misc_lab)
 "Wv" = (/obj/structure/toilet{pixel_y = 10},/obj/effect/decal/cleanable/dirt{icon = 'modular_core\icons\turf\decals.dmi'; icon_state = "rust"; name = "rust"},/turf/simulated/floor/tiled/steel,/area/space)
@@ -1669,6 +1672,7 @@
 "WX" = (/obj/machinery/status_display,/turf/simulated/wall/r_wall,/area/ai_monitored/storage/eva{name = "Database Prep Room"})
 "WY" = (/obj/machinery/light/small/emergency{dir = 1; icon_state = "bulb0"; light_power = 0},/obj/effect/decal/cleanable/greenglow,/turf/simulated/floor/tiled/steel,/area/rnd/xenobiology)
 "Xa" = (/obj/structure/window/reinforced{dir = 1},/obj/structure/window/reinforced,/obj/structure/grille,/obj/machinery/door/blast/regular{density = 0; dir = 4; icon_state = "pdoor0"; id = "xenobio"; name = "Containment Blast Doors"; opacity = 0},/obj/structure/window/reinforced{dir = 4},/obj/structure/window/reinforced{dir = 8; health = 1e+006},/obj/structure/window/reinforced{dir = 1},/obj/structure/cable/green,/turf/simulated/floor/reinforced,/area/rnd/xenobiology)
+"Xb" = (/obj/machinery/door/airlock/maintenance,/turf/simulated/floor/tiled/steel,/area/rnd/xenobiology)
 "Xc" = (/obj/structure/stairs/east{icon = 'icons/obj/ledges.dmi'; icon_state = "ledge-stairs"; pixel_x = 0},/turf/space,/area/space)
 "Xd" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"; pixel_y = 0},/obj/structure/lattice/catwalk/indoor/grate/light/old,/turf/simulated/floor{base_name = "cold plating"; name = "cold plating"; nitrogen = 100; oxygen = 0; temperature = 80},/area/server{name = "\improper Database Mainframe"})
 "Xe" = (/obj/machinery/door/airlock/glass{name = "Stasis Chambers"},/obj/machinery/door/firedoor,/turf/space,/area/space)
@@ -1782,7 +1786,7 @@
 "Zx" = (/obj/structure/sign/fire{pixel_x = -32},/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 8},/turf/simulated/floor,/area/space)
 "Zy" = (/obj/structure/disposalpipe/segment{dir = 4},/turf/simulated/floor/tiled/old,/area/rnd/hallway)
 "Zz" = (/obj/structure/window/reinforced{dir = 4},/obj/item/gun/energy/laser/practice,/obj/item/clothing/ears/earmuffs,/turf/space,/area/space)
-"ZA" = (/obj/machinery/bodyscanner,/turf/space,/area/space)
+"ZA" = (/obj/machinery/bodyscanner{dir = 8},/turf/simulated/floor/tiled/white,/area/space)
 "ZB" = (/obj/structure/closet{name = "mechanical equipment"},/obj/item/clothing/head/welding{pixel_x = -3; pixel_y = 5},/obj/item/clothing/head/welding{pixel_x = -3; pixel_y = 5},/obj/item/clothing/glasses/welding,/obj/item/clothing/glasses/welding,/obj/item/storage/toolbox/mechanical,/obj/item/storage/toolbox/mechanical,/obj/item/storage/belt/utility,/obj/item/storage/toolbox/electrical{pixel_x = 1; pixel_y = 6},/obj/item/clothing/glasses/welding/superior,/turf/space,/area/space)
 "ZC" = (/obj/effect/decal/cleanable/dirt,/turf/space,/area/space)
 "ZD" = (/obj/machinery/light_switch{dir = 4; icon_state = "light0"; name = "emergency lighting switch"; pixel_x = -23},/turf/simulated/floor/tiled/steel,/area/rnd/xenobiology)
@@ -1869,79 +1873,79 @@ dCcYZOBkBklClCcYcYcYcYcYcYcYcYcYcYcYcYcYcYlClClClClClClClClClClClClClClClClClClC
 dCcYCVDbDccYlCcYqABkBkBkBkBkmiaCKbKbaFaLmilClClClClClClClClClClClClClClClClClClClClClClClClClClClClClClClClClClClClClCYPhDglgnguMChDPcPcPcPcPcPcPcPcPcPcPcPcWtksoHChgzkRleChfufuLglmLgfuChgZhiWtPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPccYcYcYcYcYcYcYcYcYcYcYcYcYUNUNUNUNUNUNUNUNUNUNUNUNUNUNdC
 dCcYEDEDEDcYlCcYBkBkBkcYcYcYcYaRcYcYcYaRcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYZOZOZOZOZOiGiGiGiGiGiGiGiGKevihDhDeZeZeZhDPcPcPcPcPcPcPcPcPcPcPcPcWtlLlJChfuChChChfufuLgLgLgfuChhKhQWtPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPccYcYmomomoBJvrXpXpXpXpXpcYUNUNUNUNUNUNUNUNUNUNUNUNUNUNdC
 dCcYGMJZKmcYcYcYBkBkfWcYULOaLHbfigMZoAxSrdcYirYwCYOJixcYVpFbUCZOZOiJiOjgjicYYQkXkXkXkXkXcYZOZOZOZOZOiGZiZiZiztlZlZZiZiZiZihDjoeZjqezjDPcRkPcPcPcPcPcPcPcPcPcWtjHfufufufufufujLfufufufufufufujNWtPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPccYcYvrvrvrvrvrXpXpjRXpXpcYizizizizizUNUNizizizizizUNUNdC
-dCcYBkBkBkKKeCNaTlBkxncYULIQBkWNigJJjVkcfPcYTnYwCYNyZOWwZOpTZCfhuOkEZOuOZOcYYQkXkXkXkXkXcYZOZOZOZOZOiGZiZiZiZiZiZiZiZiZiZilbeZeZlghDPcPcPcPclnuxPcPcPcPcpVlpWtfufufufufufufufufufufufufufufufuWtlnuxPcPcPcPcpVlpPcPcPcPcPcPcPcPccYcYvrvrvrvrUIlMlMqxXpXpcYizlQlVYpizUNUNizmhmrmhizUNUNdC
-dCcYBkBkBkpCrUrUgPTWLdcYULIQBkWNigJJhwOdbqcYZxYwCYzsmuSwdLNwbvbvmxegmzbzyCcYYQkXkXkXkXkXcYZOZOZOZOZOiGZiZiZirxZirBnwZiZijfpJeZnynAeznBPcPcPcoyyUqYqYqYqYyUoyWtfufufufushslsofufurCnjoJfufufufuWtoyyUqYqYqYqYyUoyPcPcPcPcPcPcPcPccYcYvrvrvrvrvrXpXptoXpqPcYizAuoLAuizUNUNizoOoToOizUNUNdC
+dCcYBkBkBkKKeCNaTlBkxncYULIQBkWNigJJjVkcfPcYTnYwCYNyZOWwZOpTZCfhuOkEZOuOZOcYYQkXkXkXkXkXcYZOZOZOZOZOiGZiZiZiZiZiZiZiZiZiZilbeZeZlghDPcPcPcPcPcuxPcPcPcPcpVPcWtfufufufufufufufufufufufufufufufuWtPcuxPcPcPcPcpVPcPcPcPcPcPcPcPcPccYcYvrvrvrvrUIlMlMqxXpXpcYizlQlVYpizUNUNizmhmrmhizUNUNdC
+dCcYBkBkBkpCrUrUgPTWLdcYULIQBkWNigJJhwOdbqcYZxYwCYzsmuSwdLNwbvbvmxegmzbzyCcYYQkXkXkXkXkXcYZOZOZOZOZOiGZiZiZirxZirBnwZiZijfpJeZnynAeznBPcPcPcPcyUqYqYqYqYyUPcWtfufufufushslsofufurCnjoJfufufufuWtPcyUqYqYqYqYyUPcPcPcPcPcPcPcPcPccYcYvrvrvrvrvrXpXptoXpqPcYizAuAuAuizUNUNizoOoToOizUNUNdC
 dCcYBkBkcYcYcYcYcYCxBkcYULIQeCbNigQIVzCEhwcYFmYwCYptpFWwZOXtZOZOXtxeZCXtrccYYQkXkXkXkXkXcYZOZOZOZOZOiGZiZiZirxZiZinwZiZicPhDhDhDhDhDcYMqcYcYtjyUpLsdsdCbyUtjWtWtOLWtWtuWuWvafufurHuWuWWtWtOLWtWttjyUpLsdsdCbyUtjcYcYWkcYcYPcPcPccYcYvrvrvrvrvrXpXpXpXpXpcYizAusfAuizUNUNizsxsQsxizUNUNdC
 dCcYBkBkcYNDbRRHcYLEcYcYKgSKwwkdaOcSSaaGQHTYtfvPtphMvhcYtENttttCpqylJrhemWcYYQtMkXkXkXkXcYZOZOZOZOZOiGZiZiZiZiZiZiZiZiZiZiZiZiZiwmyUlymFlyyUyUyUyUuyuyyUyUyUyUcFcFcFWtPpPpPpPpPpPpPpPpWtcFcFcFyUyUyUyUuyvWyUyUyUyUcFcFcFyUPcPcPccYcYwtwtwtcYxkUaxTxTxTcYcYizAuxwAuizUNUNizoOoToOizUNUNdC
 dCcYBkBkcYTcUBHEVGXytgcYcYcYcYcYcYxzcYcYcYcYcYcYcYWwEQcYcYcYcYcYcYcYcYcYcYcYYQVnkXkXkXYQcYZOZOZOZOZOiGZiZiZiZixJzrxgZiZiZixQZiZiwmyUlylymFxUcFcFcFcFcFcFcFcFxUcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFxUcFcFcFcFcFcFcFcFxUcFcFcFyUPcPcPccYcYcYcYcYcYQXcXcXcXcXcXygizISISISizZYZYizypypypizUNUNdC
 dCcYBkXncYcYcYcYcYOzyycYdOZQZQbucYyKpKPbGpcYjJBmEBQELaZfUeTRqrytzecYANAOzmYdPvkXdbdbdbzFCsCsHnCsHnCsCsiGiGBGZiiGVwVwRTRTWXyUCZCZCZAHlyBnmFqeLVLVLVLVLVLVLVLVDycFdEcFqeLVLVLVLVLVLVLVLVDycFdEcFqeLVLVLVLVLVLVLVLVDycFdEcFyUONONONUNUNUNUNUNUNELZYZYCgZYZYZYCkcXJMcXCoZYZYCtcXcXcXcXUNUNdC
-dCcYlCBkcYDTbRmOcYYxYUcYZQZQQEZQcYDjWfDkrOyYIOmpIONNdUZfebebebsYetPEeFKFOgYdyvEaEhElEuEvdbdbdbdbdbdbdbdbdbdbFrdbVwFWFZGeUfLyhcDWEAEIlyXdlysdsdsdsdsdsdsdsdsdsdcFfocFsdsdsdsdsdsdsdsdsdsdcFfocFsdsdsdsdsdsdsdsdsdsdcFfocFFqVvVbVHUNUNCNCOCQUNBaJwFCFFcXcXZYcXcXcXcXcXZYZYcXcXcXcXcXUNUNdC
+dCcYlCBkcYDTbRmOcYYxYUcYZQZQQEZQcYDjWfDkrOyYIOmpIONNdUZfebebebsYetPEeFKFOgYdyvEaEhElEuEvdbdbdbdbdbdbdbdbdbdbFrdbVwFWFZGeUfLyVHDWEAEIlyXdlysdsdsdsdsdsdsdsdsdsdcFfocFsdsdsdsdsdsdsdsdsdsdcFfocFsdsdsdsdsdsdsdsdsdsdcFfocFFqVvVbVHUNUNCNCOCQUNBaJwFCFFcXcXZYcXcXcXcXcXZYZYcXcXcXcXcXUNUNdC
 dCcYlCBkcYTcUBEtlRgKfqcYZQZQQEZQcYGOGQVNXXGVYAcdYAnYyBZfebYqebebHGcYHTDQOgYdkXkXJqZTdbdbGUdbdbdbdbdbdbakdbdbLiFuRJIqLBMmUfLyDWJuLMJAgyJHmFJNQeQeQeQeQeWAQeQeUbcFTycFJNQeQeQeQeQeWAQeQeUbcFTycFtiZhZhZhZhgrZhZhZhCScFTycFVvVbNZYCUNUNDNIGOtUNELZYZYJTZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYUNUNdC
-dCcYlCBkcYcYcYcYcYuDgEcYZQZQZQZQcYKqfOFjKrcYKzJvZQNWgLZfeteboCebKWcYLjLoOgYdkXkXJqZTdbgVlAZJPzchXZHKWbaldbdbYIdbVwLtLBRTUfLyhcDWLUEImFXdlysdsdsdsdsdsdsdsdsdsdcFfocFsdsdsdsdsdsdsdsdsdsdcFfocFsdsdhVsdpQsdsdsdsdsdcFfocFFqVvVbVHUNUNPTIrWQUNELMbcXcXcXcXZYZYZYZYZYZYZYZYZYZYZYZYJYUNUNdC
+dCcYlCBkcYcYcYcYcYuDgEcYZQZQZQZQcYKqfOFjKrcYKzJvZQNWgLZfeteboCebKWcYLjLoOgYdkXkXJqZTdbgVlAZJPzchXZHKWbaldbdbYIdbVwLtLBRTUfLyVHDWLUEImFXdlysdsdsdsdsdsdsdsdsdsdcFfocFsdsdsdsdsdsdsdsdsdsdcFfocFsdsdhVsdpQsdsdsdsdsdcFfocFFqVvVbVHUNUNPTIrWQUNELMbcXcXcXcXZYZYZYZYZYZYZYZYZYZYZYZYJYUNUNdC
 dCcYBkBkcYDAbRBIcYuDhmcYZQZQZQZQcYcYcYcYcYcYZQZQQENWgLZfebetPaebPmcYcYcYcYYdkXkXJqZTdbhuCsPwPCKyPCQgaoCsdbdbMMWiRJRWSbVYPQyUyUQcyUyUQshBlyzaIbIbIbIbIbIbIbIbTtcFTyyUzaIbIbIbIbIbIbIbIbTtyUhPcFiliEiEyUyUyUiEiEiEiEiEjcQMUNUNUNUNUNUNUNUNQSUNQVVdVdVdVdVdVdWaZYZYZYcXcXizizizizizizUNUNdC
 dCcYBkBkcYTcUBEthGeGjrcYZQEfkauXcYdORZSckNSnZQJvZQNWlugqZfZfetZfZfcYSMSXkDYdyMdbJqZTdbdbCskScYcYcYcYkSCsdbdbYIdbVwVFVPVYWyTDWCTpTFKSTGTIljTGWplylylylylymFWplycFfocFcFcFcFcFcFcFcFcFcFcFcFfonbIvniIvQMnsIvQMQMQMnDIvQMQMXlXCXIXPXQFIUoUNUtUEELZYZYZYZYZYZYWaZYZYZYcXcXVkVXWhWHWMizUNUNdC
 dCcYBkXncYcYcYcYcYjzVgfXBRYtPxGnpsNlNlXYYiYAYAYDYAZMeWFUGrFUYZZNwLujnLXHnLSxrhrhnhZdrhZgBLvlcYBdbiTuawvFZPZPjuZkFfLppklEiLVsrmGHGHNVwCMzwZwZGBjpnQnQjpnQnQGBnQnVyTnVnVnVnVnVnVnVnVnVnVnVnVSrowoIpApApAoIYSYSoIYSYSoIYSxfmUskFezkaiRaRtRrRoyRFYZYZYDJZYZYZYWaZYqGZYcXcXNoFvXOASDYizUNUNdC
 dCcYqABkcYDTbRkocYZbqycYXFWPLramcYZQZQGIZQndZQZQZQsrZQZQZQZQZQZQZQcYsTHWsTYdyMdbJqZTdbdbCsLJQdTSZjGckXCsaEdbYIdbVwtIRTRTzbKMapwrrQcYKssZljTGgblymFmFlylylygblycFfocFcFcFcFcFcFcFcFcFcFcFcFfocFQMIvIvninsQMIvQMQMnsQMIvQMUNtJFvgSUNExqJphQXqUELZYZYZYZYZYZYWaZYZYZYcXcXNoVXWhWHtWizUNUNdC
 dCcYAwBkcYTcUBEtxVQfFRcYtBWPWPrRcYnftmtHRqtmZQZQuUikZQtmtmYscYcYcYcYcYcYcYYdkXkXJqZTdbhuCsESUnBtkXkXkXCsdbdbMMWiRJppRTRTRTyUyUyUyUyUcFtscFrvVWVWVWVWVWVWVWVWkhcFtscFrvVWVWVWVWVWVWVWVWkhyUtscFseteteyUyUyUuauauauaudYMQMUNUNUNUNUNUNUNUNWeUNfMHoHoHoHoHoHoWaZYZYZYcXcXizizizizizizizUNdC
-dCcYBkBkcYcYcYcYcYbgjrcYlKLrWPurNSRvuJVEuThOQEQEZQsrZQKjUlZUcYeAjwcYTCTCYgYdkXkXJqZTdbgVlASlFaVqDwOMgCaMdbdbYIdbVwyPRTJpRBLyhcDWEAEIcFfocFsdsdsdsdsdsdsdsdsdsdcFfocFsdsdsdsdsdsdsdsdsdsdcFuZcFsdvmsdsdsdhVsdsdsdsdcFvGcFFqVvVbVHUNUNsKXiWQUNELcXcXcXcXcXZYZYZYZYZYZYZYZYmkYBYBeIYBizUNdC
+dCcYBkBkcYcYcYcYcYbgjrcYlKLrWPurNSRvuJVEuThOQEQEZQsrZQKjUlZUcYeAjwcYTCTCYgYdkXkXJqZTdbgVlASlFaVqDwOMgCaMdbdbYIdbVwyPRTJpRBLyVHDWEAEIcFfocFsdsdsdsdsdsdsdsdsdsdcFfocFsdsdsdsdsdsdsdsdsdsdcFuZcFsdvmsdsdsdhVsdsdsdsdcFvGcFFqVvVbVHUNUNsKXiWQUNELcXcXcXcXcXZYZYZYZYZYZYZYZYmkYBYBeIYBizUNdC
 dCcYBkBkcYDTbRAIcYeTjrcYSSLrWPAEcYRVtmtmvJjIZQQEFHQiFUFUFUqukwWKJnsySvwBfTYdZskXJqZTdbdbdbdbdbdbdbdbdbdbdbdbLiFuRJtdRTRTRBLyDWJuEKJAwMMrcFVoXuXuXuXuXuXuXuXuiacFtscFVoXuXuXuXuXuXuXuXuiacFtscFVoXuXuXutzXuXuXuXuiacFxqcFVvVbNZYCUNUNemSmVMUNELZYZYNTZYZYZYZYZYZYZYZYZYZYizizizizYBizUNdC
-dCcYBkBkcYTcUBEtUOQfUHcYVVEiWPRNcYZQZQZQQEQEZQZQZQsrZQZQZQZQcYbBpjsySvwBfTYdmKEaKnusEuHUsbdbdbdbdbdbdbaXdbdbFrdbVwlORTRTRBLyhcDWLUEIcFfocFsdsdsdsdsdsdsdsdsdsdcFfocFsdsdsdsdsdsdsdsdsdsdcFfocFsdsdsdsdsdsdsdsdsdsdcFvGcFFqVvVbVHUNUNQOkbodUNhENqNqqdcXcXZYcXcXcXcXcXZYZYizyayaYBYBizUNdC
+dCcYBkBkcYTcUBEtUOQfUHcYVVEiWPRNcYZQZQZQQEQEZQZQZQsrZQZQZQZQcYbBpjsySvwBfTYdmKEaKnusEuHUsbdbdbdbdbdbdbaXdbdbFrdbVwlORTRTRBLyVHDWLUEIcFfocFsdsdsdsdsdsdsdsdsdsdcFfocFsdsdsdsdsdsdsdsdsdsdcFfocFsdsdsdsdsdsdsdsdsdsdcFvGcFFqVvVbVHUNUNQOkbodUNhENqNqqdcXcXZYcXcXcXcXcXZYZYizyayaYBYBizUNdC
 dCcYBkBkcYcYcYcYcYMVjrXeZQZQZQZQXxZQZQBeZQZQZQZQZQsrZQZQZQZQcYPVpjcYTCTCTCYdPWkXdbdbdbSjCsCsbjCsgdCsCsoXcYRfBNcYcYcYZOZOvAyUDmDmDmAHcFGjcFuQTQTQTQTQTQTQTQTQqIcFGjcFuQTQTQTQTQTQTQTQTQqIcFGjcFuQTQTQTQTQTQTQTQTQqIcFntcFyUONONONUNUNUNUNUNUNQXZYZYqUZYZYZYfNyIzyyIzNZYZYizYBYBYBYBizUNdC
 dCcYBkBkcYtXAqJtcYADxLcYcYcYQEAPcYcYcYcYcYcYcYcYcYARcYcYcYcYcYPVXkcYcYEqcYcYYQpSkXkXkXYQGyNMNMNMNMNMcYGTZOZOBNZRMITJZOZOZOZOZOZOibcYcFcFcFeRcFcFcFcFcFcFcFcFeRcFcFcFcFcFcFcFcFcFcFcFcFcFcFfocFeRcFcFcFcFcFcFcFcFeRcFHhcFyUFgZOZOUNUNUNUNUNUNQXcXcXcXcXcXBAizvRvRvRizZYZYizsjYBYBYBizUNdC
 dCcYdzBkHsmnUBFiRIUzcYLDyxcYZQQEcYQEQEQEQEQEZQvDQEGxBYnvQEDpcYPVvrcYYgTCTCcYYQkXkXkXkXkXCmNMNMNMNMNMUvzPZOZOqfVQVQgiCFBKZOwpZOZOibcYcFcFcFyUyUyUyUCcCcyUyUyUyUcFcFcFYnogogogogogogogogYncFfocFyUyUyUyUuyuyyUyUyUyUcFHhcFyUFgZOZOUNUNNcYBNcUNGXJQeJeJeJUNUNizYBYBYBizUNUNizuKYBijeaizUNdC
 dCcYcYHscYcYcYcYcYcYcYCKCKddZQvkcYZQCrCujkQECrqZDDkgCrQEbAZQcYEHvrIyTCTCCvcYYQkXkXkXkXkXGyNMNMNMNMNMWjmYZOZOAUWIZOIsRUZOSecYcYcYcYcYcYWkcYcYjbyUpLsdsdCbyUjbcYcYWkcYYnvKKkKkJgdhiQvBuiYncYsEcYcYjbyUpLsdsdCbyUjbcYcYKBcYcYGdZOIZUNUNNcYBjleNELVrSzVrSzVrUNuIYBRCYBsnUNUNizsVsVsVizizUNdC
-dCcYVTScErcYUMkJUMUMcYdWKocYZQQEcYZQCrxyCMQEDlZKfHCwCMZQrrQEcYcYcYcYTCTCBqcYYQkXkXkXkXkXGyNMNMNMNMNMEMqsZOZOLGMOZOnoRUZOZOcYXmqtSUcYPcPcPcpVROyUYJYJYJYJyUMNuxPcPcEFYnjhKkZXXMXMKkKkOkYnPcCJPcpVROyUYJYJYJYJyUMNuxPcINPccYivzxXRUNUNMwZYZYZYELPrRAovRAwJUNizYBYBYBizUNUNizscYBscizUNUNdC
+dCcYVTScErcYUMkJUMUMcYdWKocYZQQEcYZQCrxyCMQEDlZKfHCwCMZQrrQEcYcYcYcYTCTCBqcYYQkXkXkXkXkXGyNMNMNMNMNMEMqsZOZOLGMOZOnoRUZOZOcYXmqtSUcYPcPcPcpVPcyUYJYJYJYJyUPcuxPcPcEFYnjhKkZXXMXMKkKkOkYnPcCJPcpVPcyUYJYJYJYJyUPcuxPcINPccYivzxXRUNUNMwZYZYZYELPrRAovRAwJUNizYBYBYBizUNUNizscYBscizUNUNdC
 dCcYZQZQZQcYcYcYcYcYcYcYURcYDBmMcYQECMZQDlQEDlDIOoQECMKjiyQEcYFGTCTCTCTCDLcYYQkXkXkXkXkXFdNMNMNMNMNMEMuLZOZOZOZOZOiwLsVQVQnqhYHeILqhjDPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcXMXMXMXMvtXMXMXMXMXMPcCJPcPcPcPcPcPcPcPcPcPcPcPcJeXqOXYfTUMWUNUNjCZYcjZYrPvwhgmLPsVrUNizEdEeEeizUNUNizYBSWYBizUNUNdC
-dCcYZEZQndcYNfcYSdcYSQSQWocYZQQEcYKjQEZQTkZQZQQEQEZQtYZQZQwocYssrTNvEovOTCcYYQEOkXkXkXkXGyNMNMNMNMNMcYioMixtNtziWUZOZOZOZOEUEZhIxvohGKGKGKPcPcPcPcRkPcPcPcPcPcPcPcPcXMXMXMXMXMXMXMXMXJdJIIlHPcPcPcPcPcPcPcPccYcYcYcYcYcYcYZuHfZuUNUNZYZYZYZYZYPrRALFRAwJUNizizizizizUNUNizscYBscizUNUNdC
-dCcYcYOTcYcYgOcYCLcYZQZQQEScCuZQcYcYcYcYcYcYEDcYcYcYcYcYcYcYcYcYcYcYcYcYcYYYYYYYYYYYYYYYYYGyNMNMNMGycYcYcYcYcYcYcYcYRfZOcYcYcYcYcYcYcYcYcYcYcYcYAYAYAYAYcYcYcYPcPcPcYnuHKkKkXMXMKkKkwhYnPcPcPcPcPcPcPcPcPcPccYZvZvZvZvZvfsZvZvZvUNUNEGNKZYMfZYVrQBVrQBVrUNUNUNUNUNUNUNUNizKhKhKhizUNUNdC
-dCcYXBQEZQSZZQSZQEQECuQEZQbeQEVLcYbizgzgbizgbizgbibibibibizgbibibibibibibiYYZGZGexexeOeOYYNMNMNMNMNMcYZOdVDVdVdVdVnGZOZOfIcYIMIMIMIMIMcYPcPcPcPcPcPcPcPcPcPchoPcPcUrYnvKIRcIXMXMjGAdjGYnaPPcPcPcPcPcPcPcPcPccYZvZvZvZvZvZvZvNBOOUNUNUNUNUNUNUNUNUNUNUNUNUNUNUNUNUNUNUNUNizizizizizUNUNdC
-dCcYZQbeZQTkCuCuCuQESZQECuQEZQVLcYzgbsbtqhbtbtbtqhbtbtbtbtbtbtbtbtbtbtbwbiFQFQFQFQFQFQmSYYNMNMNMNMNMrIZOZOZOZOZOZOZOZOZOgQcYZOZOZOZOZOcYPcPcPcPcPcPcPcPcPcPchoPcPcPcYnYnYnYnXMXMYnYnYnYnPcPcPcPcPcPcPcPcPcPccYZvZvZvZvZvZvZvjBzqUNUNUNUNUNUNUNUNUNUNUNUNUNUNUNUNUNUNUNUNUNUNUNUNUNUNUNdC
-dCcYcYjPcYcYcYjPcYcYEDcYcYcYcYcYcYcYcYcYcYcYbicYcYcYcYcYcYcYcYcYcYcYcYbDbiYYFQFQFQFQroFQZcNMNMNMNMNMcYZOtKtKtKUitKZOZOZOKLcYZOZOZOZOZOcYPcPcPcPcPcPcPcPcPcPccYPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcZOZOZOZOZOZOZOOlcrOlcYcYcYcYcYcYUNUNUNUNUNUNUNUNUNUNUNUNUNUNUNUNUNUNUNUNUNUNUNUNUNUNUNdC
-dCcYndQEZQQEQEndbucYbizgbibizgzgbibibibibibibibicYqyqyqyqyqyqyqyqyqycYbDbiYYhWFQFQFQFQFQYYNMNMNMNMNMrIZOZOZOZOZOZOZOyJZOpUcYZOZOZOZOwQcYPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcZOZOZOZOZOZOZOZvZvZvcYPcPcPcPcPccYlClClClClClClClClClClClClClClClClClClClClClClClClClCdC
-dCcYQEQEdjEPEPZQndcYbibizgUMbibibibicYbibibibibicYqyGZKXKXKXKXKXLAqycYbDbiYYzTzTwDwDbExRYYNMNMNMNMNMcYZOdVdVdVdVdVZOZOZOfIcYghZOlzxxEVcYPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcZOZOZOZOZOZOZOZvZvZvcYPcPcPcPcPccYlClClClClClClClClClClClClClClClClClClClClClClClClClCdC
-dCcYZQQEcYcYcYZQZQcYbibiUMUMUMbicYcYcYcYcYcYbibicYqyTrfGsTsTsTFTUcqycYbDbiYYYYYYYYYYYYYYYYGyNMNMNMGycYcYvAcYUacYcYcYcYcYcYcYcYLXcYcYcYcYPcPcPcPcPcPcPcPcPcPccYPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcZOZOZOZOZOZOZOZvZvZvcYPcPcPcPcPccYlClClClClClClClClClClClClClClClClClClClClClClClClClCdC
-dCcYbHZQQrQryoZQZQcYzgbiUMUMbibibiSIcYUMUMcYbibicYqyTrsTsTsTsTsTUcqycYbDbicYbMZQccZQZQEWcYNMNMNMNMNMcYVtZOZOZOVSVSVSVSVSVSVSVSVSIUcYcYcYPcPcPcPcPcPcPcPcPcPccYcYcYYOjKYOcYYOjKYOcYYOjKYOcYYOjKYOZOZOZOZOZOZOZOZvZvZvcYcYZuZuZucYcYcYcYcYcYlClClClClClClClClClClClClClClClClClClClClClCdC
-dCcYcYndZQQEZQZQcYcYbicYcYbibibibibicYUMUMcYbibicYqyTrsTsTvEsTsTUcqycYcfbtcYcscvcYZQZQfCcYNMNMNMNMNMEMRUZOZOZzMyMyuPMyMyuPMyMyKGMycYcYcYPcPcPcPcPcPcPcPcPcPcPcPccYHgmvYOcYHgmvYOcYHgmvYOcYHgrGYOcYZvZvZvZvZvZvZvZvZvPcPcPcPcXjgNqhzBHVYOcYlClClClClClClClClClClClClClClClClClClClClClCdC
-dCUMcYcYcYcYcYcYcYbibibicYEXbibibibicYUMUMcYbibicYqyTrsTsTsTsTsTUcqycYbDbicYcYcYcYZQndZQfkNMNMoNZyZylYHIZOZOpbMyMyMyMyMyMyMyMyKGMycYcYcYPcPcPcPcPcPcPcPcPcPcPcPccYcYEbFocYcYTKFocYcYEbFocYcYEbFocYZvZvZvZvZvZvZvZvZvPcPcPcPckWKCqhHOMuYOcYlClClClClClClClClClClClClClClClClClClClClClCdC
-dCUMUMUMbibibibibizgbibicYcYcYcYcYcYcYUMUMcYbibicYqyTrJEsTsTsTJEUcqycYbDzgcYjtZQcLFxndZQcYNMNMUpNMNMEMuvuvuvZzMyMyuPMyMyuPMyMyKGMycYcYcYPcPcPcPcPcPcPcPcPcPcPcPccYPcDoPcPcPcDoPcRkPcDoPcuuPcDoPccYZvZvZvZvZvZvZvZvZvPcPcPcPcPcUrcYRGRGRGcYlClClClClClClClClClClClClClClClClClClClClClCdC
-dCUMUMzgbizgbibibibibibicYwUZOZOZOZecYUMUMcYbibicYqyxNoioioioioiTNqycYcfbtcYcscvcYndZQdtcYNMNMUpNMNMcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYOlOlOlcYcYcYcYcYcYcYcYcYcYcYcYcYcYZOcYaylClClClClClClClClClClClClClClClClClClClClClCdC
-dCUMbibibibizgbizgzgbibicYZOZOZOZOZOcYUMUMcYbibicYqyqyqyqyqyqyqyqyqycYbDbicYcYcYcYZQZQFpcYGyNMUpNMGycYZOZOZOZOZOZOZOZOZOZOmTZvZvZvZvZvmTXSGbGkGCGCGCGDOlGGXSGSGbXSXSHcOlqcqcqcWzqcqcqcWzqcqcqcWzqcqcqcWzqcqcqcWzqcqcqcWzqcqcqccYcYlClClClClClClClClClClClClClClClClClClClClClClClClClCdC
-dCcYbicYcYcYcYcYcYXhbibidIZOZOZOZOZOcYUMUMcYbibicYqyqyqyqyqyqyqyqyqybibDbibindZQeEZQZQdtcYNMNMUpNMNMZOZOZOZOZOZOZOZOZOZOZOHyZvZvZvZvZvOlXSXSveveveveveOlGGXSXSXSXSXSXSOlqcHFqcWzqcHFqcWzqcHFqcWzqcHFqcWzqcHFqcWzqcHFqcWzqcHFqccYcYlClClClClClClClClClClClClClClClClClClClClClClClClClCdC
-dCcYbicYonbicYIKIKcYbibicYZOZOZOZOZOcYUMcYcYbicYcYGwqkgXbQgXqkouqyqycYeVbtcYdxAacYndZQRdcYNMNMUpNMNMZOZOZOZOZOZOZOZOZOZOZOmTZvZvZvZvZvmTXSXSHYIhIhIhIiOlGGXSIpXSXSXSXSOlqcqcWqWzqcqcWqWzqcqcWqWzqcqcWqWzqcqcWqWzqcqcWqWzqcqcWqcYcYlClClClClClClClClClClClClClClClClClClClClClClClClClCdC
-dCcYbibibiWlcYmmmmcYzgbicYcaZBZOZOZOcYcYcYbibibicYrklcvrvrvrTXqTqyascYcYcYcYcYcYcYcYfkEbcYNMNMUpNMNMZOZOZOZOZOZOZOZOZOZOZOYTYTItIzItYTYTXSXSOlIAIAIAOlOlOlIVOlZrXSXSXSOlqcqcmVWzqcqcmVWzqcqcmVWzqcqcmVWzqcqcmVWzqcqcmVWzqcqcmVcYcYlClClClClClClClClClClClClClClClClClClClClClClClClClCdC
-dCcYbicYbibicYbibicYbibicYcYcYwkcYcYcYcYzfbibibicYrkvrvrvrvrvrqTqyqyqyHvfxcYNMNMLINMNMUpNMNMNMUpNMNMZOZOZOZOZOZOZOZOZOZOZOYTJdJkZSJkhUYTXSXSJoXSXSXSJoXSXSXSOlZrXSXSJWOlhrQNJXOlhrQNJXOlhrQNJXOlhrKaJXOlhrQNJXOlhrQNJXOlhrQNJXOlcYZOZOZOZOlClClClClClClClClClClClClClClClClClClClClClCdC
-dCcYbiMjcYcYJGbibicYbibicYvLZOZOZOZOEgcYbibibibicYiYvrvrvrvrvrotqyqyqyqyqyOINMNMNMNMNMUpNMNMNMUpNMNMZOZOZOZOZOZOZOZOZOZOZOTqKdZpZpZpHHHlXSXSXSXSXSXSXSXSXSXSOlZrXSXSOlOlHABjiPOlHABjiPOlHABjiPHaLuLviPOlLwBjiPOlHABjiPLxHABjiPOlcYLCcYLCcYlClClClClClClClClClClCcYlClClClClClClClClClCdC
-dCcYbibibibibibibibibibicYZOFEZOZOZOqacYbibibibicYrkvrvrvrvrvrqTqyqyqyqyefqhZyZyGvZyZyzXZyZyZygGZyZyZOZOZOZOZOZOZOZOZOZOZOTqLTMHZpZpMPYTXSXSNsGzGzGzNsXSXSHcOlZrXSXSNuNxXSXSXSOcXSXSXSOGXSXSXSXSXSOPXSOVXSXSXSOGXSXSXSOYXSXSXSPeXSXSXSXSPDjAjAjAjAjAjAjAjAjAjAjAcYlClClClClClClClClClCdC
-dCcYbizgzgcYcYcYcYcYcYcYcYZOZOZOZOZOZOcYbibibibicYrkosvrvrvrTXqTqyqyqyqyarOINMNMUpNMNMNMNMNMNMNMNMNMZOZOZOZOZOZOZOZOZOZOZOYTLTZpZpZpLTYTPHPHOlOlOlOlOlOlOlOlOlOlXSXSPKXSXSXSXSXSXSXSXSXSXSXSXSXSXSOPXSXSXSXSXSXSXSXSXSOYXSXSXSXSXSQnXSXSQGjAjAjAjAjAjAjAjAjAjAjAcYlClClClClClClClClClCdC
-dCcYbibibicYRPZOrErzwuZOcUZOZOZOqnZOZOcYbibibibicYInSqVDcgVDSqoFqyxHjaHZYbcYNMNMUpNMNMNMNMNMNMNMNMNMZOZOZOZOZOZOZOZOZOZOZOQLRbZpZpZpRbSfUSUSUSUSUSUSUSUSUSUSUSOlSNOlNuTjXSXSXSXSXSXSXSToXSXSXSXSXSOPXSTvXSXSXSToXSXSXSOYXSXSXSToXSUxXSXSPDjAjAjAjAjAjAjAjAjAjAjAcYlClClClClClClClClClCdC
-dCcYbibibicYZOZOZOdeZOdeZOZOObObZOZOZOJKbibibibiRncYcYcYcYcYcYcYcYcYcYcYcYcYGyNMUpNMGycYcYcYcbcbcbcYcYcYcYcYcYcYcYcYcYcYcYYTUhRbRbvovoFLUSUSUSUSUSUSUSUSUSUSUSUSUSUSNuUPVivnWdWuVivnWdOlVivnWdOlyqWxWdOlVivnWdOlVivnWdLxVivnWdWEXSUxVKOlcYjAjAjAjAjAjAjAjAjAjAjAcYlClClClClClClClClClCdC
-dCcYcYbicYcYKtZOZOZOfQZOZOObZOZOZOZOZOJKbibibibibibibibibibibibibibibibibicYNMNMUpNMGyUMUMpgpgpgpgpgEppgpgUMUMUMUMUMpgUMUMJxJxJxJxJxJxJxJxJxJxJxJxJxJxJxJxJxOlAtWDAtOlOlXaXvRlWzXaXvRlOlXaXvRlOlXaXzRlOlXaXvRlOlXaXvRlOlXaXvRlOlXSUxXSXScYjAjAjAjAjAjAjAjAjAjAjAcYlClClClClClClClClClCdC
-dCcYOmbinUcYZOZOZOdeObdeZOZOZOqnZOZOZOJKbibibibibibibibibibibibibibibibibibiNMNMUpNMGyUMUMUMpgpgpgepYkvbEppgpgUMUMpgpgpgUMJxwzWOWOWOwzWOWOwzXAXAwzWOWOWOWOJxJxXUXSXSXSOlqcqcmVWzqcqcmVWzqcqcmVWzqcqcmVWzqcqcmVWzqcqcmVWzqcqcmVOlToUxXSXScYjAjAjAjAjAjAjAjAjAjAjAcYlClClClClClClClClClCdC
-dCcYOmbibicYqnZOkKEcIfhJZOyuZOZOZOZOZOcYbibibibibibibibibibibibibibibibibicYNMNMUpNMGyUMUMUMpgpgYRabZIAzwvEppgpgpgpgEppgUMJxYhWOWOWOYjYlWOYvXAXAYvWOWOWOWOJxJxYXXSXSToOlqcqcZmWzqcqcZmWzqcqcZmWzqcqcZmWzqcqcZmWzqcqcZmWzqcqcZmOlOlUxXSXScYjAjAjAjAjAjAjAjAjAjAjAcYlClClClClClClClClClCdC
-dCcYOmbiaIcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYNMNMUpNMGyUMUMcYDODOMogTeHBDZFDOmacYEpEppgpgpgJxwzWOWOWOwzWOWOwzXAXAwzWOWOWOWOJxJxZDXSXSOlOlqcqcqcWzqcqcqcWzqcqcqcWzqcqcqcWzqcqcqcWzqcqcqcWzqcqcqcOlPeUxXSXScYcYcYmPcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYlClClClCdC
-dCcYcYAbcYcYZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOcYJmyzUdZOvccYJmyzUdZOvccYNMNMUpNMGyUMpgpgEpDPMEblHXJBdrtVEpEppgpgUMpgUMJxJxVBKpVBwzVBVBwzXANzxiVBVBVBVBwzJxXSXSXSPeOlqcqcqcWzqcqcqcWzqcqcqcWzqcqcqcWzqcqcqcWzqcqcqcWzqcqcqcOlXSUxXSXScYVxfJZOZOrfcYWvbOcYojZQcYzGZQZQZQbucYlClClClCdC
-dCZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOcYXwQAuMZwZOcYXwQAuMXoZOcYNMNMUpNMGyUMpgpgpgmyPScwtSPYmsmDEpEpEppgpgUMUMJxwzrJXAXAwzXAXAXAxAXAwzWOWOWOWOwzJxXSXSXSXSKfOlWzWzWzWzWzWzWzWzWzWzWzWzWzWzWzWzWzWzWzWzWzWzWzWzWzOlOlXSUxXSXScYduBHZOZOrfcYQEZQcYndQEcYZQYagFfjndcYlClClClCdC
-dCZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOcYZOZOZOZOZOcYZOZOZOZOZOcYNMNMUpNMlvpgpgEpEpfvREnJMhEnNQcAEppgEpEppgUMUMJxwzXAXAXAtDXAXAXAXAXAPgWOWOWOGJwzJxXSXSXSXSjQoSqcqcqczEWzXKuoWzWzWzWzWzWzWzWzWzWzWzXKXKWzAMyArVrtZoFPXSUxXSXScYcqZOZOZOrfcYcYAQcYcYDvcYIgYagFCGZQcYlClClClCdC
-dCZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOcYbibiZOcYcYFMbibiZOcYcYcYNMNMUpNMlvpgpgpgpewOxEUWvIbPmtxYSoEppgpgpgUMUMJxwzXAXAXAwzXAXAXAXAXAwzWOWOWOWOwzJxXSXSXSXSadjEqcqcqcqcWzXKXKWzqcqcqcqcqcqcqcqcqcWzXKXKWzyAyAyAyAiMQaqDICXSXScYZOZOZOZOZOaqZQZQmRZQQEanZQopgFCGZQcYlClClClCdC
-dCZOZOZOZOZOZOZOZOZOZOMjVjZOZOZOZOZOZOZOZOZOZOZOZOcYZOugeMZOZOZOZOugeMZOZOcYNMNMUpNMlvpgEpOSTObShaGtvIMdIajMzYTbEppgpgUMUMJxYHXAXAYNwzBuBuVBpYVBJxVBVBVBVBwzJxOlXLXSXShRobCCYLqcqcWzXKXKWzqcqcqcqcqcqcqcimqcWzXKXKWzlabTyAyAPodGXSUxVKOlcYcYOlOlOlOlcYQkZQZQZQZQcYndZQZQZQJOcYlClClClCdC
+dCcYZEZQndcYNfcYSdcYSQSQWocYZQQEcYKjQEZQTkZQZQQEQEZQtYZQZQwocYssrTNvEovOTCcYYQEOkXkXkXkXGyNMNMNMNMNMcYioMixtNtziWUZOZOZOZOEUEZhIxvohGKGKGKPcPcPcPcRkPcPcPcPcPcPcPcPcXMXMXMXMXMXMXMXMXJdJIIlHPcPcPcPcPcPcPcPcZOZOZOZOZOZOcYZuZOZuUNUNZYZYZYZYZYPrRALFRAwJUNizizizizizUNUNizscYBscizUNUNdC
+dCcYcYOTcYcYgOcYCLcYZQZQQEScCuZQcYcYcYcYcYcYEDcYcYcYcYcYcYcYcYcYcYcYcYcYcYYYYYYYYYYYYYYYYYGyNMNMNMGycYcYcYcYcYcYcYcYRfZOcYcYcYcYcYcYcYcYcYcYcYcYAYAYAYAYcYcYcYPcPcPcYnuHKkKkXMXMKkKkwhYnPcPcPcPcPcPcPcPcPcPcZOZvZvZvZvZvfsZviXjBUNUNEGNKZYMfZYVrQBVrQBVrUNUNUNUNUNUNUNUNizKhKhKhizUNUNdC
+dCcYXBQEZQSZZQSZQEQECuQEZQbeQEVLcYbizgzgbizgbizgbibibibibizgbibibibibibibiYYZGZGexexeOeOYYNMNMNMNMNMcYZOdVDVdVdVdVnGZOZOfIcYIMIMIMIMIMcYPcPcPcPcPcPcPcPcPcPchoPcPcUrYnvKIRcIXMXMjGAdjGYnaPPcPcPcPcPcPcPcPcPcZOZvZvZvZvZvZvZvZvOOUNUNUNUNUNUNUNUNUNUNUNUNUNUNUNUNUNUNUNUNizizizizizUNUNdC
+dCcYZQbeZQTkCuCuCuQESZQECuQEZQVLcYzgbsbtqhbtbtbtqhbtbtbtbtbtbtbtbtbtbtbwbiFQFQFQFQFQFQmSYYNMNMNMNMNMrIZOZOZOZOZOZOZOZOZOgQcYZOZOZOZOZOcYPcPcPcPcPcPcPcPcPcPchoPcPcPcYnYnYnYnXMXMYnYnYnYnPcPcPcPcPcPcPcPcPcPcZOZvZvZvZvZvZvZvZvZvlnlnlnlnlnlnlnlnlnlnlnlnlnlnlnlnlnlnUNUNUNUNUNUNUNUNUNdC
+dCcYcYjPcYcYcYjPcYcYEDcYcYcYcYcYcYcYcYcYcYcYbicYcYcYcYcYcYcYcYcYcYcYcYbDbiYYFQFQFQFQroFQZcNMNMNMNMNMcYZOtKtKtKUitKZOZOZOKLcYZOZOZOZOZOcYPcPcPcPcPcPcPcPcPcPccYPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcZOZOZOZOZOZOZOOlcrOlcYcYPDPDPDcYUNUNUNUNUNUNUNUNUNUNlnUNUNUNUNUNUNlnUNUNUNUNUNUNUNUNUNdC
+dCcYndQEZQQEQEndbucYbizgbibizgzgbibibibibibibibicYqyqyqyqyqyqyqyqyqycYbDbiYYhWFQFQFQFQFQYYNMNMNMNMNMrIZOZOZOZOZOZOZOyJZOpUcYZOZOZOZOwQcYPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcZOZOZOZOZOZOZOZvZvZvcYZQZQZQZQZQZQZQZQZQZQZQZQZQcYPcPcPcPcPcPcPccYPcPcPcPcPcPcPcPcPccYdC
+dCcYQEQEdjEPEPZQndcYbibizgUMbibibibicYbibibibibicYqyGZKXKXKXKXKXLAqycYbDbiYYzTzTwDwDbExRYYNMNMNMNMNMcYZOdVdVdVdVdVZOZOZOfIcYghZOlzxxEVcYPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcZOZOZOZOZOZOZOZvZvZvcYZQZQZQZQZQZQZQZQZQZQZQZQZQcYPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPccYdC
+dCcYZQQEcYcYcYZQZQcYbibiUMUMUMbicYcYcYcYcYcYbibicYqyTrfGsTsTsTFTUcqycYbDbiYYYYYYYYYYYYYYYYGyNMNMNMGycYcYvAcYUacYcYcYcYcYcYcYcYLXcYcYcYcYPcPcPcPcPcPcPcPcPcPccYPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcZOZOZOZOZOZOZOZvZvZvcYZQZQZQZQZQZQZQZQZQZQZQZQZQcYPcPcPcPcPcPcPccYcYcYcYcYcYcYPcPcPccYdC
+dCcYbHZQQrQryoZQZQcYzgbiUMUMbibibiSIcYUMUMcYbibicYqyTrsTsTsTsTsTUcqycYbDbicYbMZQccZQZQEWcYNMNMNMNMNMcYVtZOZOZOVSVSVSVSVSVSVSVSVSIUcYcYcYPcPcPcPcPcPcPcPcPcPccYcYcYYOjKYOcYYOjKYOcYYOjKYOcYYOjKYOZOZOZOZOZOZOZOZvZvZvcYcYZuZuZucYcYcYcYcYcYZQZQZQcYcYcYcYcYcYcYcYcYZQZQZQZQZQcYPcPcPccYdC
+dCcYcYndZQQEZQZQcYcYbicYcYbibibibibicYUMUMcYbibicYqyTrsTsTvEsTsTUcqycYcfbtcYcscvcYZQZQfCcYNMNMNMNMNMEMRUZOZOZzMyMyuPMyMyuPMyMyKGMycYcYcYPcPcPcPcPcPcPcPcPcPcPcPccYHgmvYOcYHgmvYOcYHgmvYOcYHgrGYOcYZvZvZvZvZvZvZvZvZvPcPcPcPcXjgNqhzBHVYOcYZQZQZQPDZQZQZQZQZQZQZQPDZQZQZQZQZQcYPcPcPccYdC
+dCUMcYcYcYcYcYcYcYbibibicYEXbibibibicYUMUMcYbibicYqyTrsTsTsTsTsTUcqycYbDbicYcYcYcYZQndZQfkNMNMoNZyZylYHIZOZOpbMyMyMyMyMyMyMyMyKGMycYcYcYPcPcPcPcPcPcPcPcPcPcPcPccYcYEbFocYcYTKFocYcYEbFocYcYEbFocYZvZvZvZvZvZvZvZvZvPcPcPcPckWKCqhHOMuYOcYZQZQZQZQZQZQZQZQZQZQZQZQZQZQZQZQZQcYPcPcPccYdC
+dCUMUMUMbibibibibizgbibicYcYcYcYcYcYcYUMUMcYbibicYqyTrJEsTsTsTJEUcqycYbDzgcYjtZQcLFxndZQcYNMNMUpNMNMEMuvuvuvZzMyMyuPMyMyuPMyMyKGMycYcYcYPcPcPcPcPcPcPcPcPcPcPcPccYPcDoPcPcPcDoPcRkPcDoPcuuPcDoPccYZvZvZvZvZvZvZvZvZvPcPcPcPcPcUrcYRGRGRGcYZQZQZQPDZQZQZQZQZQZQZQPDZQZQZQZQZQcYPcPcPccYdC
+dCUMUMzgbizgbibibibibibicYwUZOZOZOZecYUMUMcYbibicYqyxNoioioioioiTNqycYcfbtcYcscvcYndZQdtcYNMNMUpNMNMcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYOlOlOlcYcYcYcYcYcYcYcYcYcYcYcYcYcYZQcYayZQZQZQcYcYPDPDPDPDPDcYcYcYcYcYcYcYcYPcPcPccYdC
+dCUMbibibibizgbizgzgbibicYZOZOZOZOZOcYUMUMcYbibicYqyqyqyqyqyqyqyqyqycYbDbicYcYcYcYZQZQFpcYGyNMUpNMGycYZOZOZOZOZOZOZOZOZOZOmTZvZvZvZvZvmTXSGbGkGCGCGCGDOlGGXSGSGbXSXSHcOlqcqcqcWzqcqcqcWzqcqcqcWzqcqcqcWzqcqcqcWzqcqcqcWzqcqcqccYcYZQZQZQZQZQZQZQcYlpoyoyoyoylpoycYPcPcPcPcPccYPcPcPccYdC
+dCcYbicYcYcYcYcYcYXhbibidIZOZOZOZOZOcYUMUMcYbibicYqyqyqyqyqyqyqyqyqybibDbibindZQeEZQZQdtcYNMNMUpNMNMZOZOZOZOZOZOZOZOZOZOZOHyZvZvZvZvZvOlXSXSveveveveveOlGGXSXSXSXSXSXSOlqcHFqcWzqcHFqcWzqcHFqcWzqcHFqcWzqcHFqcWzqcHFqcWzqcHFqccYcYZQZQZQZQZQZQZQPDoyoyoLoLoLoLoLcYPcPcPcPcPcPcPcPcPccYdC
+dCcYbicYonbicYIKIKcYbibicYZOZOZOZOZOcYUMcYcYbicYcYGwqkgXbQgXqkouqyqycYeVbtcYdxAacYndZQRdcYNMNMUpNMNMZOZOZOZOZOZOZOZOZOZOZOmTZvZvZvZvZvmTXSXSHYIhIhIhIiOlGGXSIpXSXSXSXSOlqcqcWqWzqcqcWqWzqcqcWqWzqcqcWqWzqcqcWqWzqcqcWqWzqcqcWqcYcYZQZQZQZQZQZQZQPDoyoypGqvpGoLzqcYPcPcPcPcPccYPcPcPccYdC
+dCcYbibibiWlcYmmmmcYzgbicYcaZBZOZOZOcYcYcYbibibicYrklcvrvrvrTXqTqyascYcYcYcYcYcYcYcYfkEbcYNMNMUpNMNMZOZOZOZOZOZOZOZOZOZOZOYTYTItIzItYTYTXSXSOlIAIAIAOlOlOlIVOlZrXSXSXSOlqcqcmVWzqcqcmVWzqcqcmVWzqcqcmVWzqcqcmVWzqcqcmVWzqcqcmVcYcYZQZQZQZQZQZQZQPDoyoLoLoLoLpGoLcYPcPcPcPcPccYPcPcPccYdC
+dCcYbicYbibicYbibicYbibicYcYcYwkcYcYcYcYzfbibibicYrkvrvrvrvrvrqTqyqyqyHvfxcYNMNMLINMNMUpNMNMNMUpNMNMZOZOZOZOZOZOZOZOZOZOZOYTJdJkZSJkhUYTXSXSJoXSXSXSJoXSXSXSOlZrXSXSJWOlhrQNJXOlhrQNJXOlhrQNJXOlhrKaJXOlhrQNJXOlhrQNJXOlhrQNJXOlcYZQZQZQZQZQZQZQcYoyByoLoLoLoLoLcYPcPcPcPcPccYPcPcPccYdC
+dCcYbiMjcYcYJGbibicYbibicYvLZOZOZOZOEgcYbibibibicYiYvrvrvrvrvrotqyqyqyqyqyOINMNMNMNMNMUpNMNMNMUpNMNMZOZOZOZOZOZOZOZOZOZOZOTqKdZpZpZpHHHlXSXSXSXSXSXSXSXSXSXSOlZrXSXSOlOlHABjiPOlHABjiPOlHABjiPHaLuLviPOlLwBjiPOlHABjiPLxHABjiPOlcYLCcYLCcYPDPDPDcYPDPDPDcYPDHfPDcYcYcYcYcYcYcYPcPcPccYdC
+dCcYbibibibibibibibibibicYZOFEZOZOZOqacYbibibibicYrkvrvrvrvrvrqTqyqyqyqyefqhZyZyGvZyZyzXZyZyZygGZyZyZOZOZOZOZOZOZOZOZOZOZOTqLTMHZpZpMPYTXSXSNsGzGzGzNsXSXSHcOlZrXSXSNuNxXSXSXSOcXSXSXSOGXSXSXSXSXSOPXSOVXSXSXSOGXSXSXSOYXSXSXSPeXSXSXSXSPDKlKljAjAjAjAjAjAjAjAjAcYPcPcPcPcPccYPcPcPccYdC
+dCcYbizgzgcYcYcYcYcYcYcYcYZOZOZOZOZOZOcYbibibibicYrkosvrvrvrTXqTqyqyqyqyarOINMNMUpNMNMNMNMNMNMNMNMNMZOZOZOZOZOZOZOZOZOZOZOYTLTZpZpZpLTYTPHPHOlOlOlOlOlOlOlOlOlOlXSXSPKXSXSXSXSXSXSXSXSXSXSXSXSXSXSOPXSXSXSXSXSXSXSXSXSOYXSXSXSXSXSQnXSXSQGjAjAjAjAjAMNMNMNMNMNjAcYPcPcPcPcPcPcPcPcPccYdC
+dCcYbibibicYRPZOrErzwuZOcUZOZOZOqnZOZOcYbibibibicYInSqVDcgVDSqoFqyxHjaHZYbcYNMNMUpNMNMNMNMNMNMNMNMNMZOZOZOZOZOZOZOZOZOZOZOQLRbZpZpZpRbSfUSUSUSUSUSUSUSUSUSUSUSOlSNOlNuTjXSXSXSXSXSXSXSToXSXSXSXSXSOPXSTvXSXSXSToXSXSXSOYXSXSXSToXSUxXSNBPDROjAjAjAjAjAjAjAjAjAjAcYPcPcPcPcPccYPcPcPccYdC
+dCcYbibibicYZOZOZOdeZOdeZOZOObObZOZOZOJKbibibibiRncYcYcYcYcYcYcYcYcYcYcYcYcYGyNMUpNMGycYcYcYcbcbcbcYcYcYcYcYcYcYcYcYcYcYcYYTUhRbRbvovoFLUSUSUSUSUSUSUSUSUSUSUSUSUSUSNuUPVivnWdWuVivnWdOlVivnWdOlyqWxWdOlVivnWdOlVivnWdLxVivnWdWEXSUxVKOlcYKljAjAjAjAMNMNMNMNMNjAcYPcPcPcPcPccYPcPcPccYdC
+dCcYcYbicYcYKtZOZOZOfQZOZOObZOZOZOZOZOJKbibibibibibibibibibibibibibibibibicYNMNMUpNMGyUMUMpgpgpgpgpgEppgpgUMUMUMUMUMpgUMUMJxJxJxJxJxJxJxJxJxJxJxJxJxJxJxJxJxOlAtWDAtOlOlXaXvRlWzXaXvRlOlXaXvRlOlXaXzRlOlXaXvRlOlXaXvRlOlXaXvRlOlXSUxXSXScYKljAjAjAjAjAjAjAjAjAjAcYPcPcPcPcPccYPcPcPccYdC
+dCcYOmbinUcYZOZOZOdeObdeZOZOZOqnZOZOZOJKbibibibibibibibibibibibibibibibibibiNMNMUpNMGyUMUMUMpgpgpgepYkvbEppgpgUMUMpgpgpgUMJxwzWOWOWOwzWOWOwzXAXAwzWOWOWOWOJxJxXUXSXSXSOlqcqcmVWzqcqcmVWzqcqcmVWzqcqcmVWzqcqcmVWzqcqcmVWzqcqcmVOlToUxXSXScYKlKljAjAjAMNMNMNMNMNjAcYPcPcPcPcPccYPcPcPccYdC
+dCcYOmbibicYqnZOkKEcIfhJZOyuZOZOZOZOZOcYbibibibibibibibibibibibibibibibibicYNMNMUpNMGyUMUMUMpgpgYRabZIAzwvEppgpgpgpgEppgUMJxYhWOWOWOYjYlWOYvXAXAYvWOWOWOWOJxJxYXXSXSToOlqcqcZmWzqcqcZmWzqcqcZmWzqcqcZmWzqcqcZmWzqcqcZmWzqcqcZmOlOlUxXSXScYKlKlKljAjAjAjAjAjAjAjAcYPcPcPcPcPccYPcPcPccYdC
+dCcYOmbiaIcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYNMNMUpNMGyUMUMcYDODOMogTeHBDZFDOmacYEpEppgpgpgJxwzWOWOWOwzWOWOwzXAXAwzWOWOWOWOJxJxZDXSXSOlOlqcqcqcWzqcqcqcWzqcqcqcWzqcqcqcWzqcqcqcWzqcqcqcWzqcqcqcOlPeUxXSXScYcYcYmPcYcYcYcYcYcYcYcYcYcYcYcYcYcYcYPcPcPccYdC
+dCcYcYAbcYcYZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOcYJmyzUdZOvccYJmyzUdZOvccYNMNMUpNMGyUMpgpgEpDPMEblHXJBdrtVEpEppgpgUMpgUMJxJxVBKpVBwzVBVBwzXANzxiVBVBVBVBwzJxXSXSXSPeOlqcqcqcWzqcqcqcWzqcqcqcWzqcqcqcWzqcqcqcWzqcqcqcWzqcqcqcOlXSUxXSXScYVxfJZQZQrfcYWvbOcYojZQcYzGZQZQZQbucYPcPcPccYdC
+dCZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOcYXwQAuMZwZOcYXwQAuMXoZOcYNMNMUpNMGyUMpgpgpgmyPScwtSPYmsmDEpEpEppgpgUMUMJxwzrJXAXAwzXAXAXAxAXAwzWOWOWOWOwzJxXSXSXSXSKfOlWzWzWzWzWzWzWzWzWzWzWzWzWzWzWzWzWzWzWzWzWzWzWzWzWzOlOlXSUxXSXScYduBHZQZQrfcYQEZQcYndQEcYZQYagFfjndcYPcPcPccYdC
+dCZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOcYZOZOZOZOZOcYZOZOZOZOZOcYNMNMUpNMlvpgpgEpEpfvREnJMhEnNQcAEppgEpEppgUMUMJxwzXAXAXAtDXAXAXAXAXAPgWOWOWOGJwzJxXSXSXSXSjQoSqcqcqczEWzXKuoWzWzWzWzWzWzWzWzWzWzWzXKXKWzAMyArVrtZoFPXSUxXSXScYcqZQZQZQrfcYcYAQcYcYDvcYIgYagFCGZQcYPcPcPccYdC
+dCZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOcYbibiZOcYcYFMbibiZOcYcYcYNMNMUpNMlvpgpgpgpewOxEUWvIbPmtxYSoEppgpgpgUMUMJxwzXAXAXAwzXAXAXAXAXAwzWOWOWOWOwzJxXSXSXSXSadjEqcqcqcqcWzXKXKWzqcqcqcqcqcqcqcqcqcWzXKXKWzyAyAyAyAiMQaqDICXSXScYZQZQZQZQZQaqZQZQmRZQQEanZQopgFCGZQcYPcPcPccYdC
+dCZOZOZOZOZOZOZOZOZOZOMjVjZOZOZOZOZOZOZOZOZOZOZOZOcYZOugeMZOZOZOZOugeMZOZOcYNMNMUpNMlvpgEpOSTObShaGtvIMdIajMzYTbEppgpgUMUMJxYHXAXAYNwzBuBuVBpYVBJxVBVBVBVBwzJxOlXLXSXShRobCCYLqcqcWzXKXKWzqcqcqcqcqcqcqcimqcWzXKXKWzlabTyAyAPodGXSUxVKOlcYcYOlOlOlOlcYQkZQZQZQZQcYndZQZQZQJOcYPcPcPccYdC
 dCZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOcYZOIjYKZOZOZOZOIjYKZOZOcYNMNMUpNMGymaUKFhyrgHhaGtvIMdIaJRBcxKGLDOcYUMUMJxwzXAXAXACTXAXAXAXAWGYHJxJxUmJxJxJxKcXSXSIXKfOlWzWzWzWzWzXKXKWzqcnxdswctawcdsOEqcWzXKXKWzWzWzWzWzOlOlNFUxXSXSOlOlOlJiLfXSOlcYaqcYaqcYOlOlOlOlOlOlcYcYcYcYcYdC
-dCZOZOZOZOZOZOZOZOZOZOZOZOZOZOdCdCdCZOZOZOZOZOZOZOcYZOJCkmZOZOZOZOJCkmZOZOcYNMNMUpNMlvEpdcczdBdpzpGtywMdlhsSNCXNbmpgUMUMUMJxwzXAXAXACTXAwlXAXAYNwzAyBrBSBrNmwzXSXSXSXSsCoSqcqcqcqcWzXKXKWzqcqcwcTaTaTawcqcqcWzXKXKWzyAyArVrtZoFPXSUxXSXSDqXSXSXSXSXSNOXSXSLfXSXSDqWsKliXIHoEcYZOZOZOcYdC
-dCZOZOZOZOZOZOZOZOZOZOZOZOZOdCZOZOZOdCZOZOZOZOZOZOVJZOZOZOZOZOZOZOZOZOZOZOcYNMNMUpNMlvpgqHPIfYspvIvIvIvIvItTWBhxzupgUMUMUMJxwzsRXAXACTXAaDXAXAXAdZXAXAXGXAXAnTXSXSXSXSnXjEqcqcqcqcWzXKXKWzqcqcmXXfCdTamXqcqcWzXKXKWzyAyAyAyAiMQaqDICXSXSPKXSXSXSXSXSXSXSXSXSXSXSmTZvZvZvZvZvJLZOZOZOcYdC
-dCZOZOZOZOZOZOZOZOZOZOZOZOdCZOTzZOZOZOdCZOZOZOZOZOVJZOZOZOZOZOZOZOZOZOZOZOcYNMNMUpNMlvpggIdFPdajfcpOMSpXBVqRKIoQbLcYcYcYcYJxwzXAXAXACTXAyZXAXAYNwzAyXANgXANmwzXSXSXSXShRobCCNnqcqcWzXKXKWzqcqcwcTaTaTawcqcqcWzXKXKWzyAyAyAyAPodGXSUxXSXSDqXSYVXSXSXSXSXSXSXSXSXSDqZvZvZvZvZvLCZOZOZOcYdC
-dCZOZOZOZOZOZOZOZOZOZOZOdCZOZOZOZOZOdCZOZOZOZOZOZOVJZOZOZOZOZOZOZOZOZOZOZOcYNMNMUpNMGypggIswKikFkpJhsgmwJhgszKgBumGfYEukzzJxwzXAXAXACTXAXAXAXArJYHJxJxUmJxJxJxXSXSXSIXKfOlWzWzWzWzWzXKXKWzqccTdswccBwcdsBsqcWzXKDXWzWzWzWzWzOlOlNFUxXSXSOlOlOlTHTHOlOlOlOlOlnPOlOlMAZvkuZvZvcYZORFZOcYdC
-dCZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOdCdCZOZOZOZOZOZOZOVJZOZOZOZOZOZOZOZOZOZOTsqhZyZyoeNMlvpgerbChtnNQmwEhXkPkZUZzKYoumaaJfjZTxJxYHXAXAYNwzBuBuVBpYVBJxVBVBVBVBJxJxOlXLXSXSjQoSqcqcqcqcWzXKXKWzqcqcqcqcqcqcqcqcqcWzXKaBWzyAyArVrtZoFPXSUxVKOlOlOlLqWRWRrWOlcGPPSuUScNOlQpZvVaiHZvcYqOZOZOcYdC
-dCZOZOZOZOZOZOZOZOZOZOZOZOZOZOdCZOZOZOZOZOZOZOZOZOVJZOZOZOZOZOZOZOZOZOZOZOcYNMNMUpNMlvpgQlMJuGHwpvAevxEksPwSMUTTnOaaOCMLmQJxwzXAXAXAwzXAXAXAXAXAwzWOWOWOWOJxJxXSXSXSXSadjEqcqcqcqcWzXKXKWzqcqcqcqcqcqcqcqcqcWzXKaBWzyAyAyAyAiMQaqDICXSXSOlFVQJQJQJZqzHUSUSUSUSRjOlQpZvoRZvqFTZcYcYcYcYdC
-dCZOZOZOZOZOZOZOZOZOZOZOdCdCdCZOZOZOZOZOZOZOZOZOZOcYZOZOZOZOZOZOZOZOZOZOZOcYNMNMUpNMlvpgwWGiACmjkVzwhAdHKZncBbHDvpcYIkEEIkJxwzXAXAXAtDXAXAXAXAXAYvWOWOWOGJJxJxXSXSXSXShRobCCNnqcqcWzXKXKWzWzWzWzWzWzWzWzWzWzWzXKaBWzyAyAyAyAPodGXSUxXSuROlciyFRDyLZqzHUSUSUSUSRjOlZvZvZvZvZvZvZvCfBXOldC
-dCZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOcYZOZOZOZOZOHjZOZOZOZOZOcYNMNMUpNMGyUMpgAZpgEpBQupBCZtihEppgcKpgHtcJwjYGJxwzrJXAXAwzXAXAXAXAXAwzWOWOWOWOJxJxXSXSXSXSKfOlWzWzWzWzWzWzWzWzWzWzWzWzWzWzWzWzWzWzWzShAkAkAkAkAkkMkMqDkeXSXSOlQJQJBvQJUJOlgAUSUSUSRjOlkntNSDZvNpOlZvZvZvOldC
-dCZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOcYQCQCQCQCQCQCQCQCQCQCQCxXQCzJVIzJQCcYcYcYUMpgEpEpEpEpEpEppgcYpgVCosvrlIJxJxVBKpVBwzVBVBwzXANzxiJxJxJxJxJxJxXSXSXSXSOlqcqciWWzqcqcqcWzqcqcqcWzqcqcqcWzqcqcqcWzqcqcqcWzqcqcqcOlXSUxXSXSHLHLHLHLHLHLHLXrUSUSUSRjOlOlOlOlOlOlOlpyZvIDOldC
-dCZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOcYcYcYcYZOZOZOZOQCIBAAIBGFQCPLKHfLjyCUqMPjjyOQjyDZZOZOcYcYUMpgEpEpEpEppgUMUMUMcYNHzhpRJxwzWOWOWOwzWOWOwzXAXAwzRyRyRyRyJxJxXSXSXSToOlqcqcqcWzqcqcqcWzqcqcqcWzqcqcqcWzqcMxqcWzqcqcqcWzqcqcqcOlToUxXSXSHLxBxBClaxERHLHpuYuYUSNbOlQqZOtwZOpGOlZvZvZvOldC
-dCZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOcYZOZOcYZOZOZOZOuNIBIBIBIBuNjyLKpijyjySsfFfFLnjyjyZOZOZOcYcYUMpgpgpgpgUMUMUMUMcYvrsAzdJxYhWOWOWOYjGoWOZnXAXAPguCRyubfmJxJxXSXSXSOlOlqcqcWqWzqcqcWqWzqcqcWqWzqcqcWqWzqcqcWqWzzEqcWqWzqcqcWqOlOlUxXSXSHLoKUuwVUuERHLqSuYuYUSQYOlZOQjQjcZZOZvZvZvzMOldC
-dCZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOpmZOZOcYZOZOZOZOQCIBIBIBIBQCABpijyjypijyLKpiOQjypiZOZOZOZOcYcYJVJVJVJVcYcYcYcYcYqyqyzdOlwzWOVyWOwzWOWOwzXAXAwzRyRyRyRyJxJxXSXSXSWYOlqcqcmVWzqcqcmVWzqcqcmVWzqcqcmVWzqcqcmVWzqcqcmVWzqcqcmVOlPeUxXSXSHLahUuUuUuERHLqSZauYUSoZOlVjZOZOZOZOcYcYcYcYcYdC
-dCZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOvrITDEcYZOZOZOwKQCQCQCQCQCxXjyjyjyjyjyxFLKIFDnpijyZOZOZOZOKPHNOfOfOfOfOfOfcMOjmEZOZOxpOlJxJxJxJxJxJxJxJxXAXAJxJxJxJxJxJxJxXSXSXSXSOlhrQNJXOlhrQNJXOlhrQNMBOlhrQNJXOlhrQNMBOlhrQNMBOlhrQNMBOlXSUxXSXSHLoWUuUuUuERHLlluBVOUSUSOlZOsGBwBwZOcYZAsuZOcYdC
-dCZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOCRdlzIcYZOZOZOZOZOZOZOZOZOQCcmjyjyLKBgQCQCLQVILQQCcYZOZOZOZOZOZOZOZOZOZOZOnreQeQOfOfOyOlJxJxJxJxJxJxJxJxJxJxJxJxJxJxJxJxJxOlyiXSXSkxHABjiPOlHABjiPOlHABjiPOlMtBjiPOlnFBjiPOlHABjiPOlHABjiPtRXSUxVKOlHLHLIJsmLRHLHLOlOlOlnPOlOlZOZOZOZOZOymZOZOZOcYdC
-dCZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOzhlcrjcYZOZOZOZOZOZOZOZOZOQCGujyjyjyffQCbWIFqopijycYZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZvmJgcdqdqTdxGeKUgYufEQClClClClClCOldfXSXSXSPeXSUxXSsHXSUxXSMgXSUxXSXSXSUxXSXSXSUxXSMgXSUxXSsHXSUxXSPeXSUxXSXScYZQZQZQZQZQdwZQZQZQZQZQcYZOZOLeDexlcYcYcYcYcYdC
-dCZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOSJcYZOZOZOZOZOZOZOZOZOQCGuLKjyjyffQCrZAhPXAhpicYZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZvByqvmJRwYumJYuYmYultQClClClClClCOlZDXSXSXSXSXSmcqDkyqDkqqDqDqDkqqDqDqDkqqDqDqDkqqDqDqDkqqDkyqDkqqDqDqDdyXSXSoqZQZQZQZQZQZQZQZQZQZQZQJcZOZOZOZOqwcYlClClClCdC
-dCZOZOZOZOZOZOZOZOZOZOZOXcZOZOZOZOZOOwyScYcYZOZOZOZOZOZOZOZOZOQCGujyjyjyffQCLKRhPAbKpicYZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOOlMXBymJmJYumJmJIBIBpwQClClClClClCOlmIXSXSXSEyXSXSXSsHXSXSXSToXSXSXSXSXSXSXSTvXSXSXSToXSXSXSsHXSXSuREyXSXSXSXScYZQZQZQZQZQZQZQZQTkZQZQcYZOZOhvTmAKcYlClClClCdC
+dCZOZOZOZOZOZOZOZOZOZOZOZOZOZOdCdCdCZOZOZOZOZOZOZOcYZOJCkmZOZOZOZOJCkmZOZOcYNMNMUpNMlvEpdcczdBdpzpGtywMdlhsSNCXNbmpgUMUMUMJxwzXAXAXACTXAwlXAXAYNwzAyBrBSBrNmwzXSXSXSXSsCoSqcqcqcqcWzXKXKWzqcqcwcTaTaTawcqcqcWzXKXKWzyAyArVrtZoFPXSUxXSXSDqXSXSXSXSXSNOXSXSLfXSXSDqWsJoNsIHoEcYZQZQZQcYdC
+dCZOZOZOZOZOZOZOZOZOZOZOZOZOdCZOZOZOdCZOZOZOZOZOZOVJZOZOZOZOZOZOZOZOZOZOZOcYNMNMUpNMlvpgqHPIfYspvIvIvIvIvItTWBhxzupgUMUMUMJxwzsRXAXACTXAaDXAXAXAdZXAXAXGXAXAnTXSXSXSXSnXjEqcqcqcqcWzXKXKWzqcqcmXXfCdTamXqcqcWzXKXKWzyAsXyAyAiMQaqDICXSXSPKXSXSXSXSXSXSXSXSXSXSXSIVXSXSXSXSXSJLZQZQZQcYdC
+dCZOZOZOZOZOZOZOZOZOZOZOZOdCZOTzZOZOZOdCZOZOZOZOZOVJZOZOZOZOZOZOZOZOZOZOZOcYNMNMUpNMlvpggIdFPdajfcpOMSpXBVqRKIoQbLcYcYcYcYJxwzXAXAXACTXAyZXAXAYNwzAyXANgXANmwzXSXSXSXShRobCCNnqcqcWzXKXKWzqcqcwcTaTaTawcqcqcWzXKXKWzyAyAyAyAPodGXSUxXSXSDqXSYVXSXSXSXSXSXSXSXSXSDqXSXSXSXSXSLCZQZQZQcYdC
+dCZOZOZOZOZOZOZOZOZOZOZOdCZOZOZOZOZOdCZOZOZOZOZOZOVJZOZOZOZOZOZOZOZOZOZOZOcYNMNMUpNMGypggIswKikFkpJhsgmwJhgszKgBumGfYEukzzJxwzXAXAXACTXAXAXAXArJYHJxJxUmJxJxJxXSXSXSIXKfOlWzWzWzWzWzXKXKWzqccTdswccBwcdsBsqcWzXKDXWzWzWzWzWzOlOlNFUxXSXSOlOlOlTHTHOlOlOlOlOlnPOlOlMAXSkuXSXScYlGRFlGcYdC
+dCZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOdCdCZOZOZOZOZOZOZOVJZOZOZOZOZOZOZOZOZOZOTsqhZyZyoeNMlvpgerbChtnNQmwEhXkPkZUZzKYoumaaJfjZTxJxYHXAXAYNwzBuBuVBpYVBJxVBVBVBVBJxJxOlXLXSXSjQoSqcqcqcqcWzXKXKWzqcqcqcqcqcqcqcqcqcWzXKaBWzyAyArVrtZoFPXSUxVKOlOlOlLqWRWRrWOlcGPPSuUScNOlQpXSVaiHXScYqOGEGEcYdC
+dCZOZOZOZOZOZOZOZOZOZOZOZOZOZOdCZOZOZOZOZOZOZOZOZOVJZOZOZOZOZOZOZOZOZOZOZOcYNMNMUpNMlvpgQlMJuGHwpvAevxEksPwSMUTTnOaaOCMLmQJxwzXAXAXAwzXAXAXAXAXAwzWOWOWOWOJxJxXSXSXSXSadjEqcqcqcqcWzXKXKWzqcqcqcqcqcqcqcqcqcWzXKaBWzyAyAyAyAiMQaqDICXSXSOlFVQJQJQJZqzHUSUSUSUSRjOlQpXSoRXSqFTZcYcYcYcYdC
+dCZOZOZOZOZOZOZOZOZOZOZOdCdCdCZOZOZOZOZOZOZOZOZOZOcYZOZOZOZOZOZOZOZOZOZOZOcYNMNMUpNMlvpgwWGiACmjkVzwhAdHKZncBbHDvpcYIkEEIkJxwzXAXAXAtDXAXAXAXAXAYvWOWOWOGJJxJxXSXSXSXShRobCCNnqcqcWzXKXKWzWzWzWzWzWzWzWzWzWzWzXKaBWzyAyAyAyAPodGXSUxXSuROlciyFRDyLZqzHUSUSUSUSRjOlXSXSXSXSXSXbXSCfBXOldC
+dCZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOcYZOZOZOZOZOHjZOZOZOZOZOcYNMNMUpNMGyUMpgAZpgEpBQupBCZtihEppgcKpgHtcJwjYGJxwzrJXAXAwzXAXAXAXAXAwzWOWOWOWOJxJxXSXSXSXSKfOlWzWzWzWzWzWzWzWzWzWzWzWzWzWzWzWzWzWzWzShAkAkAkAkAkkMkMqDkeXSXSOlQJQJBvQJUJOlgAUSUSUSRjOlkntNSDXSNpOlXSXSXSOldC
+dCZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOcYQCQCQCQCQCQCQCQCQCQCQCxXQCzJVIzJQCcYcYcYUMpgEpEpEpEpEpEppgcYpgVCosvrlIJxJxVBKpVBwzVBVBwzXANzxiJxJxJxJxJxJxXSXSXSXSOlqcqciWWzqcqcqcWzqcqcqcWzqcqcqcWzqcqcqcWzqcqcqcWzqcqcqcOlXSUxXSXSHLHLHLHLHLHLHLXrUSUSUSRjOlOlOlOlOlOlOlpyXSIDOldC
+dCZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOcYcYcYcYZOZOZOZOQCIBAAIBGFQCPLKHfLjyCUqMPjjyOQjyDZZOZOcYcYUMpgEpEpEpEppgUMUMUMcYNHzhpRJxwzWOWOWOwzWOWOwzXAXAwzRyRyRyRyJxJxXSXSXSToOlqcqcqcWzqcqcqcWzqcqcqcWzqcqcqcWzqcMxqcWzqcqcqcWzqcqcqcOlToUxXSXSHLxBxBClaxERHLHpuYuYUSNbOlQqebtwebUeOlXSXSXSOldC
+dCZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOcYZOZOcYZOZOZOZOuNIBIBIBIBuNjyLKpijyjySsfFfFLnjyjyZOZOZOcYcYUMpgpgpgpgUMUMUMUMcYvrsAzdJxYhWOWOWOYjGoWOZnXAXAPguCRyubfmJxJxXSXSXSOlOlqcqcWqWzqcqcWqWzqcqcWqWzqcqcWqWzqcqcWqWzzEqcWqWzqcqcWqOlOlUxXSXSHLoKUuwVUuERHLqSuYuYUSQYOlebQjQjcZebXbXSXSzMOldC
+dCZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOpmZOZOcYZOZOZOZOQCIBIBIBIBQCABpijyjypijyLKpiOQjypiZOZOZOZOcYcYJVJVJVJVcYcYcYcYcYqyqyzdOlwzWOVyWOwzWOWOwzXAXAwzRyRyRyRyJxJxXSXSXSWYOlqcqcmVWzqcqcmVWzqcqcmVWzqcqcmVWzqcqcmVWzqcqcmVWzqcqcmVOlPeUxXSXSHLahUuUuUuERHLqSZauYUSoZOloGebebebebcYcYcYcYcYdC
+dCZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOvrITDEcYZOZOZOwKQCQCQCQCQCxXjyjyjyjyjyxFLKIFDnpijyZOZOZOZOKPHNOfOfOfOfOfOfcMOjmEZOZOxpOlJxJxJxJxJxJxJxJxXAXAJxJxJxJxJxJxJxXSXSXSXSOlhrQNJXOlhrQNJXOlhrQNMBOlhrQNJXOlhrQNMBOlhrQNMBOlhrQNMBOlXSUxXSXSHLoWUuUuUuERHLlluBVOUSUSOlebsGBwBwebcYZAsuCKcYdC
+dCZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOCRdlzIcYZOZOZOZOZOZOZOZOZOQCcmjyjyLKBgQCQCLQVILQQCcYZOZOZOZOZOZOZOZOZOZOZOnreQeQOfOfOyOlJxJxJxJxJxJxJxJxJxJxJxJxJxJxJxJxJxOlyiXSXSkxHABjiPOlHABjiPOlHABjiPOlMtBjiPOlnFBjiPOlHABjiPOlHABjiPtRXSUxVKOlHLHLIJsmLRHLHLOlOlOlnPOlOlebebebebebymCKCKCKcYdC
+dCZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOzhlcrjcYZOZOZOZOZOZOZOZOZOQCGujyjyjyffQCbWIFqopijycYZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZvmJgcdqdqTdxGeKUgYufEQClClClClClCOldfXSXSXSPeXSUxXSsHXSUxXSMgXSUxXSXSXSUxXSXSXSUxXSMgXSUxXSsHXSUxXSPeXSUxXSXScYZQZQZQZQZQdwZQZQZQZQZQcYebebLeDexlcYcYcYcYcYdC
+dCZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOSJcYZOZOZOZOZOZOZOZOZOQCGuLKjyjyffQCrZAhPXAhpicYZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOIBYuTdmJRwYumJYuYmYultQClClClClClCOlZDXSXSXSXSXSmcqDkyqDkqqDqDqDkqqDqDqDkqqDqDqDkqqDqDqDkqqDkyqDkqqDqDqDdyXSXSoqZQZQZQZQZQZQZQZQZQZQZQJcebeblGlGqwcYlClClClCdC
+dCZOZOZOZOZOZOZOZOZOZOZOXcZOZOZOZOZOOwyScYcYZOZOZOZOZOZOZOZOZOQCGujyjyjyffQCLKRhPAbKpicYZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOQCMXYumJmJYumJmJIBIBpwQClClClClClCOlmIXSXSXSEyXSXSXSsHXSXSXSToXSXSXSXSXSXSXSTvXSXSXSToXSXSXSsHXSXSuREyXSXSXSXScYZQZQZQZQZQZQZQZQTkZQZQcYebebhvTmAKcYlClClClCdC
 dCZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOQCQCKVfbKVQCQCOWjyLljyCDcYZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOQCYuIBbhJUPOtPTdauCIauQClClClClClCOlOlrgXStUOlXSXSXSOlXSuRXSOlXSXSXSOlXSXSuVOlXSXSXSOlrDXSXSOlXSXSXSOlXSXSXScYcYcYcYZQTksDcYcYcYcYcYcYcYcYcYcYcYcYcYlClClClCdC
 dCZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOQCQCQCQCQCQCQCQCQCQCQCQCcYZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOZOQCQCQCQCQCQCQCQCQCQCQCQClClClClClCOlOlOlOlOlOlOlOlOlOlOlOlOlOlOlOlOlOlOlOlOlOlOlOlOlOlOlOlOlOlOlOlOlOlOlOlOlcYlClCcYcYcYcYcYlClClClClClClClClClClClClClClClCdC
 dCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdCdC
